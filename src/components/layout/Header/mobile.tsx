@@ -4,7 +4,7 @@ import { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { usePathname } from "next/navigation"
-import { Menu, Minus, ChevronLeft, ChevronRight } from "lucide-react"
+import { Menu, X, ChevronLeft, ChevronRight } from "lucide-react"
 import { FaTwitter, FaInstagram, FaFacebookSquare, FaYoutube, FaLinkedin } from "react-icons/fa"
 import { Button } from "@/components/ui/button"
 import {
@@ -95,7 +95,7 @@ export default function Mobile({
               <Logo locale={locale} />
               <DrawerClose asChild>
                 <Button variant="link" className="px-0" onClick={handleClose}>
-                  <Minus className="size-6 text-[#3c4043]" />
+                  <X className="size-6 text-[#3c4043]" />
                 </Button>
               </DrawerClose>
             </DrawerHeader>
@@ -239,7 +239,7 @@ export default function Mobile({
               </button>
               <DrawerClose asChild>
                 <Button variant="link" className="px-0" onClick={handleClose}>
-                  <Minus className="size-6 text-[#3c4043]" />
+                  <X className="size-6 text-[#3c4043]" />
                 </Button>
               </DrawerClose>
             </DrawerHeader>
