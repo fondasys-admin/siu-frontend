@@ -8,21 +8,23 @@ import posthog from "posthog-js"
 
 export function BrandCTA({ locale = defaultLocale }: { locale?: Locale }) {
   return (
-    <section className="bg-[#3c4043] rounded-lg w-full flex items-center justify-center px-6 py-28">
-      <div className="flex flex-col gap-6 max-w-[1164px]">
-        <h2 className="text-2xl text-white leading-[42px] capitalize">
-          We deliver tailored laser cutting and welding solutions that<br/>
-          <span className="text-[#ff5b00] text-5xl font-bold">
-            drive your metal fabricating business&apos;s output
+    <section className="bg-[#3c4043] rounded-lg w-full flex items-center justify-center px-4 sm:px-6 py-12 sm:py-28">
+      <div className="flex flex-col gap-4 sm:gap-6 max-w-[1164px]">
+        <h2 className="text-base sm:text-2xl text-white leading-6 sm:leading-[42px] capitalize">
+          We deliver tailored laser cutting and welding solutions that
+          <span className="text-[#ff5b00] text-4xl sm:text-5xl font-bold block sm:inline py-2 sm:py-0">
+            {" "}drive your metal fabricating business&apos;s output
           </span>
-          . <br/>
-          Send your requirements and we’ll reply with the right machine recommendation + price range today.
+          .{" "}
+          <span className="block mt-2 sm:mt-0 sm:inline">
+            Send your requirements and we&apos;ll reply with the right machine recommendation + price range today.
+          </span>
         </h2>
-        <div className="flex gap-6">
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-6">
           <Button
             size="lg"
             asChild
-            className="bg-[#25D366] hover:bg-[#1da851] text-white"
+            className="bg-[#25D366] hover:bg-[#1da851] text-white w-full sm:w-auto"
             onClick={() => posthog.capture('brand_cta_whatsapp_clicked', { locale })}
           >
             <Link href="https://wa.me/" target="_blank" rel="noopener noreferrer">
@@ -33,6 +35,7 @@ export function BrandCTA({ locale = defaultLocale }: { locale?: Locale }) {
           <Button
             size="lg"
             asChild
+            className="w-full sm:w-auto"
             onClick={() => posthog.capture('brand_cta_contact_clicked', { locale })}
           >
             <Link href={localePath("/inquiry", locale)}>Contact Sales</Link>

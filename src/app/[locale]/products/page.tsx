@@ -122,7 +122,7 @@ export default async function ProductsOverviewPage({ params }: PageProps) {
       ))}
       {/* Page Title */}
       <ScrollFadeUp>
-        <h1 className="text-5xl font-bold text-[#3c4043] tracking-[-0.5px] leading-[56px] capitalize">
+        <h1 className="text-4xl sm:text-5xl font-bold text-[#3c4043] tracking-[-0.5px] leading-[48px] sm:leading-[56px] capitalize">
           {t(data.pageTitle, locale)}
         </h1>
       </ScrollFadeUp>

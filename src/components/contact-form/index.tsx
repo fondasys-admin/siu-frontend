@@ -208,7 +208,7 @@ export function ContactForm({
 	return (
 		<div className="flex flex-col gap-4 items-center text-center mb-10">
 			{title && (
-				<h2 className="text-5xl font-bold text-[#3c4043] capitalize tracking-tight leading-[56px]">
+				<h2 className="text-4xl sm:text-5xl font-bold text-[#3c4043] capitalize tracking-tight leading-[48px] sm:leading-[56px]">
 					{title}
 				</h2>
 			)}

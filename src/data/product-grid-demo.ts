@@ -10,7 +10,7 @@ export const productGridData = {
         id: 'a-series',
         name: 'A Series',
         description: 'Entry-level Sheet Laser Cutting Machine',
-        image: 'products/a-series.webp',
+        image: '/products/a-series.webp',
         slug: 'a-series',
         brand: 'bodor'
       },
@@ -18,7 +18,7 @@ export const productGridData = {
         id: 'k-series',
         name: 'K Series',
         description: 'Entry-level Tube Laser Cutting Machine',
-        image: 'products/k-series.webp',
+        image: '/products/k-series.webp',
         slug: 'k-series',
         brand: 'bodor'
       },
@@ -26,7 +26,7 @@ export const productGridData = {
         id: 'c-series',
         name: 'C Series',
         description: 'Sheet Laser Cutting Machine',
-        image: 'products/c-series.webp',
+        image: '/products/c-series.webp',
         slug: 'c-series',
         brand: 'bodor'
       },
@@ -34,7 +34,7 @@ export const productGridData = {
         id: 't-series',
         name: 'T Series',
         description: 'Performance Tube Laser Cutting Machine',
-        image: 'products/t-series.webp',
+        image: '/products/t-series.webp',
         slug: 't-series',
         brand: 'bodor'
       }

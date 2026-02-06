@@ -50,7 +50,7 @@ export default function ProductGrid({ categories, locale = defaultLocale }: Prod
 
   return (
     <div className="flex flex-col mx-auto">
-      <h2 className="text-5xl font-semibold mb-8">Our solutions at a glance</h2>
+      <h2 className="text-4xl sm:text-5xl font-semibold mb-8">Our solutions at a glance</h2>
 
       {/* Tabbed layout for sm+ */}
       <div className="max-sm:hidden">
