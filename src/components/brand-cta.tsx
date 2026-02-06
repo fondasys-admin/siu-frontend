@@ -35,7 +35,7 @@ export function BrandCTA({ locale = defaultLocale }: { locale?: Locale }) {
             asChild
             onClick={() => posthog.capture('brand_cta_contact_clicked', { locale })}
           >
-            <Link href={localePath("/contact", locale)}>Contact Sales</Link>
+            <Link href={localePath("/inquiry", locale)}>Contact Sales</Link>
           </Button>
         </div>
       </div>

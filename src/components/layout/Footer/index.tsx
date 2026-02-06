@@ -12,7 +12,7 @@ const Footer = async ({ locale = defaultLocale }: { locale?: Locale }) => {
     { label: "Products", href: lp("/products") },
     { label: "About Us", href: lp("/story") },
     { label: "Articles", href: lp("/articles") },
-    { label: "Contact", href: lp("/contact") },
+    { label: "Contact", href: lp("/inquiry") },
   ];
 
   return (
