@@ -1,0 +1,182 @@
+{
+  "title": "SA Series",
+  "brand": "Megmeet",
+  "catergory": [
+    "Welding Machine",
+    "Submerged Arc Welding"
+  ],
+  "media": {
+    "type": "image",
+    "url": "/products/sa-series.webp"
+  },
+  "description": {
+    "en": "Full-Digital Submerged Arc Welding Machine",
+    "id": "Mesin Las Busur Terendam Digital Penuh"
+  },
+  "populatedAuthors": [],
+  "banSubtitle": {
+    "en": "Full-Digital Submerged Arc Welding Machine",
+    "id": "Mesin Las Busur Terendam Digital Penuh"
+  },
+  "banDescription": {
+    "en": "The Megmeet SA Series delivers industrial-grade submerged arc welding with output up to 1250A at 100% duty cycle. Featuring CC/CV modes, intelligent closed-loop wire feeding, and stable performance at 100m cable extension, it is built for the most demanding heavy fabrication environments.",
+    "id": "Megmeet SA Series menghadirkan pengelasan busur terendam kelas industri dengan output hingga 1250A pada siklus kerja 100%. Dengan mode CC/CV, pengumpanan kawat loop tertutup yang cerdas, dan performa stabil pada perpanjangan kabel 100m, mesin ini dirancang untuk lingkungan fabrikasi berat yang paling menuntut."
+  },
+  "highlights": [
+    {
+      "title": {
+        "en": "Up to 1250A output",
+        "id": "Output hingga 1250A"
+      },
+      "content": {
+        "en": "Available in 1000A and 1250A variants, both rated at 100% duty cycle for uninterrupted high-deposition welding on heavy steel structures.",
+        "id": "Tersedia dalam varian 1000A dan 1250A, keduanya dengan siklus kerja 100% untuk pengelasan deposisi tinggi tanpa henti pada struktur baja berat."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "CC/CV welding modes",
+        "id": "Mode las CC/CV"
+      },
+      "content": {
+        "en": "Constant current and constant voltage welding modes provide flexibility for different joint configurations and wire types in submerged arc applications.",
+        "id": "Mode pengelasan arus konstan dan tegangan konstan memberikan fleksibilitas untuk berbagai konfigurasi sambungan dan jenis kawat dalam aplikasi busur terendam."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "100m cable stability",
+        "id": "Stabilitas kabel 100m"
+      },
+      "content": {
+        "en": "Maintains stable welding performance with cable extended to 100 meters, essential for large-scale shipbuilding, bridge, and structural steel fabrication.",
+        "id": "Menjaga performa pengelasan yang stabil dengan kabel diperpanjang hingga 100 meter, penting untuk pembuatan kapal, jembatan, dan fabrikasi baja struktural skala besar."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Multi-process capability",
+        "id": "Kemampuan multi-proses"
+      },
+      "content": {
+        "en": "Supports submerged arc welding, arc gouging, and MMA processes with fixed-point and scratch arc starting methods.",
+        "id": "Mendukung proses pengelasan busur terendam, gouging busur, dan MMA dengan metode penyalaan busur titik tetap dan gores."
+      },
+      "icon": ""
+    }
+  ],
+  "body": [
+    {
+      "title": {
+        "en": "Intelligent closed-loop wire feeding",
+        "id": "Pengumpanan kawat loop tertutup cerdas"
+      },
+      "content": {
+        "en": "High-frequency back electromotive force control ensures precise and consistent wire feeding even under varying load conditions, critical for maintaining weld quality in submerged arc applications.",
+        "id": "Kontrol gaya gerak listrik balik frekuensi tinggi memastikan pengumpanan kawat yang presisi dan konsisten bahkan dalam kondisi beban yang bervariasi, penting untuk menjaga kualitas las dalam aplikasi busur terendam."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/sa-machines-cart.png"
+      }
+    },
+    {
+      "title": {
+        "en": "SAW tractor system",
+        "id": "Sistem traktor SAW"
+      },
+      "content": {
+        "en": "Paired with a dedicated SAW tractor featuring dual-drive DC motor, travel speed of 0.2–1.8 m/min, and support for 3.2–6mm wire diameters with 25kg spools for extended continuous operation.",
+        "id": "Dipasangkan dengan traktor SAW khusus yang dilengkapi motor DC penggerak ganda, kecepatan perjalanan 0,2–1,8 m/menit, dan dukungan untuk diameter kawat 3,2–6mm dengan spool 25kg untuk operasi kontinu yang panjang."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/sa-application.png"
+      }
+    },
+    {
+      "title": {
+        "en": "Smart management features",
+        "id": "Fitur manajemen pintar"
+      },
+      "content": {
+        "en": "U-disk firmware upgrades, RFID card linking for welder management, and optional SMARC IoT integration for real-time monitoring and production data collection.",
+        "id": "Pembaruan firmware melalui U-disk, penghubungan kartu RFID untuk manajemen tukang las, dan integrasi SMARC IoT opsional untuk pemantauan real-time dan pengumpulan data produksi."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/sa-welding-effect.png"
+      }
+    },
+    {
+      "hero": {
+        "type": "leftContentBgImg",
+        "title": {
+          "en": "Request a free quote",
+          "id": "Mendapatkan Penawaran Gratis"
+        },
+        "subtitle": {
+          "en": "Ready to incorporate the machine to your business?",
+          "id": "Siap untuk mengintegrasikan mesin ke bisnis Anda?"
+        },
+        "stretched": "false",
+        "links": [
+          {
+            "link": {
+              "type": "custom",
+              "url": "/inquiry",
+              "label": {
+                "en": "Request a quote",
+                "id": "Meminta Penawaran"
+              },
+              "appearance": "default"
+            },
+            "id": "megmeet-sa-cta-1"
+          }
+        ],
+        "media": ""
+      },
+      "id": "megmeet-sa-cta-0",
+      "blockType": "cta"
+    }
+  ],
+  "specs": [
+    {
+      "title": "SA 1000",
+      "data": [
+        { "dTitle": "Rated output current", "dValue": "100–1000A" },
+        { "dTitle": "Rated output voltage", "dValue": "20–44V" },
+        { "dTitle": "Input capacity", "dValue": "52.5kVA" },
+        { "dTitle": "No-load voltage", "dValue": "78V" },
+        { "dTitle": "Duty cycle", "dValue": "100%" },
+        { "dTitle": "Power factor", "dValue": "≥0.92" },
+        { "dTitle": "Efficiency", "dValue": "≥90%" },
+        { "dTitle": "Dimensions", "dValue": "646×386×823mm" },
+        { "dTitle": "Weight", "dValue": "84kg" }
+      ]
+    },
+    {
+      "title": "SA 1250",
+      "data": [
+        { "dTitle": "Rated output current", "dValue": "100–1250A" },
+        { "dTitle": "Rated output voltage", "dValue": "20–44V" },
+        { "dTitle": "Input capacity", "dValue": "65.3kVA" },
+        { "dTitle": "No-load voltage", "dValue": "78V" },
+        { "dTitle": "Duty cycle", "dValue": "100%" },
+        { "dTitle": "Power factor", "dValue": "≥0.92" },
+        { "dTitle": "Efficiency", "dValue": "≥90%" },
+        { "dTitle": "Dimensions", "dValue": "646×386×823mm" },
+        { "dTitle": "Weight", "dValue": "84kg" }
+      ]
+    }
+  ],
+  "testimonials": [],
+  "slug": "sa-series",
+  "_status": "published",
+  "createdAt": "2025-01-15T00:00:00.000Z",
+  "updatedAt": "2025-01-15T00:00:00.000Z",
+  "publishedAt": "2025-01-15T00:00:00.000Z"
+}

@@ -1,0 +1,235 @@
+{
+  "title": "Ehave2 CM Series",
+  "brand": "Megmeet",
+  "catergory": [
+    "Welding Machine",
+    "Multi-function Welding"
+  ],
+  "media": {
+    "type": "image",
+    "url": "/products/ehave2-cm-series.webp"
+  },
+  "description": {
+    "en": "Full-Digital IGBT Inverter Multifunction Welding Machine",
+    "id": "Mesin Las Multi-fungsi Inverter IGBT Digital Penuh"
+  },
+  "populatedAuthors": [],
+  "banSubtitle": {
+    "en": "Full-Digital IGBT Inverter Multifunction Welding Machine",
+    "id": "Mesin Las Multi-fungsi Inverter IGBT Digital Penuh"
+  },
+  "banDescription": {
+    "en": "The Megmeet Ehave2 CM Series is a versatile all-in-one welding solution supporting CO2/MAG, MIG, DC TIG, MMA, and Arc Gouging. With over 20 independent patented technologies, it delivers Class 1 energy efficiency and exceptional reliability for heavy industrial applications up to 630A.",
+    "id": "Megmeet Ehave2 CM Series adalah solusi las serbaguna yang mendukung CO2/MAG, MIG, DC TIG, MMA, dan Gouging Busur. Dengan lebih dari 20 teknologi paten mandiri, mesin ini menghadirkan efisiensi energi Kelas 1 dan keandalan luar biasa untuk aplikasi industri berat hingga 630A."
+  },
+  "highlights": [
+    {
+      "title": {
+        "en": "All-in-one welding",
+        "id": "Las serba-guna"
+      },
+      "content": {
+        "en": "Supports CO2/MAG, MIG, DC TIG, MMA, and Arc Gouging processes in a single machine, eliminating the need for multiple dedicated welding units.",
+        "id": "Mendukung proses CO2/MAG, MIG, DC TIG, MMA, dan Gouging Busur dalam satu mesin, menghilangkan kebutuhan akan beberapa mesin las khusus."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Up to 630A output",
+        "id": "Output hingga 630A"
+      },
+      "content": {
+        "en": "Available in 350A, 500A, and 630A variants, all rated at 100% duty cycle for continuous heavy-duty industrial welding operations.",
+        "id": "Tersedia dalam varian 350A, 500A, dan 630A, semuanya dengan siklus kerja 100% untuk operasi pengelasan industri berat secara kontinu."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "20+ patented technologies",
+        "id": "20+ teknologi paten"
+      },
+      "content": {
+        "en": "Incorporates over 20 independent patented technologies including droplet cleaning detection, expert welding database, and intelligent closed-loop wire feeding.",
+        "id": "Menggabungkan lebih dari 20 teknologi paten mandiri termasuk deteksi pembersihan droplet, database ahli pengelasan, dan pengumpanan kawat loop tertutup yang cerdas."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Welder management",
+        "id": "Manajemen tukang las"
+      },
+      "content": {
+        "en": "RFID card linking for welder identity management, current/voltage limiting functions, and optional SMARC IoT integration for production monitoring.",
+        "id": "Penghubungan kartu RFID untuk manajemen identitas tukang las, fungsi pembatasan arus/tegangan, dan integrasi SMARC IoT opsional untuk pemantauan produksi."
+      },
+      "icon": ""
+    }
+  ],
+  "body": [
+    {
+      "title": {
+        "en": "Droplet cleaning detection",
+        "id": "Deteksi pembersihan droplet"
+      },
+      "content": {
+        "en": "Intelligent droplet cleaning detection technology ensures excellent arc start quality by monitoring and cleaning the welding wire tip before each arc initiation, reducing defects and improving consistency.",
+        "id": "Teknologi deteksi pembersihan droplet yang cerdas memastikan kualitas penyalaan busur yang sangat baik dengan memantau dan membersihkan ujung kawat las sebelum setiap inisiasi busur, mengurangi cacat dan meningkatkan konsistensi."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/ehave2-intelligent-upgrade.png"
+      }
+    },
+    {
+      "title": {
+        "en": "Expert welding database",
+        "id": "Database ahli pengelasan"
+      },
+      "content": {
+        "en": "The Multi-function (M) variant includes an expert welding database with 99 JOB parameter groups, allowing operators to quickly recall optimized settings for different materials and applications.",
+        "id": "Varian Multi-fungsi (M) menyertakan database ahli pengelasan dengan 99 grup parameter JOB, memungkinkan operator untuk dengan cepat memanggil pengaturan optimal untuk berbagai material dan aplikasi."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/ehave2-rfid.jpg"
+      }
+    },
+    {
+      "title": {
+        "en": "Long-cable compensation",
+        "id": "Kompensasi kabel panjang"
+      },
+      "content": {
+        "en": "Stable welding performance maintained even with cable extensions up to 50 meters, making it ideal for large-scale construction and shipbuilding applications where the power source cannot be positioned nearby.",
+        "id": "Performa pengelasan yang stabil tetap terjaga bahkan dengan perpanjangan kabel hingga 50 meter, menjadikannya ideal untuk aplikasi konstruksi skala besar dan pembuatan kapal di mana sumber daya tidak dapat diposisikan di dekatnya."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/ehave2-energy-efficiency.jpg"
+      }
+    },
+    {
+      "hero": {
+        "type": "leftContentBgImg",
+        "title": {
+          "en": "Request a free quote",
+          "id": "Mendapatkan Penawaran Gratis"
+        },
+        "subtitle": {
+          "en": "Ready to incorporate the machine to your business?",
+          "id": "Siap untuk mengintegrasikan mesin ke bisnis Anda?"
+        },
+        "stretched": "false",
+        "links": [
+          {
+            "link": {
+              "type": "custom",
+              "url": "/inquiry",
+              "label": {
+                "en": "Request a quote",
+                "id": "Meminta Penawaran"
+              },
+              "appearance": "default"
+            },
+            "id": "megmeet-ehave2cm-cta-1"
+          }
+        ],
+        "media": ""
+      },
+      "id": "megmeet-ehave2cm-cta-0",
+      "blockType": "cta"
+    }
+  ],
+  "specs": [
+    {
+      "title": "Ehave2 CM350B",
+      "data": [
+        { "dTitle": "Rated output current", "dValue": "350A" },
+        { "dTitle": "Rated output voltage", "dValue": "31.5V" },
+        { "dTitle": "No-load voltage", "dValue": "60V" },
+        { "dTitle": "Rated input power", "dValue": "13.1KVA / 12.4KW" },
+        { "dTitle": "Duty cycle", "dValue": "100%" },
+        { "dTitle": "Processes", "dValue": "DC CO2/MAG, MMA, Arc Gouging" },
+        { "dTitle": "Dimensions", "dValue": "684×320×580mm" },
+        { "dTitle": "Weight", "dValue": "34kg" }
+      ]
+    },
+    {
+      "title": "Ehave2 CM500B",
+      "data": [
+        { "dTitle": "Rated output current", "dValue": "500A" },
+        { "dTitle": "Rated output voltage", "dValue": "39V" },
+        { "dTitle": "No-load voltage", "dValue": "73V" },
+        { "dTitle": "Rated input power", "dValue": "23.1KVA / 21.7KW" },
+        { "dTitle": "Duty cycle", "dValue": "100%" },
+        { "dTitle": "Processes", "dValue": "DC CO2/MAG, MMA, Arc Gouging" },
+        { "dTitle": "Dimensions", "dValue": "684×320×580mm" },
+        { "dTitle": "Weight", "dValue": "37kg" }
+      ]
+    },
+    {
+      "title": "Ehave2 CM630B",
+      "data": [
+        { "dTitle": "Rated output current", "dValue": "630A" },
+        { "dTitle": "Rated output voltage", "dValue": "44V" },
+        { "dTitle": "No-load voltage", "dValue": "78V" },
+        { "dTitle": "Rated input power", "dValue": "32.4KVA / 30.4KW" },
+        { "dTitle": "Duty cycle", "dValue": "100%" },
+        { "dTitle": "Processes", "dValue": "DC CO2/MAG, MMA, Arc Gouging" },
+        { "dTitle": "Dimensions", "dValue": "684×320×580mm" },
+        { "dTitle": "Weight", "dValue": "38kg" }
+      ]
+    },
+    {
+      "title": "Ehave2 CM350M",
+      "data": [
+        { "dTitle": "Rated output current", "dValue": "350A" },
+        { "dTitle": "Rated output voltage", "dValue": "31.5V" },
+        { "dTitle": "No-load voltage", "dValue": "60V" },
+        { "dTitle": "Rated input power", "dValue": "13.1KVA / 12.4KW" },
+        { "dTitle": "Duty cycle", "dValue": "100%" },
+        { "dTitle": "Processes", "dValue": "DC CO2/MAG/MIG, DC TIG, MMA, Arc Gouging" },
+        { "dTitle": "JOB groups", "dValue": "99" },
+        { "dTitle": "Dimensions", "dValue": "684×320×580mm" },
+        { "dTitle": "Weight", "dValue": "34kg" }
+      ]
+    },
+    {
+      "title": "Ehave2 CM500M",
+      "data": [
+        { "dTitle": "Rated output current", "dValue": "500A" },
+        { "dTitle": "Rated output voltage", "dValue": "39V" },
+        { "dTitle": "No-load voltage", "dValue": "73V" },
+        { "dTitle": "Rated input power", "dValue": "23.1KVA / 21.7KW" },
+        { "dTitle": "Duty cycle", "dValue": "100%" },
+        { "dTitle": "Processes", "dValue": "DC CO2/MAG/MIG, DC TIG, MMA, Arc Gouging" },
+        { "dTitle": "JOB groups", "dValue": "99" },
+        { "dTitle": "Dimensions", "dValue": "684×320×580mm" },
+        { "dTitle": "Weight", "dValue": "37kg" }
+      ]
+    },
+    {
+      "title": "Ehave2 CM630M",
+      "data": [
+        { "dTitle": "Rated output current", "dValue": "630A" },
+        { "dTitle": "Rated output voltage", "dValue": "44V" },
+        { "dTitle": "No-load voltage", "dValue": "78V" },
+        { "dTitle": "Rated input power", "dValue": "32.4KVA / 30.4KW" },
+        { "dTitle": "Duty cycle", "dValue": "100%" },
+        { "dTitle": "Processes", "dValue": "DC CO2/MAG/MIG, DC TIG, MMA, Arc Gouging" },
+        { "dTitle": "JOB groups", "dValue": "99" },
+        { "dTitle": "Dimensions", "dValue": "684×320×580mm" },
+        { "dTitle": "Weight", "dValue": "38kg" }
+      ]
+    }
+  ],
+  "testimonials": [],
+  "slug": "ehave2-cm-series",
+  "_status": "published",
+  "createdAt": "2025-01-15T00:00:00.000Z",
+  "updatedAt": "2025-01-15T00:00:00.000Z",
+  "publishedAt": "2025-01-15T00:00:00.000Z"
+}

@@ -1,0 +1,202 @@
+{
+  "title": "MetaTIG ACDC Series",
+  "brand": "Megmeet",
+  "catergory": [
+    "Welding Machine",
+    "TIG Welding"
+  ],
+  "media": {
+    "type": "image",
+    "url": "/products/metatig-series.webp"
+  },
+  "description": {
+    "en": "Full-Digital IGBT Inverter Multifunctional AC/DC TIG Welding Machine",
+    "id": "Mesin Las TIG AC/DC Multi-fungsi Inverter IGBT Digital Penuh"
+  },
+  "populatedAuthors": [],
+  "banSubtitle": {
+    "en": "Full-Digital IGBT Inverter Multifunctional AC/DC TIG Welding Machine",
+    "id": "Mesin Las TIG AC/DC Multi-fungsi Inverter IGBT Digital Penuh"
+  },
+  "banDescription": {
+    "en": "The Megmeet MetaTIG ACDC Series provides precision AC/DC TIG welding for the widest range of materials including aluminum, magnesium alloys, and dissimilar metals. With arc stability starting at just 3A and multiple AC waveforms, it excels in applications demanding the highest weld quality.",
+    "id": "Megmeet MetaTIG ACDC Series menyediakan pengelasan TIG AC/DC presisi untuk jangkauan material terluas termasuk aluminium, paduan magnesium, dan logam yang berbeda. Dengan stabilitas busur mulai dari hanya 3A dan beberapa bentuk gelombang AC, mesin ini unggul dalam aplikasi yang menuntut kualitas las tertinggi."
+  },
+  "highlights": [
+    {
+      "title": {
+        "en": "Ultra-low 3A arc start",
+        "id": "Penyalaan busur ultra-rendah 3A"
+      },
+      "content": {
+        "en": "Arc starts and stabilizes at just 3A in DC welding mode, enabling precision welding of ultra-thin materials down to 0.3mm stainless steel.",
+        "id": "Busur menyala dan stabil pada hanya 3A dalam mode las DC, memungkinkan pengelasan presisi material ultra-tipis hingga baja tahan karat 0,3mm."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Multiple AC waveforms",
+        "id": "Beberapa bentuk gelombang AC"
+      },
+      "content": {
+        "en": "Square, triangle, sine, and trapezoidal waveforms with independently adjustable EN/EP ratio for optimal cleaning action and penetration control on aluminum.",
+        "id": "Bentuk gelombang kotak, segitiga, sinus, dan trapesium dengan rasio EN/EP yang dapat disesuaikan secara independen untuk aksi pembersihan optimal dan kontrol penetrasi pada aluminium."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "AC-DC Pulse mode",
+        "id": "Mode Pulse AC-DC"
+      },
+      "content": {
+        "en": "Unique AC-DC Pulse mode combines AC and DC pulse welding for deeper penetration and better control on challenging aluminum joints and dissimilar metal combinations.",
+        "id": "Mode Pulse AC-DC unik menggabungkan pengelasan pulse AC dan DC untuk penetrasi lebih dalam dan kontrol lebih baik pada sambungan aluminium yang menantang dan kombinasi logam berbeda."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "High-speed spot welding",
+        "id": "Las titik kecepatan tinggi"
+      },
+      "content": {
+        "en": "Precision spot welding capability with 0.1–30 second timing in 0.1s increments for tack welding and sheet metal assembly applications.",
+        "id": "Kemampuan las titik presisi dengan pengaturan waktu 0,1–30 detik dalam kenaikan 0,1 detik untuk aplikasi las tack dan perakitan plat logam."
+      },
+      "icon": ""
+    }
+  ],
+  "body": [
+    {
+      "title": {
+        "en": "Versatile welding processes",
+        "id": "Proses pengelasan serbaguna"
+      },
+      "content": {
+        "en": "Supports DC TIG, DC-Pulse TIG, AC TIG, AC TIG Pulse (Double Pulse), AC-DC TIG Pulse, MMA, and high-speed TIG spot welding — covering virtually every TIG welding requirement in a single machine.",
+        "id": "Mendukung DC TIG, DC-Pulse TIG, AC TIG, AC TIG Pulse (Double Pulse), AC-DC TIG Pulse, MMA, dan las titik TIG kecepatan tinggi — mencakup hampir semua kebutuhan las TIG dalam satu mesin."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/metatig-acdc-pulse.jpg"
+      }
+    },
+    {
+      "title": {
+        "en": "Wide material compatibility",
+        "id": "Kompatibilitas material yang luas"
+      },
+      "content": {
+        "en": "Weld carbon steel, 9Ni steel, stainless steel, alloy steel, copper, magnesium alloy, aluminum, aluminum alloy, and even dissimilar metals with optimized parameters for each material type.",
+        "id": "Las baja karbon, baja 9Ni, baja tahan karat, baja paduan, tembaga, paduan magnesium, aluminium, paduan aluminium, dan bahkan logam yang berbeda dengan parameter yang dioptimalkan untuk setiap jenis material."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/metatig-acdc-aluminum.png"
+      }
+    },
+    {
+      "title": {
+        "en": "High-frequency DC pulse output",
+        "id": "Output pulse DC frekuensi tinggi"
+      },
+      "content": {
+        "en": "DC pulse frequency range of 0.1–3000Hz enables ultra-fine control of the weld pool for demanding precision applications in aerospace, medical, and electronics manufacturing.",
+        "id": "Rentang frekuensi pulse DC 0,1–3000Hz memungkinkan kontrol ultra-halus pada kolam las untuk aplikasi presisi yang menuntut di bidang penerbangan, medis, dan manufaktur elektronik."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/metatig-acdc-waveform.png"
+      }
+    },
+    {
+      "hero": {
+        "type": "leftContentBgImg",
+        "title": {
+          "en": "Request a free quote",
+          "id": "Mendapatkan Penawaran Gratis"
+        },
+        "subtitle": {
+          "en": "Ready to incorporate the machine to your business?",
+          "id": "Siap untuk mengintegrasikan mesin ke bisnis Anda?"
+        },
+        "stretched": "false",
+        "links": [
+          {
+            "link": {
+              "type": "custom",
+              "url": "/inquiry",
+              "label": {
+                "en": "Request a quote",
+                "id": "Meminta Penawaran"
+              },
+              "appearance": "default"
+            },
+            "id": "megmeet-metatigacdc-cta-1"
+          }
+        ],
+        "media": ""
+      },
+      "id": "megmeet-metatigacdc-cta-0",
+      "blockType": "cta"
+    }
+  ],
+  "specs": [
+    {
+      "title": "MetaTIG 315 ACDC",
+      "data": [
+        { "dTitle": "Rated output current", "dValue": "315A" },
+        { "dTitle": "Rated output voltage", "dValue": "22.6V" },
+        { "dTitle": "Input capacity", "dValue": "12.9KVA / 11.4KW" },
+        { "dTitle": "No-load voltage", "dValue": "68V" },
+        { "dTitle": "Duty cycle", "dValue": "100% @ 315A" },
+        { "dTitle": "DC TIG range", "dValue": "3–315A" },
+        { "dTitle": "AC TIG range", "dValue": "4–315A" },
+        { "dTitle": "DC pulse frequency", "dValue": "0.1–3000Hz" },
+        { "dTitle": "AC pulse frequency", "dValue": "20–300Hz" },
+        { "dTitle": "Dimensions", "dValue": "647×291×572mm" },
+        { "dTitle": "Weight", "dValue": "40kg" }
+      ]
+    },
+    {
+      "title": "MetaTIG 400 ACDC",
+      "data": [
+        { "dTitle": "Rated output current", "dValue": "400A" },
+        { "dTitle": "Rated output voltage", "dValue": "26V" },
+        { "dTitle": "Input capacity", "dValue": "15KVA / 13.5KW" },
+        { "dTitle": "No-load voltage", "dValue": "68V" },
+        { "dTitle": "Duty cycle", "dValue": "60% @ 350A, 100% @ 315A" },
+        { "dTitle": "DC TIG range", "dValue": "3–400A" },
+        { "dTitle": "AC TIG range", "dValue": "4–400A" },
+        { "dTitle": "DC pulse frequency", "dValue": "0.1–3000Hz" },
+        { "dTitle": "AC pulse frequency", "dValue": "20–300Hz" },
+        { "dTitle": "Dimensions", "dValue": "647×291×572mm" },
+        { "dTitle": "Weight", "dValue": "40kg" }
+      ]
+    },
+    {
+      "title": "MetaTIG 500 ACDC",
+      "data": [
+        { "dTitle": "Rated output current", "dValue": "500A" },
+        { "dTitle": "Rated output voltage", "dValue": "30V" },
+        { "dTitle": "Input capacity", "dValue": "25.2KVA / 21.9KW" },
+        { "dTitle": "No-load voltage", "dValue": "68V" },
+        { "dTitle": "Duty cycle", "dValue": "20% @ 500A, 100% @ 315A" },
+        { "dTitle": "DC TIG range", "dValue": "3–500A" },
+        { "dTitle": "AC TIG range", "dValue": "4–500A" },
+        { "dTitle": "DC pulse frequency", "dValue": "0.1–3000Hz" },
+        { "dTitle": "AC pulse frequency", "dValue": "20–300Hz" },
+        { "dTitle": "Dimensions", "dValue": "647×291×572mm" },
+        { "dTitle": "Weight", "dValue": "40kg" }
+      ]
+    }
+  ],
+  "testimonials": [],
+  "slug": "metatig-acdc-series",
+  "_status": "published",
+  "createdAt": "2025-01-15T00:00:00.000Z",
+  "updatedAt": "2025-01-15T00:00:00.000Z",
+  "publishedAt": "2025-01-15T00:00:00.000Z"
+}

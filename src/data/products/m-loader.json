@@ -1,0 +1,93 @@
+{
+  "title": "M-Loader",
+  "brand": "Bodor",
+  "catergory": [
+    "Laser Cutting Machine",
+    "Sheet Cutting Automation Devices"
+  ],
+  "media": {
+    "type": "image",
+    "url": "/products/m-loader.webp"
+  },
+  "description": {
+    "en": "Auxiliary Loading Device for M Series",
+    "id": "Perangkat Loading untuk Seri M"
+  },
+  "populatedAuthors": [],
+  "banSubtitle": {
+    "en": "Auxiliary Loading Device for M2, M3, and M5",
+    "id": "Perangkat Loading untuk M2, M3, dan M5"
+  },
+  "banDescription": {
+    "en": "The M-Loader is an auxiliary device for the M2, M3, and M5 models, enabling automatic loading of round and square tubes, rectangular tubes, channel steel, and I-beams. It features higher load capacity, more intelligent automation, and a larger range of compatible materials.",
+    "id": "M-Loader adalah perangkat bantu untuk model M2, M3, dan M5, yang memungkinkan loading otomatis pipa bulat dan kotak, pipa persegi panjang, baja kanal, dan balok-I. Dilengkapi kapasitas beban lebih tinggi, otomatisasi lebih cerdas, dan jangkauan material yang lebih luas."
+  },
+  "highlights": [
+    {
+      "title": {
+        "en": "Higher Load Capacity",
+        "id": "Kapasitas Beban Lebih Tinggi"
+      },
+      "content": {
+        "en": "Increased material handling capability allows the M-Loader to process heavier and larger tubes, expanding your production capacity.",
+        "id": "Kemampuan penanganan material yang lebih besar memungkinkan M-Loader memproses pipa yang lebih berat dan lebih besar, memperluas kapasitas produksi Anda."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "More Intelligent",
+        "id": "Lebih Cerdas"
+      },
+      "content": {
+        "en": "Advanced automation features streamline the loading process with smart material detection and positioning for improved efficiency.",
+        "id": "Fitur otomatisasi canggih menyederhanakan proses loading dengan deteksi dan penentuan posisi material cerdas untuk efisiensi yang lebih baik."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Larger Range",
+        "id": "Jangkauan Lebih Luas"
+      },
+      "content": {
+        "en": "Extended compatibility with various material types including round tubes, square tubes, rectangular tubes, channel steel, and I-beams.",
+        "id": "Kompatibilitas yang lebih luas dengan berbagai jenis material termasuk pipa bulat, pipa kotak, pipa persegi panjang, baja kanal, dan balok-I."
+      },
+      "icon": ""
+    }
+  ],
+  "body": [
+    {
+      "title": {
+        "en": "Compatible with M2, M3, and M5",
+        "id": "Kompatibel dengan M2, M3, dan M5"
+      },
+      "content": {
+        "en": "Purpose-built for Bodor's M Series tube cutting machines, the M-Loader integrates directly with M2, M3, and M5 models to deliver automated tube loading without requiring significant modifications to your existing setup.",
+        "id": "Dirancang khusus untuk mesin cutting pipa Seri M Bodor, M-Loader terintegrasi langsung dengan model M2, M3, dan M5 untuk memberikan loading pipa otomatis tanpa memerlukan modifikasi signifikan pada setup Anda yang ada."
+      },
+      "media": {
+        "type": "",
+        "url": ""
+      }
+    },
+    {
+      "title": {
+        "en": "Versatile Material Handling",
+        "id": "Penanganan Material Serbaguna"
+      },
+      "content": {
+        "en": "The M-Loader handles a comprehensive range of tube profiles and structural steel, from standard round and square tubes to channel steel and I-beams. Its intelligent automation system adapts to different material shapes and sizes automatically.",
+        "id": "M-Loader menangani berbagai profil pipa dan baja struktural secara komprehensif, dari pipa bulat dan kotak standar hingga baja kanal dan balok-I. Sistem otomatisasi cerdasnya menyesuaikan dengan berbagai bentuk dan ukuran material secara otomatis."
+      },
+      "media": {
+        "type": "",
+        "url": ""
+      }
+    }
+  ],
+  "specs": [],
+  "slug": "m-loader",
+  "_status": "published"
+}

@@ -1,0 +1,277 @@
+{
+  "title": "H Series",
+  "catergory": "65f435c347076d5926af7523",
+  "slug": "h-series",
+  "_status": "published",
+  "createdAt": {
+    "$date": "2024-04-09T08:48:59.689Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-12T09:56:37.735Z"
+  },
+  "__v": 0,
+  "_id": {
+    "$oid": "661500fb6361991a9ba9e6b3"
+  },
+  "subCatergory": "6624d4f38a7b829b8552f8ec",
+  "publishedAt": {
+    "$date": "2024-04-09T08:43:08.124Z"
+  },
+  "media": {
+    "type": "image",
+    "url": "/products/h-series.webp"
+  },
+  "description": {
+    "en": "All-around sheet fibre laser metal cutting machine",
+    "id": "Laser cutting mesin Plat Logam Multifungsi"
+  },
+  "banSubtitle": {
+    "en": "Ultra-large Format Sheet Metal Laser Cutting Machine",
+    "id": "Laser cutting mesin Plat Logam Multifungsi"
+  },
+  "banDescription": {
+    "en": "Experience superior speed, safety, and cleanliness with the Bodor H series for effortless large format metal cutting",
+    "id": "Bodor H dirancang untuk pemotongan logam ukuran besar dengan mudah, cepat, dan aman, dan tetap bersih."
+  },
+  "populatedAuthors": [],
+  "highlights": [
+    {
+      "title": {
+        "en": "Ultra-large format cutting",
+        "id": "Pemotongan Dengan Format Ultra Besar"
+      },
+      "content": {
+        "en": "The 12m+N modular bed of the Bodor H series features a completely separated worktable and bed design. This enables you to cut ultra-large sheets of 12m, 16m, 20m or longer, with high efficiency and precision.",
+        "id": "Alas modular 12m+N Bodor Seri H memiliki meja kerja dan desain alas yang sepenuhnya terpisah. Fitur ini memungkinkan Anda memotong lembaran logam berukuran ekstra besar, ukuran 12m, 16m, 20m atau lebih, dengan presisi dan efisiensi tinggi. "
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Superior durability",
+        "id": "Daya Tahan Superior"
+      },
+      "content": {
+        "en": "The H series has a triangular ultra-high-pressure honeycomb design for the aluminum crossbeam, which combines light weight, strong rigidity, fast response, and low deformation. The crossbeam also has a protective cover for safety and stability.",
+        "id": "Produk-produk Seri H memiliki desain sarang lebah bertekanan sangat tinggi  berbentuk segitiga yang dirancang untuk balok melintang yang terbuat dari aluminium. Hasilnya adalah kombinasi desain yang ringan, solid, responsif, dengan deformasi rendah. Balok lintangnya juga memiliki penutup pelindung untuk keamanan dan stabilitas. "
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Enhanced protection",
+        "id": "Perlindungan Yang Lebih Baik"
+      },
+      "content": {
+        "en": "The protective cover covering the crossbeam makes operation and the equipment safe. Thanks to the lightweight design, its stable inside mechanical structure guarantees speed in the mean time. *Non-standard versions with crossbeams of 4/5/6 meters do not have the protective cover.",
+        "id": "Tutup pelindung pada balok melintang menjaga proses pengoperasian dan peralatan tetap aman. Desainnya yang ringan membuat struktur mekanis di dalamnya stabil dan menjamin kecepatan *Versi yang tidak standar dengan balok melintang ukuran 4/5/6 meter tidak dilengkapi dengan tutup pelindung."
+      },
+      "icon": ""
+    }
+  ],
+  "body": [
+    {
+      "title": {
+        "en": "Active obstacle avoidance system",
+        "id": "Sistem Pencegah Halangan Aktif"
+      },
+      "content": {
+        "en": "BodorGenius, Bodor's intelligent laser head, uses sensors and algorithms to detect potential obstacles like tilting parts and automatically avoids a potential collision. It largely ensures the stability as well as operating efficiency in the cutting process.",
+        "id": "BodorGenius, kepala laser cerdas dari Bodor, menggunakan sensor dan algoritma untuk mendeteksi kemungkinan terjadinya tabrakan seperti bagian yang miring, lalu secara otomatis mencegah terjadinya benturan. Sistem ini menjamin stabilitas dan efisiensi operasional saat memotong. "
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/dream-3.jpeg"
+      }
+    },
+    {
+      "title": {
+        "en": "Excellent bevel cuts",
+        "id": "Pemotongan Bevel Dengan Sempurna"
+      },
+      "content": {
+        "en": "The bevel cutting option of H series enables the production of high-precision bevel cuts in +/- 45 degrees, optimizing subsequent assembly procedures and welding performance while lowering production costs. (Available cuts include A-cut bevel, V-cut bevel, Top Y-cut bevel, X-cut bevel, and K-cut bevel).",
+        "id": "Opsi pemotongan bevel di Seri H memungkinkan potongan bevel yang sangat presisi dengan sudut +/- 45 derajat. Proses perakitan dan pengelasan selanjutnya pun menjadi lebih optimal sehingga biaya produksi menjadi lebih rendah. (Model-model potongan yang tersedia adalah potongan bevel model  A, V, Y, X, dan K) "
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/hseries-1.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Lightning piercing",
+        "id": "Pelubangan Kilat"
+      },
+      "content": {
+        "en": "The technology offers rapid, precise piercing with reduced amount of time. It features efficiency monitored processes, focus adjustment, and integration with BodorGenius. This enables quick piercing in sync with the cutting head's movement, optimizing operations for medium-thick plates without extra time or motion.",
+        "id": "Teknologi ini membuat proses pelubangan yang cepat, presisi, dan lebih singkat. Terdapat fitur monitoring untuk efisiensi, penyesuaian fokus otomatis untuk pelubangan tanpa henti, dan integrasi dengan Bodor Genius. Ini memungkinkan proses pelubangan dilakukan bersamaan dengan pergerakan kepala pemotong. Proses produksi dengan Lembaran medium-tebal menjadi optimal, tanpa perlu waktu atau gerakan tambahan."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/hseries-2.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "One second edge finding",
+        "id": "One-Second Edge Finding"
+      },
+      "content": {
+        "en": "One-second edge finding ensures rapid material positioning and focus calibration. With an optical camera, the system automatically identifies the material’s position and locates its origin and angular offset within 1 second. This visual and algorithmic innovation simplifies operating procedures and completes cutting, recognition, and focus compensation in one go, largely reducing working time.",
+        "id": "Fitur one-second edge searching memungkinkan Anda menempatkan bahan di posisinya dengan cepat dan kalibrasi pada fokus. Dengan kamera optik, sistem ini secara otomatis mengidentifikasi posisi bahan, lalu menghitung sudut dan offset sudutnya hanya dalam 3 detik. Inovasi visual dan algoritmik ini menyederhanakan prosedur pengoperasian dan mampu menyelesaikan pemotongan, pengenalan, dan kompensasi fokus dalam sekali jalan sehingga banyak menghemat waktu. "
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/pseries-1.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Intelligent remnant layout",
+        "id": "Tata Letak Sisa Bahan Yang Cerdas"
+      },
+      "content": {
+        "en": "To achieve maximum material utilization, all you need to do is uploading cutting shapes to the control system via your mobile phone. H series is able to automatically finish positioning as well as nesting. The higher the percentage of utilization, the more economical the process. Enjoy the benefits of significantly increased cost savings.",
+        "id": "Untuk mengoptimalkan penggunaan bahan, Anda hanya perlu mengunggah foto sisa bahan ke sistem kontrol lewat ponsel Anda. Produk-produk Seri H mampu mengatur posisi dan proses nesting secara otomatis. Semakin tinggi persentase penggunaan bahan, semakin murah pula proses produksinya. Anda akan menghemat begitu banyak uang. "
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/hseries-3.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Overheating offset",
+        "id": "Pembuangan Panas Berlebih"
+      },
+      "content": {
+        "en": "To stabilize laser beam focal point during the cutting process, this function counteracts the adverse effects of overheating by adjusting time and temperature. It is especially applicable to cutting thick sheet metal.",
+        "id": "Untuk menstabilkan titik fokus sinar laser selama proses pemotongan, fungsi ini menetralkan efek samping overheating dengan cara menyesuaikan waktu dan suhu. Fitur ini sangat berguna saat memotong lembaran logam yang tebal."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/hseries-4.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Intelligent pressure adjustment",
+        "id": "Penyesuaian Tekanan Yang Cerdas"
+      },
+      "content": {
+        "en": "Based on the air pressure deviation feedback from the system, H series automatically adjusts pressure without manual intervention. The air pressure set in the software corresponds directly to the actual cutting air pressure in use, further ensuring operating stability.",
+        "id": "Dengan memanfaatkan umpan balik deviasi tekanan dari sistem, Seri H secara otomatis menyesuakan tekanan tanpa campur tangan manusia. Tekanan udara yang diatur oleh perangkat lunak terhubung langsung dengan tekanan udara sekitar pada proses pemotongan yang menjamin stabilitas proses pengoperasian."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/hseries-5.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Follow-up dust removal",
+        "id": "Pembersihan Debu Lanjutan"
+      },
+      "content": {
+        "en": "The function significantly improves the cleanliness of the cutting process. It works by dividing the cutting area into multiple partitions and using a combination of internal and external fans to create a powerful airflow that effectively removes fumes and dusts from the cutting zone in real time.\n",
+        "id": "Fitur ini meningkatkan kebersihan proses pemotongan secara signifikan. Sistem ini  membagi area pemotongan menjadi beberapa partisi, lalu lewat kombinasi kipas internal dan external, alat ini mengeluarkan aliran udara yang kuat untuk menghilangkan asap dan debu di zona pemotongan secara real-time."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/hseries-6.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Nesting software compatible with Tekla",
+        "id": "Perangkat Lunak Nesting Yang Kompatibel Dengan Tekla"
+      },
+      "content": {
+        "en": "The nesting software for the Bodor H series has strong compatibility with Tekla, streamlining your workflow by effortlessly reading material specifications from Tekla files. It simplifies the cutting process with smart material utilization, ensuring maximum efficiency and less waste.",
+        "id": "Perangkat lunak nesting yang digunakan di Bodor Seri H sangat kompatibel dengan Tekla. Alur kerja produksi akan semakin cepat karena mesin ini bisa membaca spesifikasi bahan dari file Tekla dengan mudah. Proses pemotongan menjadi lebih sederhana dengan penggunaan bahan yang cerdas, sehingga tercapai efisiensi maksimum dan limbah yang lebih sedikit."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/pseries-7.webp"
+      }
+    }
+  ],
+  "specs": [
+    {
+      "title": "H3000",
+      "data": [
+        {
+          "dTitle": "Working area",
+          "dValue": "12500mm*3200mm"
+        },
+        {
+          "dTitle": "Laser output power",
+          "dValue": "60000W / 30000W / 24000W / 12000W"
+        },
+        {
+          "dTitle": "Positioning accuracy",
+          "dValue": "±0.05mm/m"
+        },
+        {
+          "dTitle": "Repositioning accuracy",
+          "dValue": "±0.03mm"
+        },
+        {
+          "dTitle": "Max. linkage speed",
+          "dValue": "80m/min"
+        }
+      ]
+    },
+    {
+      "title": "H4000",
+      "data": [
+        {
+          "dTitle": "Working area",
+          "dValue": "12500mm*4200mm"
+        },
+        {
+          "dTitle": "Laser output power",
+          "dValue": "30000W / 24000W / 12000W"
+        },
+        {
+          "dTitle": "Positioning accuracy",
+          "dValue": "±0.05mm/m"
+        },
+        {
+          "dTitle": "Repositioning accuracy",
+          "dValue": "±0.03mm"
+        },
+        {
+          "dTitle": "Max. linkage speed",
+          "dValue": "80m/min"
+        }
+      ]
+    },
+    {
+      "title": "H5000",
+      "data": [
+        {
+          "dTitle": "Working area",
+          "dValue": "32500mm*5150mm"
+        },
+        {
+          "dTitle": "Laser output power",
+          "dValue": "24000W / 12000W"
+        },
+        {
+          "dTitle": "Positioning accuracy",
+          "dValue": "±0.05mm/m"
+        },
+        {
+          "dTitle": "Repositioning accuracy",
+          "dValue": "±0.03mm"
+        },
+        {
+          "dTitle": "Max. linkage speed",
+          "dValue": "80m/min"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "brands": {
+    "bodor": {
+      "name": "Bodor",
+      "slug": "bodor",
+      "logo": "/bodor.png",
+      "description": {
+        "en": "Founded in 2008, Bodor is a global leader in intelligent laser cutting and welding solutions, integrating research and development, manufacturing, sales, and after-sales service. With more than 3,000 employees worldwide, Bodor delivers advanced laser cutting and welding machines to customers in over 180 countries and regions. From 2019 to 2024, Bodor ranked No. 1 globally in laser cutting machine sales volume for six consecutive years",
+        "id": "Didirikan pada tahun 2008, Bodor adalah pemimpin global dalam solusi laser cutting dan welding cerdas, yang mengintegrasikan penelitian dan pengembangan, manufaktur, penjualan, dan layanan purna jual. Dengan lebih dari 3.000 karyawan di seluruh dunia, Bodor menghadirkan mesin laser cutting dan welding canggih kepada pelanggan di lebih dari 180 negara dan wilayah. Dari 2019 hingga 2024, Bodor menduduki peringkat No. 1 secara global dalam volume penjualan mesin laser cutting selama enam tahun berturut-turut"
+      },
+      "stats": [
+        { "label": { "en": "Sold Annually", "id": "Terjual per Tahun" }, "value": "15000pcs" },
+        { "label": { "en": "Warranty of", "id": "Garansi" }, "value": "5 Years" }
+      ],
+      "productCategories": [
+        {
+          "title": { "en": "Sheet Laser Cutting Machine", "id": "Mesin Laser Cutting Plat Logam" },
+          "products": [
+            { "name": "A Series", "description": { "en": "Entry-level Sheet Laser Cutting Machine", "id": "Mesin Laser Cutting Plat Logam Entry-Level" }, "image": "/products/a-series.webp", "slug": "a-series" },
+            { "name": "C Series", "description": { "en": "Entry-level Sheet Laser Cutting Machine", "id": "Mesin Laser Cutting Plat Logam Entry-Level" }, "image": "/products/c-series.webp", "slug": "c-series" },
+            { "name": "G Series", "description": { "en": "Entry-level Sheet Laser Cutting Machine", "id": "Mesin Laser Cutting Plat Logam Entry-Level" }, "image": "/products/g-series.webp", "slug": "g-series" },
+            { "name": "I Series", "description": { "en": "Entry-level Sheet Laser Cutting Machine", "id": "Mesin Laser Cutting Plat Logam Entry-Level" }, "image": "/products/i-series.webp", "slug": "i-series" },
+            { "name": "P Series", "description": { "en": "Entry-level Sheet Laser Cutting Machine", "id": "Mesin Laser Cutting Plat Logam Entry-Level" }, "image": "/products/c-series.webp", "slug": "p-series" },
+            { "name": "H Series", "description": { "en": "Entry-level Sheet Laser Cutting Machine", "id": "Mesin Laser Cutting Plat Logam Entry-Level" }, "image": "/products/h-series.webp", "slug": "h-series" }
+          ]
+        },
+        {
+          "title": { "en": "Tube Laser Cutting Machine", "id": "Mesin Laser Cutting Pipa" },
+          "products": [
+            { "name": "A Series", "description": { "en": "Entry-level Sheet Laser Cutting Machine", "id": "Mesin Laser Cutting Plat Logam Entry-Level" }, "image": "/products/a-series.webp", "slug": "a-series" },
+            { "name": "C Series", "description": { "en": "Entry-level Sheet Laser Cutting Machine", "id": "Mesin Laser Cutting Plat Logam Entry-Level" }, "image": "/products/c-series.webp", "slug": "c-series" },
+            { "name": "G Series", "description": { "en": "Entry-level Sheet Laser Cutting Machine", "id": "Mesin Laser Cutting Plat Logam Entry-Level" }, "image": "/products/g-series.webp", "slug": "g-series" }
+          ]
+        },
+        {
+          "title": { "en": "Sheet & Tube Laser Cutting Machine", "id": "Mesin Laser Cutting Plat & Pipa" },
+          "products": [
+            { "name": "AT Series", "description": { "en": "Entry-level Sheet Laser Cutting Machine", "id": "Mesin Laser Cutting Plat Logam Entry-Level" }, "image": "/products/at-series.webp", "slug": "at-series" },
+            { "name": "CT Series", "description": { "en": "Entry-level Sheet Laser Cutting Machine", "id": "Mesin Laser Cutting Plat Logam Entry-Level" }, "image": "/products/ct-series.webp", "slug": "ct-series" }
+          ]
+        }
+      ]
+    },
+    "megmeet": {
+      "name": "Megmeet",
+      "slug": "megmeet",
+      "logo": "/megmeet.png",
+      "description": {
+        "en": "High-end industrial automatic welding equipment and tools, providing cost-effective, high-performance welding machines & solutions to customers. Now fully authorized in Indonesia.",
+        "id": "Peralatan dan alat las otomatis industri kelas atas, menyediakan mesin las berkinerja tinggi dan hemat biaya. Kini resmi tersedia di Indonesia."
+      },
+      "stats": [],
+      "productCategories": [
+        {
+          "title": { "en": "MIG Welding Machine", "id": "Mesin Las MIG" },
+          "products": [
+            { "name": "Dex2 M Series", "description": { "en": "Full Digital IGBT Inverter Multi-functional MIG Welding Machine", "id": "Mesin Las MIG Multi-fungsi Inverter IGBT Digital Penuh" }, "image": "/products/dex2-m-series.png", "slug": "dex2-m-series" },
+            { "name": "Ehave2 CM Series", "description": { "en": "Full-Digital IGBT Inverter Multifunction Welding Machine", "id": "Mesin Las Multi-fungsi Inverter IGBT Digital Penuh" }, "image": "/products/ehave2-cm-series.webp", "slug": "ehave2-cm-series" }
+          ]
+        },
+        {
+          "title": { "en": "TIG Welding Machine", "id": "Mesin Las TIG" },
+          "products": [
+            { "name": "MetaTIG ACDC Series", "description": { "en": "Full-Digital IGBT Inverter Multifunctional AC/DC TIG Welding Machine", "id": "Mesin Las TIG AC/DC Multi-fungsi Inverter IGBT Digital Penuh" }, "image": "/products/metatig-series.webp", "slug": "metatig-acdc-series" },
+            { "name": "MetaTIG DC Series", "description": { "en": "Full-Digital IGBT Inverter Multifunctional DC TIG Welding Machine", "id": "Mesin Las TIG DC Multi-fungsi Inverter IGBT Digital Penuh" }, "image": "/products/metatig-series.webp", "slug": "metatig-dc-series" }
+          ]
+        },
+        {
+          "title": { "en": "MMA Welding Machine", "id": "Mesin Las MMA" },
+          "products": [
+            { "name": "ST Series", "description": { "en": "Full-Digital IGBT Inverter MMA Welding Machine", "id": "Mesin Las MMA Inverter IGBT Digital Penuh" }, "image": "/products/st-series.webp", "slug": "st-series" }
+          ]
+        },
+        {
+          "title": { "en": "Submerged Arc Welding Machine", "id": "Mesin Las Busur Terendam" },
+          "products": [
+            { "name": "SA Series", "description": { "en": "Full-Digital Submerged Arc Welding Machine", "id": "Mesin Las Busur Terendam Digital Penuh" }, "image": "/products/sa-series.webp", "slug": "sa-series" }
+          ]
+        },
+        {
+          "title": { "en": "Handheld Laser Welding Machine", "id": "Mesin Las Laser Genggam" },
+          "products": [
+            { "name": "LUX Series", "description": { "en": "Handheld Laser Welding & Cleaning Machine", "id": "Mesin Las & Pembersih Laser Genggam" }, "image": "/products/lux-series.png", "slug": "lux-series" }
+          ]
+        },
+        {
+          "title": { "en": "IoT Software", "id": "Perangkat Lunak IoT" },
+          "products": [
+            { "name": "SMARC", "description": { "en": "Cloud Platform for Smart Welding Informatization & IoT", "id": "Platform Cloud untuk Informatisasi Las Pintar & IoT" }, "image": "/products/smarc.png", "slug": "smarc" }
+          ]
+        }
+      ]
+    }
+  }
+}

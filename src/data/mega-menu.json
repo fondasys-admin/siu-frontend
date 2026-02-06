@@ -1,0 +1,114 @@
+{
+  "categories": [
+    {
+      "label": { "en": "Fiber Laser Cutting Machines", "id": "Mesin Laser Cutting Fiber" },
+      "items": [
+        {
+          "label": { "en": "Sheet Metal Laser Cutting Machine", "id": "Mesin Laser Cutting Plat Logam" },
+          "description": {
+            "en": "High-speed CNC fiber laser cutting for sheet metal with clean edges and repeatable accuracy.",
+            "id": "Mesin laser fiber CNC untuk pemotongan plat dengan hasil potong rapi dan akurasi stabil."
+          },
+          "href": "/products/laser-cutting-machines/sheet-laser-cutting",
+          "image": "/products/c-series.webp",
+          "brand": "bodor"
+        },
+        {
+          "label": { "en": "Tube Metal Laser Cutting Machine", "id": "Mesin Laser Cutting Pipa" },
+          "description": {
+            "en": "Precision fiber laser tube cutting for round, square, and profile pipes.",
+            "id": "Mesin laser fiber untuk pemotongan pipa bulat, kotak, dan berbagai profil."
+          },
+          "href": "/products/laser-cutting-machines/tube-laser-cutting",
+          "image": "/products/k-series.webp",
+          "brand": "bodor"
+        },
+        {
+          "label": { "en": "Combo Metal Laser Cutting Machine", "id": "Mesin Laser Cutting Plat & Pipa" },
+          "description": {
+            "en": "One machine for both sheet and tube fiber laser cutting — save space and handle more jobs.",
+            "id": "Satu mesin untuk pemotongan laser fiber plat dan pipa sekaligus — hemat ruang dan lebih fleksibel."
+          },
+          "href": "/products/laser-cutting-machines/combo-sheet-tube-laser-cutting",
+          "image": "/products/ct-series.webp",
+          "brand": "bodor"
+        },
+        {
+          "label": { "en": "Automation Device", "id": "Perangkat Otomasi" },
+          "description": {
+            "en": "Automatic and semi-automatic loading devices to increase throughput and safety.",
+            "id": "Perangkat loading otomatis dan semi-otomatis untuk meningkatkan output dan keselamatan."
+          },
+          "href": "/products/laser-cutting-machines/automation-devices",
+          "image": "/products/iloader-eco.webp",
+          "brand": "bodor"
+        }
+      ]
+    },
+    {
+      "label": { "en": "Welding Machines", "id": "Mesin Las" },
+      "items": [
+        {
+          "label": { "en": "MIG Welding Machine", "id": "Mesin Las MIG" },
+          "description": {
+            "en": "MIG welding machines for fast, reliable steel fabrication with stable arc and high deposition.",
+            "id": "Mesin las MIG untuk fabrikasi baja yang cepat dan andal dengan arc stabil dan deposit tinggi."
+          },
+          "href": "/products/welding-machines/mig-welding",
+          "image": "/products/dex2-m-series.png",
+          "brand": "megmeet"
+        },
+        {
+          "label": { "en": "TIG Welding Machine", "id": "Mesin Las TIG" },
+          "description": {
+            "en": "TIG welders for clean, precise welds on stainless and aluminum.",
+            "id": "Mesin las TIG untuk hasil las yang rapi dan presisi pada stainless dan aluminium."
+          },
+          "href": "/products/welding-machines/tig-welding",
+          "image": "/products/metatig-series.webp",
+          "brand": "megmeet"
+        },
+        {
+          "label": { "en": "MMA/Stick Welding Machine", "id": "Mesin Las MMA/Stick" },
+          "description": {
+            "en": "Rugged MMA/Stick welding machines for site work, maintenance, and outdoor jobs.",
+            "id": "Mesin las MMA/Stick yang tangguh untuk pekerjaan lapangan, maintenance, dan area outdoor."
+          },
+          "href": "/products/welding-machines/mma-welding",
+          "image": "/products/st-series.webp",
+          "brand": "megmeet"
+        },
+        {
+          "label": { "en": "Submerged Arc Welding Machine", "id": "Mesin Las Submerged Arc" },
+          "description": {
+            "en": "Submerged arc welding for thick plate and long seams with consistent quality.",
+            "id": "Mesin las Submerged Arc untuk plat tebal dan sambungan panjang dengan kualitas konsisten."
+          },
+          "href": "/products/welding-machines/submerged-arc-welding",
+          "image": "/products/sa-series.webp",
+          "brand": "megmeet"
+        },
+        {
+          "label": { "en": "Laser Welding Machine", "id": "Mesin Las Laser" },
+          "description": {
+            "en": "High-speed laser welding with minimal distortion and excellent finish.",
+            "id": "Mesin las laser berkecepatan tinggi dengan distorsi minimal dan hasil finishing sangat baik."
+          },
+          "href": "/products/welding-machines/laser-welding",
+          "image": "/products/lux-series.png",
+          "brand": "megmeet"
+        },
+        {
+          "label": { "en": "SMARC", "id": "SMARC" },
+          "description": {
+            "en": "Smart welding solutions to standardize results and improve productivity.",
+            "id": "Solusi las pintar untuk menstandarkan hasil dan meningkatkan produktivitas."
+          },
+          "href": "/products/welding-machines/smarc",
+          "image": "/products/smarc.png",
+          "brand": "megmeet"
+        }
+      ]
+    }
+  ]
+}

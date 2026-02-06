@@ -1,0 +1,93 @@
+{
+  "title": "K-Loader Pro",
+  "brand": "Bodor",
+  "catergory": [
+    "Laser Cutting Machine",
+    "Sheet Cutting Automation Devices"
+  ],
+  "media": {
+    "type": "image",
+    "url": "/products/k-loader-pro.webp"
+  },
+  "description": {
+    "en": "Advanced Auxiliary Tube Loading Device",
+    "id": "Perangkat Loading Pipa Canggih"
+  },
+  "populatedAuthors": [],
+  "banSubtitle": {
+    "en": "Advanced Auxiliary Tube Loading Device",
+    "id": "Perangkat Loading Pipa Canggih"
+  },
+  "banDescription": {
+    "en": "The K-Loader Pro is an advanced auxiliary loading device used for the automatic loading of various tubes including square tubes, round tubes, rectangular tubes, I-beams and channel steel. It features cyclic processing, servo control, and compatibility with multiple tube profiles for continuous automated production.",
+    "id": "K-Loader Pro adalah perangkat loading canggih yang digunakan untuk loading otomatis berbagai jenis pipa termasuk pipa kotak, pipa bulat, pipa persegi panjang, balok-I dan baja kanal. Dilengkapi pemrosesan siklik, kontrol servo, dan kompatibilitas dengan berbagai profil pipa untuk produksi otomatis berkelanjutan."
+  },
+  "highlights": [
+    {
+      "title": {
+        "en": "Cyclic Processing",
+        "id": "Pemrosesan Siklik"
+      },
+      "content": {
+        "en": "Enables continuous automated loading cycles for repetitive operations, maintaining consistent production flow without interruption.",
+        "id": "Memungkinkan siklus loading otomatis berkelanjutan untuk operasi berulang, menjaga alur produksi yang konsisten tanpa gangguan."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Various Tubes Master",
+        "id": "Menguasai Berbagai Pipa"
+      },
+      "content": {
+        "en": "Compatible with multiple tube profiles including square tubes, round tubes, rectangular tubes, I-beams, and channel steel for maximum versatility.",
+        "id": "Kompatibel dengan berbagai profil pipa termasuk pipa kotak, pipa bulat, pipa persegi panjang, balok-I, dan baja kanal untuk fleksibilitas maksimum."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Servo Control",
+        "id": "Kontrol Servo"
+      },
+      "content": {
+        "en": "Advanced servo technology ensures precise positioning and smooth operation during the loading process, enhancing accuracy and reliability.",
+        "id": "Teknologi servo canggih memastikan penentuan posisi yang presisi dan operasi yang mulus selama proses loading, meningkatkan akurasi dan keandalan."
+      },
+      "icon": ""
+    }
+  ],
+  "body": [
+    {
+      "title": {
+        "en": "Continuous Automated Production",
+        "id": "Produksi Otomatis Berkelanjutan"
+      },
+      "content": {
+        "en": "The K-Loader Pro's cyclic processing capability allows for uninterrupted tube loading during production runs. Combined with servo-controlled precision, it delivers consistent performance throughout extended manufacturing sessions.",
+        "id": "Kemampuan pemrosesan siklik K-Loader Pro memungkinkan loading pipa tanpa henti selama produksi berlangsung. Dikombinasikan dengan presisi yang dikendalikan servo, memberikan performa konsisten sepanjang sesi manufaktur yang panjang."
+      },
+      "media": {
+        "type": "",
+        "url": ""
+      }
+    },
+    {
+      "title": {
+        "en": "Multi-Profile Compatibility",
+        "id": "Kompatibilitas Multi-Profil"
+      },
+      "content": {
+        "en": "From standard round and square tubes to specialized I-beams and channel steel, the K-Loader Pro handles a comprehensive range of tube profiles. This versatility eliminates the need for multiple loading devices, simplifying your production line.",
+        "id": "Dari pipa bulat dan kotak standar hingga balok-I dan baja kanal khusus, K-Loader Pro mampu menangani berbagai profil pipa secara komprehensif. Fleksibilitas ini menghilangkan kebutuhan akan beberapa perangkat loading, menyederhanakan lini produksi Anda."
+      },
+      "media": {
+        "type": "",
+        "url": ""
+      }
+    }
+  ],
+  "specs": [],
+  "slug": "k-loader-pro",
+  "_status": "published"
+}

@@ -1,0 +1,406 @@
+{
+  "title": "C Series",
+  "brand": "Bodor",
+  "catergory": [
+    "Laser Cutting Machine",
+    "Economical"
+  ],
+  "media": {
+    "type": "image",
+    "url": "/products/c-series.webp"
+  },
+  "description": {
+    "en": "Entry-level Sheet Metal Fiber Laser Cutting Machine with All-round protection",
+    "id": "Laser cutting mesin serat plat logam tingkat awal "
+  },
+  "populatedAuthors": [],
+  "banSubtitle": {
+    "en": "Base Sheet Metal Laser Cutting Machine",
+    "id": "Laser cutting mesin Serat Plat Logam Tingkat Awal "
+  },
+  "banDescription": {
+    "en": "The Bodor C series brings a new level of productivity to the field of metal processing. Designed for high efficiency and cost-effectiveness, it meets the demands of modern production. Its advanced technology combined with economic benefits offers an ideal cutting solution for businesses of all sizes, excelling in precision, speed, and cost control.",
+    "id": "Seri Bodor C menawarkan tingkat produktivitas tinggi dengan harga terjangkau di bidang pemrosesan logam. Kami merancang Seri C untuk memenuhi tuntutan produksi modern yang mengedepankan efisiensi tinggi dan efektivitas biaya. Dengan teknologi canggih, seri ini menjadi solusi ideal untuk bisnis segala ukuran yang mengutamakan presisi, kecepatan, dan pengendalian biaya."
+  },
+  "highlights": [
+    {
+      "title": {
+        "en": "Economically efficient",
+        "id": "Hemat Biaya"
+      },
+      "content": {
+        "en": "The C series offers cost-effective solutions, reducing initial investments and long-term operational costs.",
+        "id": "Produk Seri C kami menawarkan solusi hemat biaya, mengurangi investasi awal dan juga biaya operasional jangka panjang."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "All-around protection",
+        "id": "Perlindungan Menyeluruh"
+      },
+      "content": {
+        "en": "Its comprehensive design and laser protective glass ensure maximum safety for operators.",
+        "id": "Desain yang komprehensif dan kaca pelindung laser menjamin keamanan pengguna secara maksimal."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Simple operation",
+        "id": "Mudah Dioperasikan"
+      },
+      "content": {
+        "en": "The one-click processing feature simplifies the operation, saving time and labor costs.",
+        "id": "Fitur one-click processing menyederhanakan proses pengoperasian, sehingga menghemat waktu dan ongkos tenaga kerja."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Stable and reliable",
+        "id": "Stabil dan Andal"
+      },
+      "content": {
+        "en": "Durable construction and advanced materials extend the machine's life, reducing repair and maintenance costs.",
+        "id": "Material yang berkualitas dan konstruksi yang tahan lama membuat mesin ini awet, sehingga menghemat biaya perbaikan dan perawatan."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Intelligent design",
+        "id": "Desain Cerdas"
+      },
+      "content": {
+        "en": "Advanced dust extraction systems and air pressure smart control enhance work efficiency and environmental quality.",
+        "id": "Sistem penghisapan debu yang canggih dan kontrol tekanan udara yang pintar mampu meningkatkan efisiensi pemotongan dan kualitas lingkungan kerja."
+      },
+      "icon": ""
+    }
+  ],
+  "body": [
+    {
+      "title": {
+        "en": "Visual collision avoidance",
+        "id": "Mencegah Benturan Visual"
+      },
+      "content": {
+        "en": "Our intelligent visual collision avoidance technology is able to detect motions and signal warnings to prevent possible collisions. You can select either high or low sensitivity modes to ensure operator's safety, no longer worrying about safety issues.",
+        "id": "Teknologi cerdas pencegah benturan visual kami mampu mendeteksi gerakan dan memberikan peringatan untuk mencegah terjadinya benturan. Anda dapat memilih mode sensitivitas tingi atau rendah guna menjamin keselamatan operator. Anda tak perlu lagi mengkhawatirkan masalah keselamatan."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/pseries-2.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Active obstacle avoidance system",
+        "id": "Sistem Pencegah Halangan Aktif"
+      },
+      "content": {
+        "en": "BodorGenius, Bodor's intelligent laser head, uses sensors and algorithms to detect potential obstacles like tilting parts and automatically avoids a potential collision. It largely ensures the stability as well as operating efficiency in the cutting process.",
+        "id": "BodorGenius, kepala laser cerdas dari Bodor, menggunakan sensor dan algoritma untuk mendeteksi kemungkinan terjadinya tabrakan seperti bagian yang miring, lalu secara otomatis mencegah terjadinya benturan. Sistem ini menjamin stabilitas dan efisiensi operasional saat memotong. "
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/pseries-3.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "One-click processing",
+        "id": "One-click Processing"
+      },
+      "content": {
+        "en": "Set up your tasks ahead of time and let C series do the rest. Once the operation begins, C series will automatically complete edge searching, range checking, and cutting one after another. With C series, you can finish batch production easily without any repetitive procedures.",
+        "id": "Atur proses produksimu lebih awal dan biarkan seri C menyelesaikan sisanya. Begitu mesin mulai beroperasi, Seri C akan mencari tepi, memeriksa jangkauan, dan mulai memotong satu demi satu secara otomatis. Dengan Seri C,  produksi partaian dapat diselesaikan dengan mudah, tanpa harus melakukan prosedur yang sama berulang-ulang."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/dream-2.jpeg"
+      }
+    },
+    {
+      "title": {
+        "en": "Anti-burning mineral casting",
+        "id": "Mineral Casting Tanpa Risiko Terbakar"
+      },
+      "content": {
+        "en": "Bodor's newly developed anti-burning casting material provides numerous advantages in slag removal, operations, and modular design. When in use, material residue automatically separates from the anti-burning plate, largely lowering maintenance costs and offering better durability. Its lightweight structure as well makes it easy to replace.",
+        "id": "Bahan casting yang baru dikembangkan oleh Bodor resisten terhadap api, sehingga unggul dalam hal menghilangkan terak, operasional, dan desain modular. Saat digunakan, sisa material secara otomatis akan dipisahkan dari Lembaran anti terbakar, sehingga mengurangi biaya perawatan dan punya daya tahan yang lebih baik. Strukturnya yang ringan juga membuat komponennya mudah untuk diganti. "
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/dream-4.jpeg"
+      }
+    },
+    {
+      "title": {
+        "en": "Lightning piercing",
+        "id": "Pelubangan Kilat"
+      },
+      "content": {
+        "en": "The technology offers rapid, precise piercing with reduced time. It features monitored processes for efficiency, automatic focus adjustment for seamless piercing, and integration with Bodor Genius. This enables quick piercing in sync with the cutting head's movement, optimizing operations for medium-thick plates without additional time or motion.",
+        "id": "Teknologi ini membuat proses pelubangan yang cepat, presisi, dan lebih singkat. Terdapat fitur monitoring untuk efisiensi, penyesuaian fokus otomatis untuk pelubangan tanpa henti, dan integrasi dengan Bodor Genius. Ini memungkinkan proses pelubangan dilakukan bersamaan dengan pergerakan kepala pemotong. Proses produksi dengan Lembaran medium-tebal menjadi optimal, tanpa perlu waktu atau gerakan tambahan."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/hseries-2.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Intelligent remnant layout",
+        "id": "Tata Letak Sisa Bahan Yang Cerdas"
+      },
+      "content": {
+        "en": "To achieve maximum material utilization, all you need to do is uploading pictures of the remnant to the control system with your mobile phone. C series is able to automatically finish positioning as well as nesting. The higher the percentage of utilization, the more economical the process. Enjoy the benefits of significantly increased cost savings.",
+        "id": "Untuk mengoptimalkan penggunaan bahan, Anda hanya perlu mengunggah foto sisa bahan ke sistem kontrol lewat ponsel Anda. Produk-produk Seri C mampu mengatur posisi dan proses nesting secara otomatis. Semakin tinggi persentase penggunaan bahan, semakin murah pula proses produksinya. Anda akan menghemat begitu banyak uang. "
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/pseries-6.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Nesting software compatible with Tekla",
+        "id": "Perangkat Lunak Nesting Yang Kompatibel Dengan Tekla"
+      },
+      "content": {
+        "en": "The nesting software for the Bodor C series has strong compatibility with Tekla, streamlining your workflow by effortlessly reading material specifications from Tekla files. It simplifies the cutting process with smart material utilization, ensuring maximum efficiency and less waste.",
+        "id": "Perangkat lunak nesting yang digunakan di Bodor Seri C sangat kompatibel dengan Tekla. Alur kerja produksi akan semakin cepat karena mesin ini bisa membaca spesifikasi bahan dari file Tekla dengan mudah. Proses pemotongan menjadi lebih sederhana dengan penggunaan bahan yang cerdas, sehingga tercapai efisiensi maksimum dan limbah yang lebih sedikit."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/pseries-7.webp"
+      }
+    },
+    {
+      "hero": {
+        "type": "leftContentBgImg",
+        "title": {
+          "en": "Request a free quote",
+          "id": "Mendapatkan Penawaran Gratis"
+        },
+        "subtitle": {
+          "en": "Ready to incorporate the machine to your business?",
+          "id": "Siap untuk mengintegrasikan mesin ke bisnis Anda?"
+        },
+        "stretched": "false",
+        "links": [
+          {
+            "link": {
+              "type": "custom",
+              "url": "/inquiry",
+              "label": {
+                "en": "Request a quote",
+                "id": "Meminta penawaran"
+              },
+              "appearance": "dark"
+            },
+            "id": "6674577c9bf590209609f6a9"
+          }
+        ],
+        "media": "660cdd5f047c30d8f74f667d"
+      },
+      "id": "6674576d9bf590209609f6a8",
+      "blockType": "cta"
+    }
+  ],
+  "specs": [
+    {
+      "title": "C3",
+      "data": [
+        {
+          "dTitle": "Working area\t",
+          "dValue": "3048mm*1524mm"
+        },
+        {
+          "dTitle": "Laser output power\t",
+          "dValue": "24000W / 12000W / 6000W / 3000W / 1500W"
+        },
+        {
+          "dTitle": "Positioning accuracy\t",
+          "dValue": "±0.05mm/m"
+        },
+        {
+          "dTitle": "Repositioning accuracy",
+          "dValue": "±0.03mm"
+        },
+        {
+          "dTitle": "Max. linkage speed\t",
+          "dValue": "110m/min"
+        },
+        {
+          "dTitle": "Max. acceleration\t",
+          "dValue": "1.5G"
+        }
+      ]
+    },
+    {
+      "title": "C4",
+      "data": [
+        {
+          "dTitle": "Working area\t",
+          "dValue": "4000mm*2000mm"
+        },
+        {
+          "dTitle": "Laser output power\t",
+          "dValue": "24000W / 12000W / 6000W / 3000W / 1500W"
+        },
+        {
+          "dTitle": "Positioning accuracy\t",
+          "dValue": "±0.05mm/m"
+        },
+        {
+          "dTitle": "Repositioning accuracy",
+          "dValue": "±0.03mm"
+        },
+        {
+          "dTitle": "Max. linkage speed\t",
+          "dValue": "110m/min"
+        },
+        {
+          "dTitle": "Max. acceleration\t",
+          "dValue": "1.5G"
+        }
+      ]
+    },
+    {
+      "title": "C6 Lean",
+      "data": [
+        {
+          "dTitle": "Working area\t",
+          "dValue": "6100mm*1524mm"
+        },
+        {
+          "dTitle": "Laser output power\t",
+          "dValue": "30000W / 24000W / 12000W / 6000W"
+        },
+        {
+          "dTitle": "Positioning accuracy\t",
+          "dValue": "±0.05mm/m"
+        },
+        {
+          "dTitle": "Repositioning accuracy",
+          "dValue": "±0.03mm"
+        },
+        {
+          "dTitle": "Max. linkage speed\t",
+          "dValue": "110m/min"
+        },
+        {
+          "dTitle": "Max. acceleration\t",
+          "dValue": "1.5G"
+        }
+      ]
+    },
+    {
+      "title": "C6",
+      "data": [
+        {
+          "dTitle": "Working area\t",
+          "dValue": "6100mm*2500mm"
+        },
+        {
+          "dTitle": "Laser output power\t",
+          "dValue": "30000W / 24000W / 12000W / 6000W / 3000W"
+        },
+        {
+          "dTitle": "Positioning accuracy\t",
+          "dValue": "±0.05mm/m"
+        },
+        {
+          "dTitle": "Repositioning accuracy",
+          "dValue": "±0.03mm"
+        },
+        {
+          "dTitle": "Max. linkage speed\t",
+          "dValue": "110m/min"
+        },
+        {
+          "dTitle": "Max. acceleration\t",
+          "dValue": "1.5G"
+        }
+      ]
+    },
+    {
+      "title": "C8",
+      "data": [
+        {
+          "dTitle": "Working area\t",
+          "dValue": "8050mm*2500mm"
+        },
+        {
+          "dTitle": "Laser output power\t",
+          "dValue": "60000W / 30000W / 24000W / 12000W"
+        },
+        {
+          "dTitle": "Positioning accuracy\t",
+          "dValue": "±0.05mm/m"
+        },
+        {
+          "dTitle": "Repositioning accuracy",
+          "dValue": "±0.03mm"
+        },
+        {
+          "dTitle": "Max. linkage speed\t",
+          "dValue": "110m/min"
+        },
+        {
+          "dTitle": "Max. acceleration\t",
+          "dValue": "1.5G"
+        }
+      ]
+    },
+    {
+      "title": "C12",
+      "data": [
+        {
+          "dTitle": "Working area\t",
+          "dValue": "12200mm*2500mm"
+        },
+        {
+          "dTitle": "Laser output power\t",
+          "dValue": "60000W / 30000W / 24000W / 12000W"
+        },
+        {
+          "dTitle": "Positioning accuracy\t",
+          "dValue": "±0.05mm/m"
+        },
+        {
+          "dTitle": "Repositioning accuracy",
+          "dValue": "±0.03mm"
+        },
+        {
+          "dTitle": "Max. linkage speed\t",
+          "dValue": "110m/min"
+        },
+        {
+          "dTitle": "Max. acceleration\t",
+          "dValue": "1.5G"
+        }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "content": {
+        "en": "“Bodor's A3 - 3kW laser cutter from Synergis is awesome. It cuts perfectly and saves us time. The Synergis team is super responsive – they handle problems fast, and their engineers are on-site the next day. Their support is excellent.”",
+        "id": "\"Mesin pemotong laser Bodor A3 -3 kW telah mengubah cara kami memproduksi suku cadang otomotif. Fitur pindai-dan-potongnya sangat presisi dan cepat. Pabrik kami belum pernah berjalan seefisien ini. Layanan yang diberikan oleh tim Synergis juga luar biasa. Teknisi mereka hanya butuh 1 hari untuk hadir di pabrik dan menyelesaikan masalah kami. Mereka sangat responsif dan profesional sehingga proses operasional kami bisa berjalan mulus. Kami benar-benar puas dengan mesin dan layanan purna jual Synergis yang istimewa.\""
+      },
+      "subtitle": {
+        "en": "Medical Equipment Manufacturer, Bandung",
+        "id": "Pabrik Alat-Alat Kesehatan, Bandung"
+      }
+    }
+  ],
+  "slug": "c-series",
+  "_status": "published",
+  "createdAt": "2024-05-12T10:48:37.987Z",
+  "updatedAt": "2024-07-15T14:57:09.310Z",
+  "publishedAt": "2024-04-11T08:16:24.244Z"
+}

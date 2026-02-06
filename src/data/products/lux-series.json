@@ -1,0 +1,232 @@
+{
+  "title": "LUX Series",
+  "brand": "Megmeet",
+  "catergory": [
+    "Welding Machine",
+    "Handheld Laser"
+  ],
+  "media": {
+    "type": "image",
+    "url": "/products/lux-series.png"
+  },
+  "description": {
+    "en": "Handheld Laser Welding & Cleaning Machine",
+    "id": "Mesin Las & Pembersih Laser Genggam"
+  },
+  "populatedAuthors": [],
+  "banSubtitle": {
+    "en": "Handheld Laser Welding & Cleaning Machine",
+    "id": "Mesin Las & Pembersih Laser Genggam"
+  },
+  "banDescription": {
+    "en": "The Megmeet LUX Series is a versatile handheld laser system available as a four-in-one (welding, cutting, rust removal, weld seam cleaning) or dedicated cleaning machine. With industrial-grade laser generators from 1.5kW to 3kW, it handles carbon steel, stainless steel, aluminum alloy, and more.",
+    "id": "Megmeet LUX Series adalah sistem laser genggam serbaguna yang tersedia sebagai mesin empat-dalam-satu (las, potong, pembersihan karat, pembersihan jahitan las) atau mesin pembersih khusus. Dengan generator laser kelas industri dari 1,5kW hingga 3kW, mesin ini mampu menangani baja karbon, baja tahan karat, paduan aluminium, dan banyak lagi."
+  },
+  "highlights": [
+    {
+      "title": {
+        "en": "Four-in-one capability",
+        "id": "Kemampuan empat-dalam-satu"
+      },
+      "content": {
+        "en": "Welding, cutting, rust removal, and weld seam cleaning in a single machine. Switch between functions to handle multiple tasks without additional equipment.",
+        "id": "Las, potong, pembersihan karat, dan pembersihan jahitan las dalam satu mesin. Beralih antar fungsi untuk menangani berbagai tugas tanpa peralatan tambahan."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Industrial-grade laser",
+        "id": "Laser kelas industri"
+      },
+      "content": {
+        "en": "Equipped with industrial-grade laser generators delivering 1.5kW, 2kW, or 3kW output power for reliable performance in demanding production environments.",
+        "id": "Dilengkapi dengan generator laser kelas industri yang menghasilkan daya output 1,5kW, 2kW, atau 3kW untuk performa andal di lingkungan produksi yang menuntut."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Wide material range",
+        "id": "Jangkauan material luas"
+      },
+      "content": {
+        "en": "Welds carbon steel, stainless steel, high-strength steel, galvanized sheet, aluminum alloy, magnesium alloy, and titanium alloy with thicknesses from 0.5mm to 8mm.",
+        "id": "Mampu mengelas baja karbon, baja tahan karat, baja kekuatan tinggi, lembaran galvanis, paduan aluminium, paduan magnesium, dan paduan titanium dengan ketebalan dari 0,5mm hingga 8mm."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Intuitive LCD control",
+        "id": "Kontrol LCD intuitif"
+      },
+      "content": {
+        "en": "7-inch large LCD panels on both the machine and wire feeder for easy parameter adjustment, with 10 JOB parameter storage for quick recall of settings.",
+        "id": "Panel LCD besar 7 inci pada mesin dan pengumpan kawat untuk penyesuaian parameter yang mudah, dengan penyimpanan 10 parameter JOB untuk pemanggilan cepat pengaturan."
+      },
+      "icon": ""
+    }
+  ],
+  "body": [
+    {
+      "title": {
+        "en": "Optional double-wire welding",
+        "id": "Las kawat ganda opsional"
+      },
+      "content": {
+        "en": "Optional double-wire welding capability with 1.6–2.5mm wire diameter, achieving weld widths up to 8mm for filling large gaps and increasing deposition rates in heavy plate applications.",
+        "id": "Kemampuan las kawat ganda opsional dengan diameter kawat 1,6–2,5mm, mencapai lebar las hingga 8mm untuk mengisi celah besar dan meningkatkan laju deposisi pada aplikasi plat tebal."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/lux-double-wire.png"
+      }
+    },
+    {
+      "title": {
+        "en": "Dual-temperature water cooling",
+        "id": "Pendingin air suhu ganda"
+      },
+      "content": {
+        "en": "Dual-temperature dual-control water cooling system ensures optimal operating temperature for both the laser source and welding head, extending component lifespan and maintaining consistent output quality.",
+        "id": "Sistem pendingin air kontrol ganda suhu ganda memastikan suhu operasi optimal untuk sumber laser dan kepala las, memperpanjang umur komponen dan menjaga kualitas output yang konsisten."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/lux-vs-conventional.png"
+      }
+    },
+    {
+      "title": {
+        "en": "Flexible cable lengths",
+        "id": "Panjang kabel fleksibel"
+      },
+      "content": {
+        "en": "Standard 10m cable length, extendable to 15m for welding and 20m for cleaning applications, providing excellent reach for large workpieces and on-site operations.",
+        "id": "Panjang kabel standar 10m, dapat diperpanjang hingga 15m untuk pengelasan dan 20m untuk aplikasi pembersihan, memberikan jangkauan yang sangat baik untuk benda kerja besar dan operasi di lapangan."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/lux-flexibility.png"
+      }
+    },
+    {
+      "hero": {
+        "type": "leftContentBgImg",
+        "title": {
+          "en": "Request a free quote",
+          "id": "Mendapatkan Penawaran Gratis"
+        },
+        "subtitle": {
+          "en": "Ready to incorporate the machine to your business?",
+          "id": "Siap untuk mengintegrasikan mesin ke bisnis Anda?"
+        },
+        "stretched": "false",
+        "links": [
+          {
+            "link": {
+              "type": "custom",
+              "url": "/inquiry",
+              "label": {
+                "en": "Request a quote",
+                "id": "Meminta Penawaran"
+              },
+              "appearance": "default"
+            },
+            "id": "megmeet-lux-cta-1"
+          }
+        ],
+        "media": ""
+      },
+      "id": "megmeet-lux-cta-0",
+      "blockType": "cta"
+    }
+  ],
+  "specs": [
+    {
+      "title": "LUX-1500",
+      "data": [
+        { "dTitle": "Laser output power", "dValue": "1.5kW" },
+        { "dTitle": "Input voltage", "dValue": "1-phase 220V 50/60Hz" },
+        { "dTitle": "Input power", "dValue": "6kW" },
+        { "dTitle": "Laser wavelength", "dValue": "1080±10nm" },
+        { "dTitle": "Welding thickness", "dValue": "0.5–4mm" },
+        { "dTitle": "Functions", "dValue": "Welding, Cutting, Rust Removal, Seam Cleaning" },
+        { "dTitle": "Dimensions", "dValue": "915×790×540mm" },
+        { "dTitle": "Weight", "dValue": "≤90kg" }
+      ]
+    },
+    {
+      "title": "LUX-2000",
+      "data": [
+        { "dTitle": "Laser output power", "dValue": "2kW" },
+        { "dTitle": "Input voltage", "dValue": "1-phase 220V 50/60Hz" },
+        { "dTitle": "Input power", "dValue": "8kW" },
+        { "dTitle": "Laser wavelength", "dValue": "1080±10nm" },
+        { "dTitle": "Welding thickness", "dValue": "0.5–6mm" },
+        { "dTitle": "Functions", "dValue": "Welding, Cutting, Rust Removal, Seam Cleaning" },
+        { "dTitle": "Dimensions", "dValue": "915×790×540mm" },
+        { "dTitle": "Weight", "dValue": "≤90kg" }
+      ]
+    },
+    {
+      "title": "LUX-3000",
+      "data": [
+        { "dTitle": "Laser output power", "dValue": "3kW" },
+        { "dTitle": "Input voltage", "dValue": "3-phase 380V 50/60Hz" },
+        { "dTitle": "Input power", "dValue": "13kW" },
+        { "dTitle": "Laser wavelength", "dValue": "1080±10nm" },
+        { "dTitle": "Welding thickness", "dValue": "0.5–8mm" },
+        { "dTitle": "Functions", "dValue": "Welding, Cutting, Rust Removal, Seam Cleaning" },
+        { "dTitle": "Dimensions", "dValue": "1215×530×860mm" },
+        { "dTitle": "Weight", "dValue": "≤160kg" }
+      ]
+    },
+    {
+      "title": "LUX-1500C",
+      "data": [
+        { "dTitle": "Laser output power", "dValue": "1.5kW" },
+        { "dTitle": "Input voltage", "dValue": "1-phase 220V 50/60Hz" },
+        { "dTitle": "Input power", "dValue": "6kW" },
+        { "dTitle": "Laser wavelength", "dValue": "1080±10nm" },
+        { "dTitle": "Cleaning width", "dValue": "0–300mm" },
+        { "dTitle": "Functions", "dValue": "Cleaning Only" },
+        { "dTitle": "Dimensions", "dValue": "915×790×540mm" },
+        { "dTitle": "Weight", "dValue": "≤90kg" }
+      ]
+    },
+    {
+      "title": "LUX-2000C",
+      "data": [
+        { "dTitle": "Laser output power", "dValue": "2kW" },
+        { "dTitle": "Input voltage", "dValue": "1-phase 220V 50/60Hz" },
+        { "dTitle": "Input power", "dValue": "8kW" },
+        { "dTitle": "Laser wavelength", "dValue": "1080±10nm" },
+        { "dTitle": "Cleaning width", "dValue": "0–300mm" },
+        { "dTitle": "Functions", "dValue": "Cleaning Only" },
+        { "dTitle": "Dimensions", "dValue": "915×790×540mm" },
+        { "dTitle": "Weight", "dValue": "≤90kg" }
+      ]
+    },
+    {
+      "title": "LUX-3000C",
+      "data": [
+        { "dTitle": "Laser output power", "dValue": "3kW" },
+        { "dTitle": "Input voltage", "dValue": "3-phase 380V 50/60Hz" },
+        { "dTitle": "Input power", "dValue": "13kW" },
+        { "dTitle": "Laser wavelength", "dValue": "1080±10nm" },
+        { "dTitle": "Cleaning width", "dValue": "0–300mm" },
+        { "dTitle": "Functions", "dValue": "Cleaning Only" },
+        { "dTitle": "Dimensions", "dValue": "1215×530×860mm" },
+        { "dTitle": "Weight", "dValue": "≤160kg" }
+      ]
+    }
+  ],
+  "testimonials": [],
+  "slug": "lux-series",
+  "_status": "published",
+  "createdAt": "2025-01-15T00:00:00.000Z",
+  "updatedAt": "2025-01-15T00:00:00.000Z",
+  "publishedAt": "2025-01-15T00:00:00.000Z"
+}

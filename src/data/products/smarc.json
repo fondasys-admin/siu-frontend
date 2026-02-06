@@ -1,0 +1,199 @@
+{
+  "title": "SMARC",
+  "brand": "Megmeet",
+  "catergory": [
+    "Welding Machine",
+    "IoT Software"
+  ],
+  "media": {
+    "type": "image",
+    "url": "/products/smarc.png"
+  },
+  "description": {
+    "en": "Cloud Platform for Smart Welding Informatization & IoT",
+    "id": "Platform Cloud untuk Informatisasi Las Pintar & IoT"
+  },
+  "populatedAuthors": [],
+  "banSubtitle": {
+    "en": "Cloud Platform for Smart Welding Informatization & IoT",
+    "id": "Platform Cloud untuk Informatisasi Las Pintar & IoT"
+  },
+  "banDescription": {
+    "en": "SMARC is Megmeet's cloud-based smart welding platform that connects welding machines, welders, and production data into one unified system. With real-time monitoring, welder management, WPS management, and quality traceability, SMARC transforms welding operations into a data-driven, efficient workflow accessible via PC, mobile app, and WeChat.",
+    "id": "SMARC adalah platform las pintar berbasis cloud dari Megmeet yang menghubungkan mesin las, tukang las, dan data produksi ke dalam satu sistem terpadu. Dengan pemantauan real-time, manajemen tukang las, manajemen WPS, dan keterlacakan kualitas, SMARC mengubah operasi pengelasan menjadi alur kerja berbasis data yang efisien, dapat diakses melalui PC, aplikasi seluler, dan WeChat."
+  },
+  "highlights": [
+    {
+      "title": {
+        "en": "Real-time monitoring",
+        "id": "Pemantauan real-time"
+      },
+      "content": {
+        "en": "Monitor welding current, voltage, wire feed speed, and gas flow in real-time across all connected machines from a centralized dashboard.",
+        "id": "Pantau arus las, tegangan, kecepatan pengumpanan kawat, dan aliran gas secara real-time di semua mesin yang terhubung dari dashboard terpusat."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Welder management",
+        "id": "Manajemen tukang las"
+      },
+      "content": {
+        "en": "RFID-based welder identity management with skill tracking, certification monitoring, and parameter authority control for quality assurance.",
+        "id": "Manajemen identitas tukang las berbasis RFID dengan pelacakan keterampilan, pemantauan sertifikasi, dan kontrol otoritas parameter untuk jaminan kualitas."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Quality traceability",
+        "id": "Keterlacakan kualitas"
+      },
+      "content": {
+        "en": "Full weld data logging for quality traceability — track every weld seam back to the machine, welder, WPS, and exact parameters used.",
+        "id": "Pencatatan data las lengkap untuk keterlacakan kualitas — lacak setiap jahitan las kembali ke mesin, tukang las, WPS, dan parameter persis yang digunakan."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Multi-platform access",
+        "id": "Akses multi-platform"
+      },
+      "content": {
+        "en": "Access SMARC from PC, mobile app, or WeChat applet — manage your entire welding operation from anywhere with an internet connection.",
+        "id": "Akses SMARC dari PC, aplikasi seluler, atau applet WeChat — kelola seluruh operasi pengelasan Anda dari mana saja dengan koneksi internet."
+      },
+      "icon": ""
+    }
+  ],
+  "body": [
+    {
+      "title": {
+        "en": "SMARC-2S Intelligent Communication Module",
+        "id": "Modul Komunikasi Cerdas SMARC-2S"
+      },
+      "content": {
+        "en": "Embedded directly into Megmeet welding machines, the SMARC-2S module (158×92.9×40mm) provides Wi-Fi, Ethernet, and 4G connectivity with CAN, RS232, and RS485 interfaces for seamless data transmission to the cloud platform.",
+        "id": "Tertanam langsung di mesin las Megmeet, modul SMARC-2S (158×92,9×40mm) menyediakan konektivitas Wi-Fi, Ethernet, dan 4G dengan antarmuka CAN, RS232, dan RS485 untuk transmisi data yang mulus ke platform cloud."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/smarc-framework.png"
+      }
+    },
+    {
+      "title": {
+        "en": "SMARC-2E Universal Data Collector",
+        "id": "Pengumpul Data Universal SMARC-2E"
+      },
+      "content": {
+        "en": "For non-Megmeet welding machines, the SMARC-2E data collector connects to any brand via 380VAC input, measuring DC 0–1300A current and 0–120VDC voltage with Wi-Fi, Ethernet, and 4G connectivity.",
+        "id": "Untuk mesin las non-Megmeet, pengumpul data SMARC-2E terhubung ke merek apa pun melalui input 380VAC, mengukur arus DC 0–1300A dan tegangan 0–120VDC dengan konektivitas Wi-Fi, Ethernet, dan 4G."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/smarc-functions.png"
+      }
+    },
+    {
+      "title": {
+        "en": "WPS & production management",
+        "id": "Manajemen WPS & produksi"
+      },
+      "content": {
+        "en": "Manage Welding Procedure Specifications (WPS) digitally, assign production tasks to welders, track consumables usage, generate production reports, and receive energy-saving alerts — all from one platform.",
+        "id": "Kelola Spesifikasi Prosedur Pengelasan (WPS) secara digital, tetapkan tugas produksi ke tukang las, lacak penggunaan bahan habis pakai, buat laporan produksi, dan terima peringatan hemat energi — semuanya dari satu platform."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/smarc-solution.png"
+      }
+    },
+    {
+      "title": {
+        "en": "Gas flow monitoring",
+        "id": "Pemantauan aliran gas"
+      },
+      "content": {
+        "en": "Optional SMARC Gas Flowmeter (thermal mass flow meter, 30 L/min range, RS485 output) provides precise shielding gas monitoring to prevent waste and ensure weld quality.",
+        "id": "Flowmeter Gas SMARC opsional (pengukur aliran massa termal, rentang 30 L/menit, output RS485) menyediakan pemantauan gas pelindung yang presisi untuk mencegah pemborosan dan memastikan kualitas las."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/smarc-advantages.png"
+      }
+    },
+    {
+      "hero": {
+        "type": "leftContentBgImg",
+        "title": {
+          "en": "Request a free quote",
+          "id": "Mendapatkan Penawaran Gratis"
+        },
+        "subtitle": {
+          "en": "Ready to incorporate the machine to your business?",
+          "id": "Siap untuk mengintegrasikan mesin ke bisnis Anda?"
+        },
+        "stretched": "false",
+        "links": [
+          {
+            "link": {
+              "type": "custom",
+              "url": "/inquiry",
+              "label": {
+                "en": "Request a quote",
+                "id": "Meminta Penawaran"
+              },
+              "appearance": "default"
+            },
+            "id": "megmeet-smarc-cta-1"
+          }
+        ],
+        "media": ""
+      },
+      "id": "megmeet-smarc-cta-0",
+      "blockType": "cta"
+    }
+  ],
+  "specs": [
+    {
+      "title": "SMARC-2S",
+      "data": [
+        { "dTitle": "Type", "dValue": "Embedded Communication Module" },
+        { "dTitle": "Connectivity", "dValue": "Wi-Fi / Ethernet / 4G" },
+        { "dTitle": "Interfaces", "dValue": "CAN, RS232, RS485" },
+        { "dTitle": "Input power", "dValue": "48VDC" },
+        { "dTitle": "Dimensions", "dValue": "158×92.9×40mm" },
+        { "dTitle": "Compatibility", "dValue": "Megmeet welding machines" }
+      ]
+    },
+    {
+      "title": "SMARC-2E",
+      "data": [
+        { "dTitle": "Type", "dValue": "Universal Welding Data Collector" },
+        { "dTitle": "Connectivity", "dValue": "Wi-Fi / Ethernet / 4G" },
+        { "dTitle": "Input power", "dValue": "380VAC" },
+        { "dTitle": "Current measurement", "dValue": "DC 0–1300A" },
+        { "dTitle": "Voltage measurement", "dValue": "0–120VDC" },
+        { "dTitle": "Compatibility", "dValue": "Any brand welding machine" }
+      ]
+    },
+    {
+      "title": "Gas Flowmeter",
+      "data": [
+        { "dTitle": "Type", "dValue": "Thermal Mass Flow Meter" },
+        { "dTitle": "Flow range", "dValue": "0–30 L/min" },
+        { "dTitle": "Output", "dValue": "RS485" },
+        { "dTitle": "Application", "dValue": "Shielding gas monitoring" }
+      ]
+    }
+  ],
+  "testimonials": [],
+  "slug": "smarc",
+  "_status": "published",
+  "createdAt": "2025-01-15T00:00:00.000Z",
+  "updatedAt": "2025-01-15T00:00:00.000Z",
+  "publishedAt": "2025-01-15T00:00:00.000Z"
+}

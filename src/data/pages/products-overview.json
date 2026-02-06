@@ -1,0 +1,61 @@
+{
+  "pageTitle": {
+    "en": "Products",
+    "id": "Produk"
+  },
+  "bestSellingTitle": {
+    "en": "Best Selling Products",
+    "id": "Produk Terlaris"
+  },
+  "brandsTitle": {
+    "en": "Brands",
+    "id": "Merek"
+  },
+  "categories": [
+    {
+      "title": { "en": "Laser Cutting Machines", "id": "Mesin Laser Cutting" },
+      "description": {
+        "en": "Industrial fiber laser cutters for Indonesia—fast, precise sheet & tube cutting for manufacturing, fabrication, and shipyards.",
+        "id": "Mesin laser cutting fiber industri untuk Indonesia—potong plat & pipa cepat, presisi, untuk manufaktur, fabrikasi, dan shipyard."
+      },
+      "slug": "laser-cutting-machines",
+      "backgroundImage": "/laser-cutting-machine-bg.webp"
+    },
+    {
+      "title": { "en": "Welding Machines", "id": "Mesin Las" },
+      "description": {
+        "en": "Industrial welding machines for Indonesia—MIG, TIG, MMA/Stick, SAW, and laser welding for heavy fabrication and oil & gas.",
+        "id": "Mesin las industri untuk Indonesia—MIG, TIG, MMA/Stick, SAW, dan laser welding untuk fabrikasi berat dan oil & gas."
+      },
+      "slug": "welding-machines"
+    }
+  ],
+  "bestSelling": [
+    { "slug": "a-series", "brand": "bodor" },
+    { "slug": "c-series", "brand": "bodor" },
+    { "slug": "dex2-m-series", "brand": "megmeet" },
+    { "slug": "k-series", "brand": "bodor" },
+    { "slug": "ehave2-cm-series", "brand": "megmeet" },
+    { "slug": "metatig-acdc-series", "brand": "megmeet" }
+  ],
+  "brands": [
+    {
+      "name": "Bodor",
+      "slug": "bodor",
+      "description": {
+        "en": "High-Speed Fiber Laser Cutter — High-speed fiber laser machines for all metals.\nNow fully authorized in Indonesia.",
+        "id": "Mesin Laser Fiber Kecepatan Tinggi — Mesin laser fiber kecepatan tinggi untuk semua jenis logam.\nKini resmi tersedia di Indonesia."
+      },
+      "logo": "/bodor.png"
+    },
+    {
+      "name": "Megmeet",
+      "slug": "megmeet",
+      "description": {
+        "en": "High-end industrial automatic welding equipment and tools, providing cost-effective, high-performance welding machines & solutions to customers. Now fully authorized in Indonesia.",
+        "id": "Peralatan dan alat las otomatis industri kelas atas, menyediakan mesin las berkinerja tinggi dan hemat biaya. Kini resmi tersedia di Indonesia."
+      },
+      "logo": "/megmeet.png"
+    }
+  ]
+}

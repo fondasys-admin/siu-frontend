@@ -1,0 +1,177 @@
+{
+  "heroTitle": {
+    "en": "Our Story of Becoming a Leader in Laser Machines",
+    "id": "Perjalanan Kami Menjadi Pemimpin di Mesin Laser"
+  },
+  "subtitle": {
+    "en": "Unparalleled technical expertise, exceptional customer service.",
+    "id": "Ketrampilan teknis yang tak tertandingi dan pelayanan pelanggan yang luar biasa."
+  },
+  "heroImage": "/layout/story-0.webp",
+  "breakImage": "/layout/story-1.webp",
+  "locationImage": "/layout/story-2.webp",
+  "aboutTitle": {
+    "en": "About Synergis Industrial Utama",
+    "id": "Tentang Synergis Industrial Utama"
+  },
+  "intro": {
+    "en": "At Synergis Industrial Utama, we take pride in being the leading purveyor of top-notch laser cutting machines, coupled with unparalleled technical expertise and exceptional customer service. Our mission revolves around catering to your unique needs and ensuring that you find the perfect laser cutting solution that aligns seamlessly with your requirements.",
+    "id": "Kami bangga menjadi pemasok nomor satu untuk mesin laser pemotong logam terbaik dipadukan dengan keahlian teknis dan pelayanan pelanggan yang ramah. Misi kami adalah berusaha memenuhi kebutuhan yang berbeda-beda dan memastikan anda mendapatkan mesin potong laser plat logam yang tepat sesuai dengan keperluan anda."
+  },
+  "services": [
+    {
+      "title": {
+        "en": "Pre-Sales Consultation",
+        "id": "Konsultasi Sebelum Membeli"
+      },
+      "description": {
+        "en": "Unlock the potential of laser cutting technology. Our pre-sales consultation will explore how a laser cutting machine can streamline your production, boost efficiency, and enhance your products.",
+        "id": "Pahami potensi teknologi pemotongan laser dengan sesi konsultasi sebelum anda memutuskan membeli."
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Cutting",
+        "id": "Contoh Hasil Pemotongan"
+      },
+      "description": {
+        "en": "Eliminate the guesswork and watch it happen! Our complimentary sample cutting service lets you test the waters, ensuring compatibility and optimal results before committing to a purchase. We'll video the process for your review, so you can invest wisely with zero risk.",
+        "id": "Hilangkan keraguan anda dengan menyaksikan sendiri prosesnya."
+      }
+    },
+    {
+      "title": {
+        "en": "Live Cutting Demo",
+        "id": "Demo Langsung Proses Pemotongan"
+      },
+      "description": {
+        "en": "See our state-of-the-art laser cutting machine in action. Witness the speed, accuracy, and versatility firsthand.",
+        "id": "Saksikan langsung mesin laser kami yang canggih dalam proses pemotongan."
+      }
+    }
+  ],
+  "strategicSourcing": {
+    "title": {
+      "en": "Strategic Sourcing",
+      "id": "Pemilihan Supplier Strategis"
+    },
+    "description": {
+      "en": "Strategic sourcing maximises customer value by selecting top-quality suppliers at competitive prices, ensuring customers get the most out of their money through high-quality products and cost savings.",
+      "id": "Kami memilih supplier kami dengan strategi untuk memaksimalkan nilai kepuasan pelanggan. Dengan harga penawaran yang kompetitif, kami akan memastikan pelanggan berhemat dan mendapatkan produk berkualitas tinggi."
+    },
+    "cards": [
+      {
+        "title": {
+          "en": "Trade-In And Upgrade Programs",
+          "id": "Program Tukar Tambah dan Upgrade"
+        },
+        "description": {
+          "en": "Ready to enhance your productivity and precision? Our Trade-In and Upgrade Program makes it easier than ever to get the latest laser cutting technology.",
+          "id": "Waktunya meningkatkan produktivitas dan presisi? Program tukar tambah dan upgrade kami memudahkan anda untuk mendapatkan teknologi laser pemotong terbaru yang lebih sesuai dengan kebutuhan anda."
+        }
+      },
+      {
+        "title": {
+          "en": "Stock Availability",
+          "id": "Ketersediaan Stok"
+        },
+        "description": {
+          "en": "We understand that downtime is costly. That's why we maintain a comprehensive inventory of laser cutting machines, spare parts, and consumables, ensuring you have the resources you need when you need them.",
+          "id": "Kami paham ada kalanya alat anda tidak bekerja maksimal sementara anda tidak ingin pelanggan anda menunggu terlalu lama dan akhirnya pergi. Kami memastikan inventarisasi mesin laser pemotong, suku cadang, dan bahan habis pakai kami tetap komprehensive, sehingga anda akan mendapatkan apa yang anda butuhkan dengan cepat."
+        }
+      },
+      {
+        "title": {
+          "en": "Loaning Services",
+          "id": "Layanan Peminjaman"
+        },
+        "description": {
+          "en": "Unexpected downtime due to a faulty laser source or laser head can severely impact your production schedule and profitability. Our loaning service provides a fast and reliable solution, minimizing downtime and keeping your operations running smoothly.",
+          "id": "Halangan yang takterduga seperti masalah pada sumber atau kepala laser dapar merugikakan anda dari sisi jadwal produksi dan keuntungan. Layanan peminjaman kami menyediakan solusi yang cepat dan bisa diandalkan, terutama untuk menjaga operasional anda lancar dan mengurangi resiko yang ditimbulkan dari hal yang tak terduga."
+        }
+      }
+    ]
+  },
+  "afterSales": {
+    "title": {
+      "en": "After-Sales Service",
+      "id": "Layanan Setelah Pembelian"
+    },
+    "description": {
+      "en": "Investing in a laser cutting machine isn't just a one-time purchase; it's a commitment to enhancing your productivity and efficiency. However, the real measure of value doesn't solely lie in the machine itself but in the comprehensive support that follows – the after-sales service. At Synergis Industrial Utama, we understand that your success hinges on more than just the initial sale; it's about the seamless operation and continued satisfaction with your investment.",
+      "id": "Berinvestasi di mesin laser pemotong tidak berhenti di pembelian saja, melainkan membutuhkan komitmen yang panjang terutama untuk meningkatkan produktivitas dan efisiensinya. Nilai sebenarnya tidak hanya di mesin itu sendiri tetapi juga di layanan setelah pembelian. Synergis Industrial Utama memahami bahwa kesuksesan anda tidak hanya dari pembelian tetapi operasional yang lancar dan kepuasan akan investasi anda setelahnya."
+    },
+    "cards": [
+      {
+        "title": {
+          "en": "Remote Diagnostics And Troubleshooting",
+          "id": "Diagnostik dan Pemecahan Masalah Jarak Jauh"
+        },
+        "description": {
+          "en": "Using remote access software, technicians can diagnose and troubleshoot machine issues from afar, potentially resolving problems without an on-site visit.",
+          "id": "Dengan akses peragkat lunak jarak jauh, teknisi kami dapat mendiagnostik dan memecahkan masalah pada mesin anda jarak jauh, sehingga masalah bisa diselesaikan tanpa kunjungan."
+        }
+      },
+      {
+        "title": {
+          "en": "On-Site Assistance Within 24 Hours",
+          "id": "Kunjungan dalam Kurun Waktu 24 Jam"
+        },
+        "description": {
+          "en": "Troubleshooting not enough? We've got you covered. Our expert team arrives within 24 hours to get you back up and running, ensuring minimal disruption to your production schedule and peace of mind for your business. With Synergis Industrial Utama, reliability and support are always just a call away.",
+          "id": "Ternyata penyelesaian jarak jauh tidak cukup? Kami sudah pikirkan solusinya! Tim ahli kami akan datang dalam kurun waktu 24 jam untuk membantu anda dan memastikan gangguan seminimal mungkin pada jadwal produksi sehingga anda tetap bisa tidur nyeyak karena telah menyerahkan masalah ke tangan yang tepat. Dengan Synergis Industrial Utama, anda hanya perlu menelepon dan biarkan kami memberikan layanan terbaik kami."
+        }
+      },
+      {
+        "title": {
+          "en": "Preventive Maintenance Programs",
+          "id": "Program Perawatan Pencegahan"
+        },
+        "description": {
+          "en": "Don't let unexpected downtime derail your production schedule. Our comprehensive preventive maintenance service is designed to keep your laser cutting machine operating at its best, minimizing the risk of breakdowns and maximizing your return on investment.",
+          "id": "Jangan sampao hal tak terduga mengganggu jadwal produksi anda. Program perawatan komprehensif kami didesain untuk mencegah sebelum terjadi kerusakan yang beresiko besar senhingga alat anda dapat beroperasi seoptimal mungkin untuk memaksimalkan laba atas investasi anda."
+        }
+      }
+    ]
+  },
+  "whyUs": {
+    "title": {
+      "en": "Why Us",
+      "id": "Mengapa Kami?"
+    },
+    "paragraphs": {
+      "en": [
+        "Our team of seasoned professionals isn't just here to sell you a machine; we're here to guide you through every step of the process, offering comprehensive technical consultations that guarantee a smooth and efficient integration of the latest laser technology into your workflow. Whether you're a small-scale business or a large industrial powerhouse, we are committed to delivering tailored solutions that enhance your productivity and precision, making your operations more efficient and cost-effective.",
+        "What sets us apart is our unwavering dedication to customer satisfaction. We understand that investing in a laser cutting machine is an important decision for your business, and that's why we ensure that our after-sales service is second to none. Our support doesn't end with the purchase; it's just the beginning of a long-lasting partnership. We are here to address any concerns or queries you might have, providing you with the peace of mind that you're in capable hands."
+      ],
+      "id": [
+        "Tim kami terdiri dari professional yang sudah berpengalaman yang tidak hanya menjual mesin, tetapi akan memberikan arahan di setiap prosesnya. Kami menawarkan konsultasi teknikal yang komprehensif dan menjamin integrasi teknologi laser terbaru ke alur kerja anda berjalan lancar dan efisien. Baik untuk bisnis skala kecil atau industri besar pembangkit listrik, kami berkomitmen untuk memberikan solusi terbaik untuk memenuhi kebutuhan yang berbeda demi meningkatkan produktivitas, presisi, dan memastikan operasional anda berjalan dengan lebih efisien dan hemat biaya.",
+        "Kami berbeda karena kamu berdedikasi penuh untuk kepuasan pelanggan kami. Kami paham bahwa berinvestasi pada mesin laser pemotong merupakan keputusan besar sehingga kami menyediakan dan menjaga kualitas konsultasi setelah pembelian. Dukungan kami tidak berhenti saat pembelian. Itu hanyalah awal dari proses kemitraan yang berkelanjutan. Kami akan selalu anda untuk menjawab kekhawatiran, pertanyaan dan menyelesaikan masalah anda, sehingga anda tetap tenang karena dilayani oleh ahli yang tepat."
+      ]
+    },
+    "stats": [
+      {
+        "label": { "en": "Cutting Machines Sold", "id": "Cutting Mesin Terjual" },
+        "value": "20+"
+      },
+      {
+        "label": { "en": "Statistic 02", "id": "Statistik 02" },
+        "value": "00"
+      },
+      {
+        "label": { "en": "Statistic 03", "id": "Statistik 03" },
+        "value": "00"
+      }
+    ]
+  },
+  "whereAreWe": {
+    "title": {
+      "en": "Where Are We",
+      "id": "Lokasi"
+    },
+    "address": {
+      "en": "Kedoya Elok Plaza Jl. Panjang No.65,\nKedoya Sel., Kec. Kb. Jeruk, Kota Jakarta Barat,\nDaerah Khusus Ibukota Jakarta 11520, Indonesia",
+      "id": "Gedung Bursa Efek Indonesia Tower 1, Jl. Jendral Sudirman Kav 52-53,\nKebayoran Baru, Jakarta Selatan,\nDKI Jakarta, Indonesia 12190"
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "title": {
+    "en": "We always ready to help you and answer your question",
+    "id": "Kami selalu siap membantu Anda dan menjawab pertanyaan Anda"
+  },
+  "subtitle": {
+    "en": "Looking for a partner to expand and market your products into the Indonesian market? Look no further and partner with us. Here are some ideas on why we should work together.",
+    "id": "Mencari mitra untuk memperluas dan memasarkan produk Anda ke pasar Indonesia? Tidak perlu mencari lagi, bermitralah dengan kami. Berikut beberapa alasan mengapa kita harus bekerja sama."
+  },
+  "formDescription": {
+    "en": "Connect with Our Welding and Cutting Experts Today!",
+    "id": "Hubungi Ahli Las dan Potong Kami Hari Ini!"
+  },
+  "callCenter": { "en": "Call Center", "id": "Pusat Panggilan" },
+  "ourLocation": { "en": "Our Location", "id": "Lokasi Kami" },
+  "email": { "en": "Email", "id": "Email" },
+  "social": { "en": "Social", "id": "Sosial" },
+  "faqTitle": {
+    "en": "Frequently Asked Questions",
+    "id": "Pertanyaan yang Sering Diajukan"
+  },
+  "faqSubtitle": {
+    "en": "Find answers to common questions about our products, services, and support.",
+    "id": "Temukan jawaban atas pertanyaan umum tentang produk, layanan, dan dukungan kami."
+  },
+  "faqs": [
+    {
+      "question": {
+        "en": "What types of laser cutting machines do you offer?",
+        "id": "Jenis mesin laser cutting apa saja yang Anda tawarkan?"
+      },
+      "answer": {
+        "en": "We offer a comprehensive range of laser cutting machines including sheet metal laser cutting machines (A-Series, S-Series, P-Series), tube laser cutting machines (T-Series), and combo sheet & tube laser cutting machines. Our machines are powered by Bodor, a world-leading laser cutting technology manufacturer.",
+        "id": "Kami menawarkan berbagai mesin laser cutting termasuk mesin laser cutting lembaran logam (Seri A, Seri S, Seri P), mesin laser cutting tabung (Seri T), dan mesin laser cutting kombinasi lembaran & tabung. Mesin kami didukung oleh Bodor, produsen teknologi laser cutting terkemuka di dunia."
+      }
+    },
+    {
+      "question": {
+        "en": "Do you provide after-sales support and maintenance?",
+        "id": "Apakah Anda menyediakan dukungan purna jual dan pemeliharaan?"
+      },
+      "answer": {
+        "en": "Yes, we provide 24/7 after-sales support including installation, training, preventive maintenance, spare parts supply, and technical troubleshooting. Our team of certified engineers is available to assist you throughout the entire lifecycle of your equipment.",
+        "id": "Ya, kami menyediakan dukungan purna jual 24/7 termasuk instalasi, pelatihan, pemeliharaan preventif, pasokan suku cadang, dan pemecahan masalah teknis. Tim insinyur bersertifikat kami siap membantu Anda sepanjang siklus hidup peralatan Anda."
+      }
+    },
+    {
+      "question": {
+        "en": "What industries do your machines serve?",
+        "id": "Industri apa saja yang dilayani oleh mesin Anda?"
+      },
+      "answer": {
+        "en": "Our laser cutting and welding machines serve a wide range of industries including automotive, aerospace, shipbuilding, construction, metal fabrication, furniture manufacturing, signage, and general manufacturing. We provide tailored solutions for each industry's specific requirements.",
+        "id": "Mesin laser cutting dan las kami melayani berbagai industri termasuk otomotif, dirgantara, pembuatan kapal, konstruksi, fabrikasi logam, manufaktur furnitur, signage, dan manufaktur umum. Kami menyediakan solusi yang disesuaikan untuk kebutuhan spesifik setiap industri."
+      }
+    },
+    {
+      "question": {
+        "en": "How can I request a product demonstration?",
+        "id": "Bagaimana cara meminta demonstrasi produk?"
+      },
+      "answer": {
+        "en": "You can request a product demonstration by filling out the contact form on this page, calling our office directly, or sending us an email. Our team will arrange a live demonstration at our showroom or at your facility, depending on your preference.",
+        "id": "Anda dapat meminta demonstrasi produk dengan mengisi formulir kontak di halaman ini, menghubungi kantor kami secara langsung, atau mengirimkan email kepada kami. Tim kami akan mengatur demonstrasi langsung di showroom kami atau di fasilitas Anda, sesuai preferensi Anda."
+      }
+    },
+    {
+      "question": {
+        "en": "Do you offer financing or leasing options?",
+        "id": "Apakah Anda menawarkan opsi pembiayaan atau leasing?"
+      },
+      "answer": {
+        "en": "Yes, we work with several financing partners to offer flexible payment plans, leasing options, and installment programs to help make your investment more manageable. Contact our sales team to discuss the best financing solution for your business.",
+        "id": "Ya, kami bekerja sama dengan beberapa mitra pembiayaan untuk menawarkan rencana pembayaran fleksibel, opsi leasing, dan program cicilan untuk membantu membuat investasi Anda lebih mudah dikelola. Hubungi tim penjualan kami untuk mendiskusikan solusi pembiayaan terbaik untuk bisnis Anda."
+      }
+    },
+    {
+      "question": {
+        "en": "Where are you located and what areas do you serve?",
+        "id": "Di mana lokasi Anda dan area mana saja yang Anda layani?"
+      },
+      "answer": {
+        "en": "We are headquartered in Jakarta, Indonesia, and serve customers across the entire Indonesian archipelago. Our strategic location provides easy access for distributing industrial equipment throughout the region.",
+        "id": "Kantor pusat kami berlokasi di Jakarta, Indonesia, dan melayani pelanggan di seluruh kepulauan Indonesia. Lokasi strategis kami memberikan akses mudah untuk mendistribusikan peralatan industri ke seluruh wilayah."
+      }
+    }
+  ],
+  "formLabels": {
+    "name": { "en": "Name", "id": "Nama" },
+    "companyName": { "en": "Company Name", "id": "Nama Perusahaan" },
+    "country": { "en": "Country", "id": "Negara" },
+    "selectCountry": { "en": "Select Country...", "id": "Pilih Negara..." },
+    "searchCountry": { "en": "Search Country...", "id": "Cari Negara..." },
+    "noCountry": { "en": "No Country found.", "id": "Negara tidak ditemukan." },
+    "contactNumber": { "en": "Contact Number", "id": "Nomor Kontak" },
+    "email": { "en": "Email", "id": "Email" },
+    "message": { "en": "Message", "id": "Pesan" },
+    "termsAgreement": {
+      "en": "You agree to our Terms of Service and Privacy Policy.",
+      "id": "Anda menyetujui Ketentuan Layanan dan Kebijakan Privasi kami."
+    },
+    "recaptchaNotice": {
+      "en": "This site is protected by reCAPTCHA and the Google.",
+      "id": "Situs ini dilindungi oleh reCAPTCHA dan Google."
+    },
+    "privacyPolicy": { "en": "Privacy Policy", "id": "Kebijakan Privasi" },
+    "termsOfService": { "en": "Terms of Service", "id": "Ketentuan Layanan" },
+    "submit": { "en": "Submit", "id": "Kirim" },
+    "sending": { "en": "Sending", "id": "Mengirim" },
+    "successTitle": {
+      "en": "Your message has been sent successfully!",
+      "id": "Pesan Anda telah berhasil dikirim!"
+    },
+    "successDescription": {
+      "en": "You will hear back from our representative shortly",
+      "id": "Anda akan segera mendapat balasan dari perwakilan kami"
+    },
+    "errorTitle": {
+      "en": "Uh oh! Something went wrong.",
+      "id": "Ups! Terjadi kesalahan."
+    },
+    "errorDescription": {
+      "en": "There was a problem with your request.",
+      "id": "Terjadi masalah dengan permintaan Anda."
+    },
+    "recaptchaFailed": {
+      "en": "reCAPTCHA verification failed. Please try again.",
+      "id": "Verifikasi reCAPTCHA gagal. Silakan coba lagi."
+    },
+    "whatsapp": {
+      "en": "Connect with us on WhatsApp",
+      "id": "Hubungi kami melalui WhatsApp"
+    },
+    "or": { "en": "or", "id": "atau" }
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "title": "Dex2 M Series",
+  "brand": "Megmeet",
+  "catergory": [
+    "Welding Machine",
+    "MIG Welding"
+  ],
+  "media": {
+    "type": "image",
+    "url": "/products/dex2-m-series.png"
+  },
+  "description": {
+    "en": "Full Digital IGBT Inverter Multi-functional MIG Welding Machine",
+    "id": "Mesin Las MIG Multi-fungsi Inverter IGBT Digital Penuh"
+  },
+  "populatedAuthors": [],
+  "banSubtitle": {
+    "en": "Full Digital IGBT Inverter Multi-functional MIG Welding Machine",
+    "id": "Mesin Las MIG Multi-fungsi Inverter IGBT Digital Penuh"
+  },
+  "banDescription": {
+    "en": "The Megmeet Dex2 M Series delivers exceptional MIG/MAG welding performance with advanced LSA (Low Spatter Arc) technology that reduces spatter by over 50%. Available in DC, Pulse, and Quick Pulse variants for manual and robotic applications across engineering machinery, steel structures, and automotive manufacturing.",
+    "id": "Megmeet Dex2 M Series menghadirkan performa las MIG/MAG yang luar biasa dengan teknologi LSA (Low Spatter Arc) canggih yang mengurangi percikan lebih dari 50%. Tersedia dalam varian DC, Pulse, dan Quick Pulse untuk aplikasi manual dan robotik di bidang permesinan, struktur baja, dan manufaktur otomotif."
+  },
+  "highlights": [
+    {
+      "title": {
+        "en": "400V high-voltage touch sensing",
+        "id": "Penginderaan sentuh tegangan tinggi 400V"
+      },
+      "content": {
+        "en": "Equipped with 400V high-voltage touch sensing (80–400V range) for accurate workpiece detection and positioning, especially useful in robotic welding applications.",
+        "id": "Dilengkapi dengan penginderaan sentuh tegangan tinggi 400V (kisaran 80–400V) untuk deteksi dan penentuan posisi benda kerja yang akurat, terutama berguna dalam aplikasi pengelasan robotik."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Smart connectivity & IoT",
+        "id": "Konektivitas pintar & IoT"
+      },
+      "content": {
+        "en": "Features U-disk firmware upgrades and SMARC IoT interface for real-time welding data monitoring, welder management, and production reporting through cloud-based smart welding platforms.",
+        "id": "Dilengkapi dengan pembaruan firmware melalui U-disk dan antarmuka SMARC IoT untuk pemantauan data las secara real-time, manajemen tukang las, dan pelaporan produksi melalui platform las pintar berbasis cloud."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "100% Duty Cycle",
+        "id": "Siklus Kerja 100%"
+      },
+      "content": {
+        "en": "Rated at 100% duty cycle at full output current, the Dex2 M Series is built for continuous heavy-duty industrial welding without downtime.",
+        "id": "Dengan siklus kerja 100% pada arus output penuh, Dex2 M Series dirancang untuk pengelasan industri berat secara terus-menerus tanpa waktu henti."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Manual & Robotic Variants",
+        "id": "Varian Manual & Robotik"
+      },
+      "content": {
+        "en": "Available in both manual and robotic versions with full communication protocol support including DeviceNet, CANopen, EtherNet/IP, EtherCAT, and Profinet.",
+        "id": "Tersedia dalam versi manual dan robotik dengan dukungan protokol komunikasi lengkap termasuk DeviceNet, CANopen, EtherNet/IP, EtherCAT, dan Profinet."
+      },
+      "icon": ""
+    }
+  ],
+  "body": [
+    {
+      "title": {
+        "en": "Low Spatter Arc (LSA)",
+        "id": "Busur Rendah Percikan (LSA)"
+      },
+      "content": {
+        "en": "Advanced LSA technology reduces spatter by over 50% compared to conventional MIG welding, delivering cleaner welds and less post-weld cleanup.",
+        "id": "Teknologi LSA canggih mengurangi percikan lebih dari 50% dibandingkan las MIG konvensional, menghasilkan lasan lebih bersih dan mengurangi pembersihan pasca-las."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/dex-2-lsa.png"
+      }
+    },
+    {
+      "title": {
+        "en": "Quick Pulse Technology",
+        "id": "Teknologi Quick Pulse"
+      },
+      "content": {
+        "en": "QPT increases welding speed by over 20% compared to conventional pulse welding, boosting productivity while maintaining excellent weld quality.",
+        "id": "QPT meningkatkan kecepatan pengelasan lebih dari 20% dibandingkan las pulse konvensional, meningkatkan produktivitas dengan tetap menjaga kualitas las yang sangat baik."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/dex2-quick-pulse-tec.png"
+      }
+    },
+    {
+      "title": {
+        "en": "Chopper control for precise droplet transfer",
+        "id": "Kontrol chopper untuk transfer droplet yang presisi"
+      },
+      "content": {
+        "en": "The Dex2 M Series uses chopper control technology for precise droplet control during welding, ensuring consistent and high-quality weld beads across all welding positions and materials.",
+        "id": "Dex2 M Series menggunakan teknologi kontrol chopper untuk pengendalian droplet yang presisi selama pengelasan, memastikan hasil lasan yang konsisten dan berkualitas tinggi di semua posisi dan material."
+      },
+      "media": {
+        "type": "",
+        "url": ""
+      }
+    },
+    {
+      "title": {
+        "en": "Adaptive arc-start retraction",
+        "id": "Retraksi busur awal yang adaptif"
+      },
+      "content": {
+        "en": "Nearly 100% arc-start success rate thanks to adaptive retraction technology. The system intelligently adjusts arc initiation parameters for reliable starts every time, reducing material waste and rework.",
+        "id": "Tingkat keberhasilan penyalaan busur hampir 100% berkat teknologi retraksi adaptif. Sistem secara cerdas menyesuaikan parameter inisiasi busur untuk penyalaan yang andal setiap saat, mengurangi limbah material dan pengerjaan ulang."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/dex2-adaptive-arc.png"
+      }
+    },
+    {
+      "hero": {
+        "type": "leftContentBgImg",
+        "title": {
+          "en": "Request a free quote",
+          "id": "Mendapatkan Penawaran Gratis"
+        },
+        "subtitle": {
+          "en": "Ready to incorporate the machine to your business?",
+          "id": "Siap untuk mengintegrasikan mesin ke bisnis Anda?"
+        },
+        "stretched": "false",
+        "links": [
+          {
+            "link": {
+              "type": "custom",
+              "url": "/inquiry",
+              "label": {
+                "en": "Request a quote",
+                "id": "Meminta Penawaran"
+              },
+              "appearance": "default"
+            },
+            "id": "megmeet-dex2m-cta-1"
+          }
+        ],
+        "media": ""
+      },
+      "id": "megmeet-dex2m-cta-0",
+      "blockType": "cta"
+    }
+  ],
+  "specs": [
+    {
+      "title": "Dex2 350MD",
+      "data": [
+        { "dTitle": "Rated output current", "dValue": "350A" },
+        { "dTitle": "Rated output voltage", "dValue": "31.5V" },
+        { "dTitle": "Input capacity", "dValue": "13.4KVA / 12.3KW" },
+        { "dTitle": "No-load voltage", "dValue": "77V" },
+        { "dTitle": "Duty cycle", "dValue": "100%" },
+        { "dTitle": "Wire feed speed", "dValue": "0.5–28 m/min" },
+        { "dTitle": "Welding processes", "dValue": "LSA, DC, Flux Core" },
+        { "dTitle": "Dimensions", "dValue": "647×291×572mm" },
+        { "dTitle": "Weight", "dValue": "37kg" }
+      ]
+    },
+    {
+      "title": "Dex2 500MD",
+      "data": [
+        { "dTitle": "Rated output current", "dValue": "500A" },
+        { "dTitle": "Rated output voltage", "dValue": "39V" },
+        { "dTitle": "Input capacity", "dValue": "23.3KVA / 21.4KW" },
+        { "dTitle": "No-load voltage", "dValue": "77V" },
+        { "dTitle": "Duty cycle", "dValue": "100%" },
+        { "dTitle": "Wire feed speed", "dValue": "0.5–28 m/min" },
+        { "dTitle": "Welding processes", "dValue": "LSA, DC, Flux Core" },
+        { "dTitle": "Dimensions", "dValue": "647×291×572mm" },
+        { "dTitle": "Weight", "dValue": "37kg" }
+      ]
+    },
+    {
+      "title": "Dex2 350MP",
+      "data": [
+        { "dTitle": "Rated output current", "dValue": "350A" },
+        { "dTitle": "Rated output voltage", "dValue": "31.5V" },
+        { "dTitle": "Input capacity", "dValue": "13.4KVA / 12.3KW" },
+        { "dTitle": "No-load voltage", "dValue": "77V" },
+        { "dTitle": "Duty cycle", "dValue": "100%" },
+        { "dTitle": "Wire feed speed", "dValue": "0.5–28 m/min" },
+        { "dTitle": "Welding processes", "dValue": "LSA, DC, Pulse MAG/MIG, Flux Core" },
+        { "dTitle": "Dimensions", "dValue": "647×291×572mm" },
+        { "dTitle": "Weight", "dValue": "37kg" }
+      ]
+    },
+    {
+      "title": "Dex2 500MP",
+      "data": [
+        { "dTitle": "Rated output current", "dValue": "500A" },
+        { "dTitle": "Rated output voltage", "dValue": "39V" },
+        { "dTitle": "Input capacity", "dValue": "23.3KVA / 21.4KW" },
+        { "dTitle": "No-load voltage", "dValue": "77V" },
+        { "dTitle": "Duty cycle", "dValue": "100%" },
+        { "dTitle": "Wire feed speed", "dValue": "0.5–28 m/min" },
+        { "dTitle": "Welding processes", "dValue": "LSA, DC, Pulse MAG/MIG, Flux Core" },
+        { "dTitle": "Dimensions", "dValue": "647×291×572mm" },
+        { "dTitle": "Weight", "dValue": "37kg" }
+      ]
+    },
+    {
+      "title": "Dex2 350MQ",
+      "data": [
+        { "dTitle": "Rated output current", "dValue": "350A" },
+        { "dTitle": "Rated output voltage", "dValue": "31.5V" },
+        { "dTitle": "Input capacity", "dValue": "13.4KVA / 12.3KW" },
+        { "dTitle": "No-load voltage", "dValue": "77V" },
+        { "dTitle": "Duty cycle", "dValue": "100%" },
+        { "dTitle": "Wire feed speed", "dValue": "0.5–28 m/min" },
+        { "dTitle": "Welding processes", "dValue": "LSA, DC, Pulse, Quick Pulse, Flux Core" },
+        { "dTitle": "Dimensions", "dValue": "647×291×572mm" },
+        { "dTitle": "Weight", "dValue": "37kg" }
+      ]
+    },
+    {
+      "title": "Dex2 500MQ",
+      "data": [
+        { "dTitle": "Rated output current", "dValue": "500A" },
+        { "dTitle": "Rated output voltage", "dValue": "39V" },
+        { "dTitle": "Input capacity", "dValue": "23.3KVA / 21.4KW" },
+        { "dTitle": "No-load voltage", "dValue": "77V" },
+        { "dTitle": "Duty cycle", "dValue": "100%" },
+        { "dTitle": "Wire feed speed", "dValue": "0.5–28 m/min" },
+        { "dTitle": "Welding processes", "dValue": "LSA, DC, Pulse, Quick Pulse, Flux Core" },
+        { "dTitle": "Dimensions", "dValue": "647×291×572mm" },
+        { "dTitle": "Weight", "dValue": "37kg" }
+      ]
+    }
+  ],
+  "testimonials": [],
+  "slug": "dex2-m-series",
+  "_status": "published",
+  "createdAt": "2025-01-15T00:00:00.000Z",
+  "updatedAt": "2025-01-15T00:00:00.000Z",
+  "publishedAt": "2025-01-15T00:00:00.000Z"
+}

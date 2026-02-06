@@ -1,0 +1,245 @@
+{
+  "title": "I Series",
+  "catergory": "65f435c347076d5926af7523",
+  "slug": "i-series",
+  "_status": "published",
+  "createdAt": {
+    "$date": "2024-04-09T09:18:05.138Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-12T09:30:35.043Z"
+  },
+  "__v": 0,
+  "_id": {
+    "$oid": "661507cd5cf3b8a21f39d2f7"
+  },
+  "subCatergory": "6624d4fa8a7b829b8552f8ed",
+  "publishedAt": {
+    "$date": "2024-04-09T09:18:05.121Z"
+  },
+  "media": {
+    "type": "image",
+    "url": "/products/i-series.webp"
+  },
+  "description": {
+    "en": "A compact design sheet fiber laser metal cutting machine with complete protection",
+    "id": "Laser cutting mesin serat plat logam berdesain ringkas dengan \nperlindungan lengkap\n"
+  },
+  "banSubtitle": {
+    "en": "Compact Sheet Metal Cutting Machine",
+    "id": "Laser cutting mesin serat plat logam berdesain ringkas dengan  perlindungan lengkap"
+  },
+  "banDescription": {
+    "en": "Explore where functionality meets space-saving.",
+    "id": "Cocok untuk ruang sempit, I Series tetap berfungsi maksimal walaupun berdesain ringkas."
+  },
+  "populatedAuthors": [],
+  "highlights": [
+    {
+      "title": {
+        "en": "Compact, flexible design",
+        "id": "Desain Ringkas Dan Fleksibel"
+      },
+      "content": {
+        "en": "i series increases productivity of your production line without requiring much space. The system has been designed to take up as little floor space as possible.",
+        "id": "Produk Seri I meningkatkan produktivitas Anda tanpa memerlukan banyak ruang. Sistem ini didesain untuk menggunakan sesedikit mungkin ruang di lantai."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Eco-friendliness",
+        "id": "Ramah Lingkungan"
+      },
+      "content": {
+        "en": "The fully enclosed design leads to more economical processing and faster performance, with a much lower power consumption.",
+        "id": "Desain yang tertutup sepenuhnya mampu menghasilkan proses yang lebih ekonomis, kinerja yang lebih cepat, dan konsumsi daya yang jauh lebih sedikit."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Efficiency",
+        "id": "Efisiensi"
+      },
+      "content": {
+        "en": "i series' compact system demonstrates high productivity thanks to Bodor's intelligent functions, as they optimize material flow, boost output, and increase the operating safety of the production line.",
+        "id": "Produk-produk Seri I memiliki kemampuan produktivitas yang tinggi berkat fungsi cerdas dari Bodor. Sistem ringkasnya memaksimalkan aliran material, meningkatkan hasil produksi, dan meningkatkan keamanan operasional pada baris produksi."
+      },
+      "icon": ""
+    }
+  ],
+  "body": [
+    {
+      "title": {
+        "en": "Active collision avoidance",
+        "id": "Sistem Pencegah Halangan Aktif"
+      },
+      "content": {
+        "en": "BodorGenius, Bodor’s intelligent laser head, uses sensors and algorithms to detect potential obstacles like tilting parts and automatically avoids a potential collision. It largely ensures the stability as well as operating efficiency in the cutting process.",
+        "id": "BodorGenius, kepala laser cerdas dari Bodor, menggunakan sensor dan algoritma untuk mendeteksi kemungkinan terjadinya tabrakan seperti bagian yang miring, lalu secara otomatis mencegah terjadinya benturan. Sistem ini menjamin stabilitas dan efisiensi operasional saat memotong. "
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/pseries-3.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Lightning piercing",
+        "id": "Pelubangan Kilat"
+      },
+      "content": {
+        "en": "The technology offers rapid, precise piercing with reduced amount of time. It features efficiency monitored processes, focus adjustment, and integration with BodorGenius. This enables quick piercing in sync with the cutting head's movement, optimizing operations for medium-thick plates without extra time or motion.",
+        "id": "Teknologi ini membuat proses pelubangan yang cepat, presisi, dan lebih singkat. Terdapat fitur monitoring untuk efisiensi, penyesuaian fokus otomatis untuk pelubangan tanpa henti, dan integrasi dengan Bodor Genius. Ini memungkinkan proses pelubangan dilakukan bersamaan dengan pergerakan kepala pemotong. Proses produksi dengan Lembaran medium-tebal menjadi optimal, tanpa perlu waktu atau gerakan tambahan."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/hseries-2.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Intelligent remnant layout",
+        "id": "Tata Letak Sisa Bahan Yang Cerdas"
+      },
+      "content": {
+        "en": "To achieve maximum material utilization, all you need to do is uploading pictures of the remnant to the control system with your mobile phone. i series is able to automatically finish positioning as well as nesting. The higher the percentage of utilization, the more economical the process. Enjoy the benefits of significantly increased cost savings.",
+        "id": "Untuk mengoptimalkan penggunaan bahan, Anda hanya perlu mengunggah foto sisa bahan ke sistem kontrol lewat ponsel Anda. Produk-produk Seri I mampu mengatur posisi dan proses nesting secara otomatis. Semakin tinggi persentase penggunaan bahan, semakin murah pula proses produksinya. Anda akan menghemat begitu banyak uang. "
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/pseries-6.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Overheating offset",
+        "id": "Pembuangan Panas Berlebih"
+      },
+      "content": {
+        "en": "To stabilize laser beam focal point during the cutting process, this function counteracts the adverse effects of overheating by adjusting time and temperature. It is especially applicable to cutting thick sheet metal.",
+        "id": "Untuk menstabilkan titik fokus sinar laser selama proses pemotongan, fungsi ini menetralkan efek samping overheating dengan cara menyesuaikan waktu dan suhu. Fitur ini sangat berguna saat memotong lembaran logam yang tebal."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/hseries-4.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Anti-burning mineral casting plate",
+        "id": "Lembaran Mineral Casting Anti Terbakar"
+      },
+      "content": {
+        "en": "Bodor’s newly developed anti-burning plate, made by mineral casting, provides numerous advantages in slag removal, operations, modular design, fire resistance, and hardness. When used, the plate prevents damage to the machine bed caused by material residue, essentially lowering maintenance costs and offering better durability. Its lightweight structure also makes it easy to replace during regular maintenance.",
+        "id": "Lembaran anti terbakar terbaru dari Bodor, yang terbuat dari proses mineral casting, sangat unggul dalam hal menghilangkan terak, operasional, desain modular, resistensi terhadap api, dan kekerasannya. Saat digunakan, Lembaran ini mencegah kerusakan fondasi mesin yang disebabkan residu material, sehingga biaya perawatan menjadi lebih rendah dan daya tahannya lebih lama. Strukturnya yang ringan juga membuat komponen mudah diganti saat melakukan perawatan reguler."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/dream-4.jpeg"
+      }
+    }
+  ],
+  "specs": [
+    {
+      "title": "i5",
+      "data": [
+        {
+          "dTitle": "Working area",
+          "dValue": "1000*1500mm"
+        },
+        {
+          "dTitle": "Machine overall dimensions",
+          "dValue": "2980×2220×1970mm"
+        },
+        {
+          "dTitle": "Laser output power",
+          "dValue": "6000W / 3000W / 1500W"
+        },
+        {
+          "dTitle": "Positioning accuracy",
+          "dValue": "±0.05mm/m"
+        },
+        {
+          "dTitle": "Repositioning accuracy",
+          "dValue": "±0.03mm"
+        },
+        {
+          "dTitle": "Max. linkage speed",
+          "dValue": "91m/min"
+        },
+        {
+          "dTitle": "Max. acceleration",
+          "dValue": "1.5G"
+        }
+      ]
+    },
+    {
+      "title": "i6",
+      "data": [
+        {
+          "dTitle": "Working area",
+          "dValue": "2000*1000mm"
+        },
+        {
+          "dTitle": "Machine overall dimensions",
+          "dValue": "4049×1955×2230mm"
+        },
+        {
+          "dTitle": "Laser output power",
+          "dValue": "6000W / 3000W / 1500W"
+        },
+        {
+          "dTitle": "Positioning accuracy",
+          "dValue": "±0.05mm/m"
+        },
+        {
+          "dTitle": "Repositioning accuracy",
+          "dValue": "±0.03mm"
+        },
+        {
+          "dTitle": "Max. linkage speed",
+          "dValue": "91m/min"
+        },
+        {
+          "dTitle": "Max. acceleration",
+          "dValue": "1.5G"
+        }
+      ]
+    },
+    {
+      "title": "i7",
+      "data": [
+        {
+          "dTitle": "Working area",
+          "dValue": "3048*1524mm"
+        },
+        {
+          "dTitle": "Machine overall dimensions",
+          "dValue": "4955×2320×2200mm"
+        },
+        {
+          "dTitle": "Laser output power",
+          "dValue": "12000W / 6000W / 3000W / 1500W"
+        },
+        {
+          "dTitle": "Positioning accuracy",
+          "dValue": "±0.05mm/m"
+        },
+        {
+          "dTitle": "Repositioning accuracy",
+          "dValue": "±0.03mm"
+        },
+        {
+          "dTitle": "Max. linkage speed",
+          "dValue": "91m/min"
+        },
+        {
+          "dTitle": "Max. acceleration",
+          "dValue": "1.5G"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "title": "iLoader eco",
+  "brand": "Bodor",
+  "catergory": [
+    "Laser Cutting Machine",
+    "Sheet Cutting Automation Devices"
+  ],
+  "media": {
+    "type": "image",
+    "url": "/products/iloader-eco.webp"
+  },
+  "description": {
+    "en": "Semi-Automatic Loading Device",
+    "id": "Perangkat Loading Semi-Otomatis"
+  },
+  "populatedAuthors": [],
+  "banSubtitle": {
+    "en": "Semi-Automatic Loading Device",
+    "id": "Perangkat Loading Semi-Otomatis"
+  },
+  "banDescription": {
+    "en": "The iLoader eco is a semi-automatic auxiliary loading device with compact structure and easy operation. Designed to provide semi-automatic assistance for manual operations, it reduces time and labor requirements while maintaining a user-friendly interface.",
+    "id": "iLoader eco adalah perangkat loading semi-otomatis dengan struktur kompak dan pengoperasian yang mudah. Dirancang untuk memberikan bantuan semi-otomatis pada operasi manual, mengurangi waktu dan kebutuhan tenaga kerja sambil mempertahankan antarmuka yang ramah pengguna."
+  },
+  "highlights": [
+    {
+      "title": {
+        "en": "Compact Structure",
+        "id": "Struktur Kompak"
+      },
+      "content": {
+        "en": "Compact structural design that fits seamlessly into your existing production layout without requiring extensive floor space.",
+        "id": "Desain struktur kompak yang dapat ditempatkan dengan mudah di tata letak produksi Anda tanpa memerlukan ruang lantai yang luas."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Easy Operation",
+        "id": "Pengoperasian Mudah"
+      },
+      "content": {
+        "en": "User-friendly operation interface that simplifies the loading process, making it accessible for operators of all skill levels.",
+        "id": "Antarmuka operasi yang ramah pengguna menyederhanakan proses loading, sehingga dapat digunakan oleh operator dengan berbagai tingkat keahlian."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Labor-Saving",
+        "id": "Hemat Tenaga Kerja"
+      },
+      "content": {
+        "en": "Semi-automatic auxiliary loading mechanism significantly reduces physical effort and time during manual loading operations.",
+        "id": "Mekanisme loading semi-otomatis secara signifikan mengurangi usaha fisik dan waktu selama operasi loading manual."
+      },
+      "icon": ""
+    }
+  ],
+  "body": [
+    {
+      "title": {
+        "en": "Semi-Automatic Auxiliary Loading",
+        "id": "Loading Bantu Semi-Otomatis"
+      },
+      "content": {
+        "en": "The iLoader eco provides an efficient semi-automatic loading solution that bridges the gap between fully manual and fully automated loading. Its straightforward operational mechanics minimize physical effort during loading processes while maintaining flexibility for various sheet sizes and materials.",
+        "id": "iLoader eco menyediakan solusi loading semi-otomatis yang efisien, menjembatani antara loading manual dan otomatis penuh. Mekanisme operasionalnya yang mudah meminimalkan usaha fisik selama proses loading sambil mempertahankan fleksibilitas untuk berbagai ukuran dan bahan plat."
+      },
+      "media": {
+        "type": "",
+        "url": ""
+      }
+    },
+    {
+      "title": {
+        "en": "Effortless Operation",
+        "id": "Pengoperasian Tanpa Hambatan"
+      },
+      "content": {
+        "en": "Designed with simplicity in mind, the iLoader eco features an intuitive control system that allows operators to quickly learn and efficiently use the device. The streamlined workflow reduces training time and increases overall productivity.",
+        "id": "Dirancang dengan kesederhanaan, iLoader eco dilengkapi sistem kontrol intuitif yang memungkinkan operator dengan cepat mempelajari dan menggunakan perangkat secara efisien. Alur kerja yang efisien mengurangi waktu pelatihan dan meningkatkan produktivitas secara keseluruhan."
+      },
+      "media": {
+        "type": "",
+        "url": ""
+      }
+    }
+  ],
+  "specs": [],
+  "slug": "iloader-eco",
+  "_status": "published"
+}

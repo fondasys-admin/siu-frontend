@@ -1,0 +1,201 @@
+{
+  "title": "ST Series",
+  "brand": "Megmeet",
+  "catergory": [
+    "Welding Machine",
+    "MMA Welding"
+  ],
+  "media": {
+    "type": "image",
+    "url": "/products/st-series.webp"
+  },
+  "description": {
+    "en": "Full-Digital IGBT Inverter MMA Welding Machine",
+    "id": "Mesin Las MMA Inverter IGBT Digital Penuh"
+  },
+  "populatedAuthors": [],
+  "banSubtitle": {
+    "en": "Full-Digital IGBT Inverter MMA Welding Machine",
+    "id": "Mesin Las MMA Inverter IGBT Digital Penuh"
+  },
+  "banDescription": {
+    "en": "The Megmeet ST Series is a robust MMA (stick) welding machine built for heavy industrial applications. With output up to 630A at 100% duty cycle, wide ±25% input voltage tolerance, and stable operation at 100m cable extension, it excels in petrochemical, power, shipbuilding, and steel structure construction.",
+    "id": "Megmeet ST Series adalah mesin las MMA (stick) yang tangguh untuk aplikasi industri berat. Dengan output hingga 630A pada siklus kerja 100%, toleransi tegangan input lebar ±25%, dan operasi stabil pada perpanjangan kabel 100m, mesin ini unggul di bidang petrokimia, kelistrikan, pembuatan kapal, dan konstruksi struktur baja."
+  },
+  "highlights": [
+    {
+      "title": {
+        "en": "Up to 630A output",
+        "id": "Output hingga 630A"
+      },
+      "content": {
+        "en": "Available in 400A, 500A, and 630A variants. The ST500 and ST630 are rated at 100% duty cycle for continuous industrial welding without interruption.",
+        "id": "Tersedia dalam varian 400A, 500A, dan 630A. ST500 dan ST630 memiliki siklus kerja 100% untuk pengelasan industri kontinu tanpa gangguan."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Wide voltage tolerance",
+        "id": "Toleransi tegangan lebar"
+      },
+      "content": {
+        "en": "Accepts input voltage fluctuation of ±25%, ensuring reliable performance in remote job sites and developing regions with unstable power grids.",
+        "id": "Menerima fluktuasi tegangan input ±25%, memastikan performa andal di lokasi kerja terpencil dan daerah dengan jaringan listrik yang tidak stabil."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "100m cable stability",
+        "id": "Stabilitas kabel 100m"
+      },
+      "content": {
+        "en": "Maintains stable welding arc and output even with welding cables extended to 100 meters, ideal for large construction sites and tall structures.",
+        "id": "Menjaga busur las dan output yang stabil bahkan dengan kabel las diperpanjang hingga 100 meter, ideal untuk lokasi konstruksi besar dan struktur tinggi."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Gouging capability",
+        "id": "Kemampuan gouging"
+      },
+      "content": {
+        "en": "ST500 and ST630 include arc gouging function supporting up to 12mm carbon rods, enabling weld preparation and defect removal without additional equipment.",
+        "id": "ST500 dan ST630 dilengkapi fungsi gouging busur yang mendukung batang karbon hingga 12mm, memungkinkan persiapan las dan penghapusan cacat tanpa peralatan tambahan."
+      },
+      "icon": ""
+    }
+  ],
+  "body": [
+    {
+      "title": {
+        "en": "Versatile electrode compatibility",
+        "id": "Kompatibilitas elektroda serbaguna"
+      },
+      "content": {
+        "en": "Supports acidic, alkaline, stainless steel, and low-hydrogen electrodes for maximum flexibility across different welding applications and material requirements.",
+        "id": "Mendukung elektroda asam, basa, baja tahan karat, dan rendah hidrogen untuk fleksibilitas maksimum di berbagai aplikasi pengelasan dan kebutuhan material."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/st-mma-tig.jpg"
+      }
+    },
+    {
+      "title": {
+        "en": "VRD electric shock protection",
+        "id": "Perlindungan kejut listrik VRD"
+      },
+      "content": {
+        "en": "Built-in Voltage Reduction Device (VRD) provides electric shock protection for operators, meeting safety standards required for confined space and high-risk welding environments.",
+        "id": "Perangkat Pengurangan Tegangan (VRD) bawaan memberikan perlindungan kejut listrik bagi operator, memenuhi standar keselamatan yang diperlukan untuk ruang terbatas dan lingkungan pengelasan berisiko tinggi."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/st-vrd-protection.jpg"
+      }
+    },
+    {
+      "title": {
+        "en": "Smart management & IoT",
+        "id": "Manajemen pintar & IoT"
+      },
+      "content": {
+        "en": "Features U-disk firmware upgrades, RFID card linking for welder identity management, and optional SMARC IoT integration for welding data monitoring and production reporting.",
+        "id": "Dilengkapi pembaruan firmware melalui U-disk, penghubungan kartu RFID untuk manajemen identitas tukang las, dan integrasi SMARC IoT opsional untuk pemantauan data las dan pelaporan produksi."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/st-application.jpg"
+      }
+    },
+    {
+      "hero": {
+        "type": "leftContentBgImg",
+        "title": {
+          "en": "Request a free quote",
+          "id": "Mendapatkan Penawaran Gratis"
+        },
+        "subtitle": {
+          "en": "Ready to incorporate the machine to your business?",
+          "id": "Siap untuk mengintegrasikan mesin ke bisnis Anda?"
+        },
+        "stretched": "false",
+        "links": [
+          {
+            "link": {
+              "type": "custom",
+              "url": "/inquiry",
+              "label": {
+                "en": "Request a quote",
+                "id": "Meminta Penawaran"
+              },
+              "appearance": "default"
+            },
+            "id": "megmeet-st-cta-1"
+          }
+        ],
+        "media": ""
+      },
+      "id": "megmeet-st-cta-0",
+      "blockType": "cta"
+    }
+  ],
+  "specs": [
+    {
+      "title": "ST400",
+      "data": [
+        { "dTitle": "Rated output current", "dValue": "400A" },
+        { "dTitle": "Rated output voltage", "dValue": "34V" },
+        { "dTitle": "No-load voltage", "dValue": "63V" },
+        { "dTitle": "Rated input power", "dValue": "17.1KVA / 16.3KW" },
+        { "dTitle": "Current range", "dValue": "30–400A" },
+        { "dTitle": "Duty cycle", "dValue": "60% @ 400A" },
+        { "dTitle": "Power factor", "dValue": "0.95" },
+        { "dTitle": "Efficiency", "dValue": "88.5%" },
+        { "dTitle": "Dimensions", "dValue": "684×320×580mm" },
+        { "dTitle": "Weight", "dValue": "34kg" }
+      ]
+    },
+    {
+      "title": "ST500",
+      "data": [
+        { "dTitle": "Rated output current", "dValue": "500A" },
+        { "dTitle": "Rated output voltage", "dValue": "40V" },
+        { "dTitle": "No-load voltage", "dValue": "73V" },
+        { "dTitle": "Rated input power", "dValue": "23.6KVA / 22.2KW" },
+        { "dTitle": "Current range", "dValue": "30–500A" },
+        { "dTitle": "Duty cycle", "dValue": "100% @ 500A" },
+        { "dTitle": "Power factor", "dValue": "0.94" },
+        { "dTitle": "Efficiency", "dValue": "90%" },
+        { "dTitle": "Gouging", "dValue": "Yes" },
+        { "dTitle": "Dimensions", "dValue": "684×320×580mm" },
+        { "dTitle": "Weight", "dValue": "37kg" }
+      ]
+    },
+    {
+      "title": "ST630",
+      "data": [
+        { "dTitle": "Rated output current", "dValue": "630A" },
+        { "dTitle": "Rated output voltage", "dValue": "44V" },
+        { "dTitle": "No-load voltage", "dValue": "78V" },
+        { "dTitle": "Rated input power", "dValue": "32.4KVA / 30.4KW" },
+        { "dTitle": "Current range", "dValue": "30–630A" },
+        { "dTitle": "Duty cycle", "dValue": "100% @ 630A" },
+        { "dTitle": "Power factor", "dValue": "0.94" },
+        { "dTitle": "Efficiency", "dValue": "91%" },
+        { "dTitle": "Gouging", "dValue": "Yes (up to 12mm carbon rod)" },
+        { "dTitle": "Dimensions", "dValue": "684×320×580mm" },
+        { "dTitle": "Weight", "dValue": "38kg" }
+      ]
+    }
+  ],
+  "testimonials": [],
+  "slug": "st-series",
+  "_status": "published",
+  "createdAt": "2025-01-15T00:00:00.000Z",
+  "updatedAt": "2025-01-15T00:00:00.000Z",
+  "publishedAt": "2025-01-15T00:00:00.000Z"
+}

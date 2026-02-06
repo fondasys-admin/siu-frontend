@@ -1,0 +1,199 @@
+{
+  "title": "MetaTIG DC Series",
+  "brand": "Megmeet",
+  "catergory": [
+    "Welding Machine",
+    "TIG Welding"
+  ],
+  "media": {
+    "type": "image",
+    "url": "/products/metatig-series.webp"
+  },
+  "description": {
+    "en": "Full-Digital IGBT Inverter Multifunctional DC TIG Welding Machine",
+    "id": "Mesin Las TIG DC Multi-fungsi Inverter IGBT Digital Penuh"
+  },
+  "populatedAuthors": [],
+  "banSubtitle": {
+    "en": "Full-Digital IGBT Inverter Multifunctional DC TIG Welding Machine",
+    "id": "Mesin Las TIG DC Multi-fungsi Inverter IGBT Digital Penuh"
+  },
+  "banDescription": {
+    "en": "The Megmeet MetaTIG DC Series delivers precision DC TIG welding with arc stability starting at just 3A, 0.1–3000Hz pulse frequency, and multiple waveforms. Lightweight at 37kg with 100% duty cycle at 400A, it is the reliable workhorse for steel, stainless steel, and alloy welding.",
+    "id": "Megmeet MetaTIG DC Series menghadirkan pengelasan TIG DC presisi dengan stabilitas busur mulai dari hanya 3A, frekuensi pulse 0,1–3000Hz, dan beberapa bentuk gelombang. Ringan hanya 37kg dengan siklus kerja 100% pada 400A, mesin ini menjadi andalan untuk pengelasan baja, baja tahan karat, dan paduan."
+  },
+  "highlights": [
+    {
+      "title": {
+        "en": "Ultra-low 3A arc start",
+        "id": "Penyalaan busur ultra-rendah 3A"
+      },
+      "content": {
+        "en": "Arc starts and stabilizes at just 3A, enabling precision welding of thin materials without burn-through or distortion.",
+        "id": "Busur menyala dan stabil pada hanya 3A, memungkinkan pengelasan presisi material tipis tanpa burn-through atau distorsi."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "0.1–3000Hz pulse range",
+        "id": "Rentang pulse 0,1–3000Hz"
+      },
+      "content": {
+        "en": "Ultra-wide DC pulse frequency range from 0.1 to 3000Hz with 1–99% pulse width adjustment for fine-tuned heat input control on any material.",
+        "id": "Rentang frekuensi pulse DC ultra-lebar dari 0,1 hingga 3000Hz dengan penyesuaian lebar pulse 1–99% untuk kontrol masukan panas yang presisi pada material apapun."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Lightweight & powerful",
+        "id": "Ringan & bertenaga"
+      },
+      "content": {
+        "en": "Weighing only 37kg with output up to 500A, the MetaTIG DC Series offers exceptional power-to-weight ratio with 91% energy efficiency.",
+        "id": "Dengan berat hanya 37kg dan output hingga 500A, MetaTIG DC Series menawarkan rasio daya-terhadap-berat yang luar biasa dengan efisiensi energi 91%."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Multiple waveforms",
+        "id": "Beberapa bentuk gelombang"
+      },
+      "content": {
+        "en": "Square, triangle, sine, and trapezoidal pulse waveforms provide maximum flexibility in controlling weld pool behavior for different joint types and positions.",
+        "id": "Bentuk gelombang pulse kotak, segitiga, sinus, dan trapesium memberikan fleksibilitas maksimum dalam mengendalikan perilaku kolam las untuk berbagai jenis sambungan dan posisi."
+      },
+      "icon": ""
+    }
+  ],
+  "body": [
+    {
+      "title": {
+        "en": "DC TIG and MMA welding",
+        "id": "Pengelasan DC TIG dan MMA"
+      },
+      "content": {
+        "en": "Supports DC TIG, DC-Pulse TIG, MMA, and high-speed TIG spot welding processes. The MMA function allows use of various electrode types for field repairs and maintenance applications.",
+        "id": "Mendukung proses DC TIG, DC-Pulse TIG, MMA, dan las titik TIG kecepatan tinggi. Fungsi MMA memungkinkan penggunaan berbagai jenis elektroda untuk perbaikan lapangan dan aplikasi pemeliharaan."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/metatig-dc-materials.png"
+      }
+    },
+    {
+      "title": {
+        "en": "High-frequency and lifting arc start",
+        "id": "Penyalaan busur frekuensi tinggi dan angkat"
+      },
+      "content": {
+        "en": "Dual arc-start modes — high-frequency and lifting arc — ensure reliable starts on all material types while giving operators flexibility based on application requirements.",
+        "id": "Dua mode penyalaan busur — frekuensi tinggi dan busur angkat — memastikan penyalaan yang andal pada semua jenis material sambil memberikan fleksibilitas kepada operator berdasarkan kebutuhan aplikasi."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/metatig-dc-frequency.jpg"
+      }
+    },
+    {
+      "title": {
+        "en": "50 JOB parameter storage",
+        "id": "Penyimpanan 50 parameter JOB"
+      },
+      "content": {
+        "en": "Store up to 50 groups of welding parameters for quick recall, streamlining production changeover and ensuring repeatable quality across shifts and operators.",
+        "id": "Simpan hingga 50 grup parameter pengelasan untuk pemanggilan cepat, mempercepat pergantian produksi dan memastikan kualitas yang dapat diulang di seluruh shift dan operator."
+      },
+      "media": {
+        "type": "image",
+        "url": "/products/metatig-dc-waveforms.jpg"
+      }
+    },
+    {
+      "hero": {
+        "type": "leftContentBgImg",
+        "title": {
+          "en": "Request a free quote",
+          "id": "Mendapatkan Penawaran Gratis"
+        },
+        "subtitle": {
+          "en": "Ready to incorporate the machine to your business?",
+          "id": "Siap untuk mengintegrasikan mesin ke bisnis Anda?"
+        },
+        "stretched": "false",
+        "links": [
+          {
+            "link": {
+              "type": "custom",
+              "url": "/inquiry",
+              "label": {
+                "en": "Request a quote",
+                "id": "Meminta Penawaran"
+              },
+              "appearance": "default"
+            },
+            "id": "megmeet-metatigdc-cta-1"
+          }
+        ],
+        "media": ""
+      },
+      "id": "megmeet-metatigdc-cta-0",
+      "blockType": "cta"
+    }
+  ],
+  "specs": [
+    {
+      "title": "MetaTIG 315DC",
+      "data": [
+        { "dTitle": "Rated output current", "dValue": "315A" },
+        { "dTitle": "Rated output voltage", "dValue": "22.6V" },
+        { "dTitle": "Input capacity", "dValue": "12.5KVA / 11.4KW" },
+        { "dTitle": "No-load voltage", "dValue": "66V" },
+        { "dTitle": "Duty cycle", "dValue": "100% @ 315A" },
+        { "dTitle": "DC TIG range", "dValue": "5–315A" },
+        { "dTitle": "Pulse frequency", "dValue": "0.1–3000Hz" },
+        { "dTitle": "Efficiency", "dValue": "91%" },
+        { "dTitle": "Dimensions", "dValue": "647×291×572mm" },
+        { "dTitle": "Weight", "dValue": "37kg" }
+      ]
+    },
+    {
+      "title": "MetaTIG 400DC",
+      "data": [
+        { "dTitle": "Rated output current", "dValue": "400A" },
+        { "dTitle": "Rated output voltage", "dValue": "26V" },
+        { "dTitle": "Input capacity", "dValue": "17.5KVA / 16KW" },
+        { "dTitle": "No-load voltage", "dValue": "66V" },
+        { "dTitle": "Duty cycle", "dValue": "100% @ 400A" },
+        { "dTitle": "DC TIG range", "dValue": "5–400A" },
+        { "dTitle": "Pulse frequency", "dValue": "0.1–3000Hz" },
+        { "dTitle": "Efficiency", "dValue": "91%" },
+        { "dTitle": "Dimensions", "dValue": "647×291×572mm" },
+        { "dTitle": "Weight", "dValue": "37kg" }
+      ]
+    },
+    {
+      "title": "MetaTIG 500DC",
+      "data": [
+        { "dTitle": "Rated output current", "dValue": "500A" },
+        { "dTitle": "Rated output voltage", "dValue": "30V" },
+        { "dTitle": "Input capacity", "dValue": "24.4KVA / 22KW" },
+        { "dTitle": "No-load voltage", "dValue": "66V" },
+        { "dTitle": "Duty cycle", "dValue": "40% @ 500A, 100% @ 400A" },
+        { "dTitle": "DC TIG range", "dValue": "5–500A" },
+        { "dTitle": "Pulse frequency", "dValue": "0.1–3000Hz" },
+        { "dTitle": "Efficiency", "dValue": "90%" },
+        { "dTitle": "Dimensions", "dValue": "647×291×572mm" },
+        { "dTitle": "Weight", "dValue": "37kg" }
+      ]
+    }
+  ],
+  "testimonials": [],
+  "slug": "metatig-dc-series",
+  "_status": "published",
+  "createdAt": "2025-01-15T00:00:00.000Z",
+  "updatedAt": "2025-01-15T00:00:00.000Z",
+  "publishedAt": "2025-01-15T00:00:00.000Z"
+}

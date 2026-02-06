@@ -1,0 +1,425 @@
+{
+  "title": "A Series",
+  "brand": "Bodor",
+  "catergory": [
+    "Laser Cutting Machine",
+    "Economical"
+  ],
+  "media": {
+    "type": "image",
+    "url": "/products/a-series.webp"
+  },
+  "description": {
+    "en": "Entry-level Sheet Metal Fiber Laser Cutting Machine",
+    "id": "Laser cutting mesin serat plat logam tingkat Awal "
+  },
+  "populatedAuthors": [],
+  "banSubtitle": {
+    "en": "Entry-level Sheet Metal Fiber Laser Cutting Machine",
+    "id": "Laser cutting mesin serat plat logam tingkat Awal "
+  },
+  "banDescription": {
+    "en": "The Bodor A Series is your ideal starting point for bringing the efficiency and accuracy of laser cutting into your business. Designed for ease of use and exceptional value, the A Series gives you the tools you need to transform sheet metal into precise, intricate components.",
+    "id": "Seri Bodor A ideal untuk Anda yang ingin mulai meningkatkan efisiensi dan keakuratan pemotongan laser ke dalam bisnis Anda. Dirancang untuk kemudahan penggunaan dan nilai yang luar biasa, Seri A memberi Anda alat yang Anda perlukan untuk mengubah plat logam menjadi komponen yang presisi dan rumit."
+  },
+  "highlights": [
+    {
+      "title": {
+        "en": "Cost-efficiency",
+        "id": "Hemat Biaya"
+      },
+      "content": {
+        "en": "Lowers the initial investment and operation costs for laser cutting, making it an economical choice for businesses.",
+        "id": "Investasi awal dan biaya operasional untuk pemotong laser yang lebih rendah. Pilihan hemat untuk bisnis Anda."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "High-speed cutting",
+        "id": "Pemotongan Berkecepatan Tinggi"
+      },
+      "content": {
+        "en": "1.5G of acceleration and lightweight and strong structure design substantially ensure efficiency and value creation per second.",
+        "id": "Akselerasi 1,5 G dan desain struktur yang ringan dan tangguh mampu menghasilkan produk yang lebih banyak dan lebih efisien."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Easy operation",
+        "id": "Pengoperasian Yang Mudah"
+      },
+      "content": {
+        "en": "Intuitive controls and smart features simplify laser cutting operation and maintenance, making it accessible and efficient for all skill levels.",
+        "id": "Kontrol-kontrol yang intuitif dan juga fitur pintar membuat proses operasional dan pemeliharaan pemotong laser menjadi lebih mudah. Mesin ini dapat digunakan oleh semua orang dengan tingkat kemampuan yang berbeda-beda. "
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Diverse power and size options",
+        "id": "Beragam Pilihan Daya dan Ukuran"
+      },
+      "content": {
+        "en": "The A series caters to different business needs and project scales, offering power options from 1.5kW to 60kW and size variations ranging from 3048mm x 1524mm to 14000mm x 3100mm.",
+        "id": "Produk Seri A melayani berbagai macam skala dan kebutuhan bisnis, dengan konsumsi daya mulai dari 1.5kW hingga 60kW, variasi ukuran dari 3048mm x 1524mm hingga 14000mm x 3100mm. "
+      },
+      "icon": ""
+    }
+  ],
+  "body": [
+    {
+      "title": {
+        "en": "Active obstacle avoidance system",
+        "id": "Sistem Pencegah Halangan Aktif"
+      },
+      "content": {
+        "en": "BodorGenius, Bodor's intelligent laser head, uses sensors and algorithms to detect potential obstacles like tilting parts and automatically avoids a potential collision. It largely ensures the stability as well as operating efficiency in the cutting process.",
+        "id": "BodorGenius, kepala laser cerdas dari Bodor, menggunakan sensor dan algoritma untuk mendeteksi kemungkinan terjadinya tabrakan seperti bagian yang miring, lalu secara otomatis mencegah terjadinya benturan. Sistem ini menjamin stabilitas dan efisiensi operasional saat memotong."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/pseries-3.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Anti-burning mineral casting",
+        "id": "Mineral Casting Tanpa Risiko Terbakar"
+      },
+      "content": {
+        "en": "Bodor's newly developed anti-burning casting material provides numerous advantages in slag removal, operations, and modular design. When in use, material residue automatically separates from the anti-burning plate, largely lowering maintenance costs and offering better durability. Its lightweight structure as well makes it easy to replace.",
+        "id": "Bahan casting yang baru dikembangkan oleh Bodor resisten terhadap api, sehingga unggul dalam hal menghilangkan terak, operasional, dan desain modular. Saat digunakan, sisa material secara otomatis akan dipisahkan dari Lembaran anti terbakar, sehingga mengurangi biaya perawatan dan punya daya tahan yang lebih baik. Strukturnya yang ringan juga membuat komponennya mudah untuk diganti. "
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/dream-4.jpeg"
+      }
+    },
+    {
+      "title": {
+        "en": "Lightning piercing",
+        "id": "Pelubangan Kilat"
+      },
+      "content": {
+        "en": "The technology offers rapid, precise piercing with reduced time. It features monitored processes for efficiency, focus adjustment for seamless piercing, and integration with BodorGenius. This enables quick piercing in sync with the cutting head's movement, optimizing operations for medium-thick plates without extra time or motion.",
+        "id": "Teknologi ini membuat proses pelubangan yang cepat, presisi, dan lebih singkat. Terdapat fitur monitoring untuk efisiensi, penyesuaian fokus otomatis untuk pelubangan tanpa henti, dan integrasi dengan Bodor Genius. Ini memungkinkan proses pelubangan dilakukan bersamaan dengan pergerakan kepala pemotong. Proses produksi dengan Lembaran medium-tebal menjadi optimal, tanpa perlu waktu atau gerakan tambahan."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/hseries-2.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Intelligent remnant layout",
+        "id": "Tata Letak Sisa Bahan Yang Cerdas"
+      },
+      "content": {
+        "en": "To achieve maximum material utilization, all you need to do is uploading pictures of the remnant to the control system with your mobile phone. A series is able to automatically finish positioning as well as nesting. The higher the percentage of utilization, the more economical the process. Enjoy the benefits of significantly increased cost savings.",
+        "id": "Untuk mengoptimalkan penggunaan bahan, Anda hanya perlu mengunggah foto sisa bahan ke sistem kontrol lewat ponsel Anda. Produk-produk Seri A mampu mengatur posisi dan proses nesting secara otomatis. Semakin tinggi persentase penggunaan bahan, semakin murah pula proses produksinya. Anda akan menghemat begitu banyak uang. "
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/pseries-6.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Nesting software compatible with Tekla",
+        "id": "Perangkat Lunak Nesting Yang Kompatibel Dengan Tekla"
+      },
+      "content": {
+        "en": "The nesting software for the Bodor A Series has strong compatibility with Tekla, streamlining your workflow by effortlessly reading material specifications from Tekla files. It simplifies the cutting process with smart material utilization, ensuring maximum efficiency and less waste.",
+        "id": "Perangkat lunak nesting yang digunakan di Bodor Seri A sangat kompatibel dengan Tekla. Alur kerja produksi akan semakin cepat karena mesin ini bisa membaca spesifikasi bahan dari file Tekla dengan mudah. Proses pemotongan menjadi lebih sederhana dengan penggunaan bahan yang cerdas, sehingga tercapai efisiensi maksimum dan limbah yang lebih sedikit."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/pseries-7.webp"
+      }
+    },
+    {
+      "hero": {
+        "type": "leftContentBgImg",
+        "title": {
+          "en": "Request a free quote",
+          "id": "Mendapatkan Penawaran Gratis"
+        },
+        "subtitle": {
+          "en": "Ready to incorporate the machine to your business?",
+          "id": "Siap untuk mengintegrasikan mesin ke bisnis Anda?"
+        },
+        "stretched": "false",
+        "links": [
+          {
+            "link": {
+              "type": "custom",
+              "url": "/inquiry",
+              "label": {
+                "en": "Request a quote",
+                "id": "Meminta Penawaran"
+              },
+              "appearance": "default"
+            },
+            "id": "6674577c9bf590209609f6a9"
+          }
+        ],
+        "media": "660cdd5f047c30d8f74f667d"
+      },
+      "id": "6674576d9bf590209609f6a8",
+      "blockType": "cta"
+    }
+  ],
+  "specs": [
+    {
+      "title": "A3",
+      "data": [
+        {
+          "dTitle": "Working area\t",
+          "dValue": "3048mm*1524mm"
+        },
+        {
+          "dTitle": "Laser output power\t",
+          "dValue": "6000W / 3000W / 1500W"
+        },
+        {
+          "dTitle": "Positioning accuracy\t",
+          "dValue": "±0.05mm/m"
+        },
+        {
+          "dTitle": "Repositioning accuracy",
+          "dValue": "±0.03mm"
+        },
+        {
+          "dTitle": "Max. linkage speed\t",
+          "dValue": "100m/min"
+        },
+        {
+          "dTitle": "Max. acceleration\t",
+          "dValue": "1.5G"
+        }
+      ]
+    },
+    {
+      "title": "A4",
+      "data": [
+        {
+          "dTitle": "Working area\t",
+          "dValue": "4000mm*1524mm"
+        },
+        {
+          "dTitle": "Laser output power\t",
+          "dValue": "6000W / 3000W / 1500W"
+        },
+        {
+          "dTitle": "Positioning accuracy\t",
+          "dValue": "±0.05mm/m"
+        },
+        {
+          "dTitle": "Repositioning accuracy",
+          "dValue": "±0.03mm"
+        },
+        {
+          "dTitle": "Max. linkage speed\t",
+          "dValue": "100m/min"
+        },
+        {
+          "dTitle": "Max. acceleration\t",
+          "dValue": "1.5G"
+        }
+      ]
+    },
+    {
+      "title": "A4 Plus",
+      "data": [
+        {
+          "dTitle": "Working area\t",
+          "dValue": "4000mm*2000mm"
+        },
+        {
+          "dTitle": "Laser output power\t",
+          "dValue": "6000W / 3000W / 1500W"
+        },
+        {
+          "dTitle": "Positioning accuracy\t",
+          "dValue": "±0.05mm/m"
+        },
+        {
+          "dTitle": "Repositioning accuracy",
+          "dValue": "±0.03mm"
+        },
+        {
+          "dTitle": "Max. linkage speed\t",
+          "dValue": "100m/min"
+        },
+        {
+          "dTitle": "Max. acceleration\t",
+          "dValue": "1.5G"
+        }
+      ]
+    },
+    {
+      "title": "A6",
+      "data": [
+        {
+          "dTitle": "Working area\t",
+          "dValue": "6100mm*1524mm"
+        },
+        {
+          "dTitle": "Laser output power\t",
+          "dValue": "12000W / 6000W / 3000W / 1500W"
+        },
+        {
+          "dTitle": "Positioning accuracy\t",
+          "dValue": "±0.05mm/m"
+        },
+        {
+          "dTitle": "Repositioning accuracy",
+          "dValue": "±0.03mm"
+        },
+        {
+          "dTitle": "Max. linkage speed\t",
+          "dValue": "100m/min"
+        },
+        {
+          "dTitle": "Max. acceleration\t",
+          "dValue": "1.5G"
+        }
+      ]
+    },
+    {
+      "title": "A6 Plus",
+      "data": [
+        {
+          "dTitle": "Working area\t",
+          "dValue": "6100mm*2500mm"
+        },
+        {
+          "dTitle": "Laser output power\t",
+          "dValue": "12000W / 6000W / 3000W"
+        },
+        {
+          "dTitle": "Positioning accuracy\t",
+          "dValue": "±0.05mm/m"
+        },
+        {
+          "dTitle": "Repositioning accuracy",
+          "dValue": "±0.03mm"
+        },
+        {
+          "dTitle": "Max. linkage speed\t",
+          "dValue": "100m/min"
+        },
+        {
+          "dTitle": "Max. acceleration\t",
+          "dValue": "1.5G"
+        }
+      ]
+    },
+    {
+      "title": "A8",
+      "data": [
+        {
+          "dTitle": "Working area\t",
+          "dValue": "8050mm*2500mm"
+        },
+        {
+          "dTitle": "Laser output power\t",
+          "dValue": "24000W / 12000W / 6000W "
+        },
+        {
+          "dTitle": "Positioning accuracy\t",
+          "dValue": "±0.05mm/m"
+        },
+        {
+          "dTitle": "Repositioning accuracy",
+          "dValue": "±0.03mm"
+        },
+        {
+          "dTitle": "Max. linkage speed\t",
+          "dValue": "100m/min"
+        },
+        {
+          "dTitle": "Max. acceleration\t",
+          "dValue": "1.5G"
+        }
+      ]
+    },
+    {
+      "title": "A12",
+      "data": [
+        {
+          "dTitle": "Working area\t",
+          "dValue": "12200mm*2500mm"
+        },
+        {
+          "dTitle": "Laser output power\t",
+          "dValue": "60000W / 30000W / 24000W / 12000W"
+        },
+        {
+          "dTitle": "Positioning accuracy\t",
+          "dValue": "±0.05mm/m"
+        },
+        {
+          "dTitle": "Repositioning accuracy",
+          "dValue": "±0.03mm"
+        },
+        {
+          "dTitle": "Max. linkage speed\t",
+          "dValue": "100m/min"
+        },
+        {
+          "dTitle": "Max. acceleration\t",
+          "dValue": "1.5G"
+        }
+      ]
+    },
+    {
+      "title": "A14",
+      "data": [
+        {
+          "dTitle": "Working area\t",
+          "dValue": "14000mm*3100mm"
+        },
+        {
+          "dTitle": "Laser output power\t",
+          "dValue": "60000W / 30000W / 24000W / 12000W"
+        },
+        {
+          "dTitle": "Positioning accuracy\t",
+          "dValue": "±0.03mm/m"
+        },
+        {
+          "dTitle": "Repositioning accuracy",
+          "dValue": "±0.02mm"
+        },
+        {
+          "dTitle": "Max. linkage speed\t",
+          "dValue": "100m/min"
+        },
+        {
+          "dTitle": "Max. acceleration\t",
+          "dValue": "1.5G"
+        }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "content": {
+        "en": "“Bodor's A3 - 3kW laser cutting machine has transformed our automotive parts production. Its scanning cutting capabilities deliver precision and speed, making our work more efficient than ever. The Synergis team provides outstanding support, with engineers arriving within a day to resolve any issues. Their fast response time and expertise ensure our operations run smoothly. We couldn't be happier with the machine and the exceptional service from Synergis.”",
+        "id": "\"Mesin pemotong laser Bodor A3 -3 kW telah mengubah cara kami memproduksi suku cadang otomotif. Fitur pindai-dan-potongnya sangat presisi dan cepat. Pabrik kami belum pernah berjalan seefisien ini. Layanan yang diberikan oleh tim Synergis juga luar biasa. Teknisi mereka hanya butuh 1 hari untuk hadir di pabrik dan menyelesaikan masalah kami. Mereka sangat responsif dan profesional sehingga proses operasional kami bisa berjalan mulus. Kami benar-benar puas dengan mesin dan layanan purna jual Synergis yang istimewa.\""
+      },
+      "subtitle": {
+        "en": "Automotive Parts Manufacturer, Tangerang",
+        "id": "Pabrik Suku Cadang Otomotif, Tangerang"
+      }
+    }
+  ],
+  "slug": "a-series",
+  "_status": "published",
+  "createdAt": "2024-05-12T09:47:52.489Z",
+  "updatedAt": "2024-07-15T14:59:48.559Z",
+  "publishedAt": "2024-04-11T08:16:24.244Z"
+}

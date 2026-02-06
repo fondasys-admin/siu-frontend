@@ -1,0 +1,93 @@
+{
+  "title": "K-Loader",
+  "brand": "Bodor",
+  "catergory": [
+    "Laser Cutting Machine",
+    "Sheet Cutting Automation Devices"
+  ],
+  "media": {
+    "type": "image",
+    "url": "/products/k-loader.webp"
+  },
+  "description": {
+    "en": "Auxiliary Tube Loading Device for K Series",
+    "id": "Perangkat Loading Pipa untuk Seri K"
+  },
+  "populatedAuthors": [],
+  "banSubtitle": {
+    "en": "Auxiliary Tube Loading Device for K1 and K2",
+    "id": "Perangkat Loading Pipa untuk K1 dan K2"
+  },
+  "banDescription": {
+    "en": "The K-Loader is an auxiliary loading device applicable to K1 and K2. It can be used for the automatic loading of various tubes, such as square tubes, round tubes and rectangular tubes, saving manpower and material resources and improving processing efficiency.",
+    "id": "K-Loader adalah perangkat loading yang dapat digunakan untuk K1 dan K2. Perangkat ini mampu melakukan loading otomatis berbagai jenis pipa seperti pipa kotak, pipa bulat, dan pipa persegi panjang, menghemat tenaga kerja dan sumber daya serta meningkatkan efisiensi pemrosesan."
+  },
+  "highlights": [
+    {
+      "title": {
+        "en": "Faster Speed",
+        "id": "Kecepatan Lebih Tinggi"
+      },
+      "content": {
+        "en": "Optimized loading mechanism delivers faster tube feeding speeds, reducing cycle times and boosting overall production throughput.",
+        "id": "Mekanisme loading yang dioptimalkan memberikan kecepatan pengumpanan pipa yang lebih cepat, mengurangi waktu siklus dan meningkatkan output produksi secara keseluruhan."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Lower Energy Consumption",
+        "id": "Konsumsi Energi Lebih Rendah"
+      },
+      "content": {
+        "en": "Energy-efficient design minimizes power consumption during operation, reducing running costs while maintaining high performance.",
+        "id": "Desain hemat energi meminimalkan konsumsi daya selama operasi, mengurangi biaya operasional sambil mempertahankan performa tinggi."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "More Flexible Placement",
+        "id": "Penempatan Lebih Fleksibel"
+      },
+      "content": {
+        "en": "Versatile placement options allow the K-Loader to be positioned optimally within your production layout, adapting to various workshop configurations.",
+        "id": "Opsi penempatan yang serbaguna memungkinkan K-Loader diposisikan secara optimal dalam tata letak produksi Anda, menyesuaikan dengan berbagai konfigurasi bengkel."
+      },
+      "icon": ""
+    }
+  ],
+  "body": [
+    {
+      "title": {
+        "en": "Compatible with K1 and K2 Models",
+        "id": "Kompatibel dengan Model K1 dan K2"
+      },
+      "content": {
+        "en": "The K-Loader is purpose-built for Bodor's K1 and K2 tube laser cutting machines. It integrates seamlessly to enable automatic loading of square, round, and rectangular tubes, streamlining the tube cutting workflow.",
+        "id": "K-Loader dirancang khusus untuk mesin laser cutting pipa Bodor K1 dan K2. Terintegrasi dengan mulus untuk memungkinkan loading otomatis pipa kotak, bulat, dan persegi panjang, menyederhanakan alur kerja pemotongan pipa."
+      },
+      "media": {
+        "type": "",
+        "url": ""
+      }
+    },
+    {
+      "title": {
+        "en": "Automatic Tube Loading",
+        "id": "Loading Pipa Otomatis"
+      },
+      "content": {
+        "en": "Handles various tube profiles automatically, eliminating the need for manual tube feeding. This saves manpower and material resources while significantly improving processing efficiency and reducing workplace safety risks.",
+        "id": "Menangani berbagai profil pipa secara otomatis, menghilangkan kebutuhan pengumpanan pipa manual. Ini menghemat tenaga kerja dan sumber daya sekaligus meningkatkan efisiensi pemrosesan dan mengurangi risiko keselamatan di tempat kerja."
+      },
+      "media": {
+        "type": "",
+        "url": ""
+      }
+    }
+  ],
+  "specs": [],
+  "slug": "k-loader",
+  "_status": "published"
+}

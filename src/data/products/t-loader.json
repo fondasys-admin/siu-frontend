@@ -1,0 +1,93 @@
+{
+  "title": "T-Loader",
+  "brand": "Bodor",
+  "catergory": [
+    "Laser Cutting Machine",
+    "Sheet Cutting Automation Devices"
+  ],
+  "media": {
+    "type": "image",
+    "url": "/products/t-loader.webp"
+  },
+  "description": {
+    "en": "Auxiliary Loading Device for T Series",
+    "id": "Perangkat Loading untuk Seri T"
+  },
+  "populatedAuthors": [],
+  "banSubtitle": {
+    "en": "Auxiliary Loading Device for T2 and T3",
+    "id": "Perangkat Loading untuk T2 dan T3"
+  },
+  "banDescription": {
+    "en": "The T-Loader is an auxiliary loading device designed for the T2 and T3 models, supporting the automatic loading of round, square, and rectangular tubes. It offers higher load capacity, saves loading time, and significantly enhances automation.",
+    "id": "T-Loader adalah perangkat loading yang dirancang untuk model T2 dan T3, mendukung loading otomatis pipa bulat, kotak, dan persegi panjang. Menawarkan kapasitas beban lebih tinggi, menghemat waktu loading, dan meningkatkan otomatisasi secara signifikan."
+  },
+  "highlights": [
+    {
+      "title": {
+        "en": "Higher Load Capacity",
+        "id": "Kapasitas Beban Lebih Tinggi"
+      },
+      "content": {
+        "en": "Enhanced load capacity enables the T-Loader to handle heavier tubes efficiently, increasing production capability for demanding applications.",
+        "id": "Kapasitas beban yang lebih besar memungkinkan T-Loader menangani pipa yang lebih berat secara efisien, meningkatkan kemampuan produksi untuk aplikasi yang menuntut."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "More Intelligent",
+        "id": "Lebih Cerdas"
+      },
+      "content": {
+        "en": "Smart automation features for precise tube positioning and loading, reducing manual intervention and enhancing production consistency.",
+        "id": "Fitur otomatisasi cerdas untuk penentuan posisi dan loading pipa yang presisi, mengurangi intervensi manual dan meningkatkan konsistensi produksi."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Larger Range",
+        "id": "Jangkauan Lebih Luas"
+      },
+      "content": {
+        "en": "Compatible with various tube shapes and sizes including round, square, and rectangular tubes for versatile production capabilities.",
+        "id": "Kompatibel dengan berbagai bentuk dan ukuran pipa termasuk pipa bulat, kotak, dan persegi panjang untuk kemampuan produksi yang serbaguna."
+      },
+      "icon": ""
+    }
+  ],
+  "body": [
+    {
+      "title": {
+        "en": "Compatible with T2 and T3 Models",
+        "id": "Kompatibel dengan Model T2 dan T3"
+      },
+      "content": {
+        "en": "The T-Loader is engineered specifically for Bodor's T2 and T3 tube laser cutting machines. Its seamless integration enables automatic loading of multiple tube types, streamlining the cutting workflow and reducing setup time.",
+        "id": "T-Loader dirancang khusus untuk mesin laser cutting pipa Bodor T2 dan T3. Integrasinya yang mulus memungkinkan loading otomatis berbagai jenis pipa, menyederhanakan alur kerja pemotongan dan mengurangi waktu persiapan."
+      },
+      "media": {
+        "type": "",
+        "url": ""
+      }
+    },
+    {
+      "title": {
+        "en": "Time-Saving Automation",
+        "id": "Otomatisasi Hemat Waktu"
+      },
+      "content": {
+        "en": "By automating the tube loading process, the T-Loader significantly reduces loading time and enhances overall production automation. This allows your operators to focus on quality control and other value-added tasks rather than repetitive manual loading.",
+        "id": "Dengan mengotomatisasi proses loading pipa, T-Loader secara signifikan mengurangi waktu loading dan meningkatkan otomatisasi produksi secara keseluruhan. Ini memungkinkan operator Anda fokus pada kontrol kualitas dan tugas bernilai tambah lainnya daripada loading manual yang berulang."
+      },
+      "media": {
+        "type": "",
+        "url": ""
+      }
+    }
+  ],
+  "specs": [],
+  "slug": "t-loader",
+  "_status": "published"
+}

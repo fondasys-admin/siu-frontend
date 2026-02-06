@@ -1,0 +1,14 @@
+{
+  "en": {
+    "title": "Features & enhancements"
+  },
+  "id": {
+    "title": "Fitur & Peningkatan"
+  },
+  "link": {
+    "type": "reference",
+    "appearance": "default"
+  },
+  "blockName": "Feature Title",
+  "blockType": "content"
+}

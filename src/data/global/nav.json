@@ -1,0 +1,38 @@
+{
+  "en": [
+    {
+      "url": "/",
+      "label": "Home"
+    },
+    {
+      "url": "/products",
+      "label": "Products"
+    },
+    {
+      "url": "/story",
+      "label": "Story"
+    },
+    {
+      "url": "/articles",
+      "label": "Articles"
+    }
+  ],
+  "id": [
+    {
+      "url": "/",
+      "label": "Home"
+    },
+    {
+      "url": "/products",
+      "label": "Produk"
+    },
+    {
+      "url": "/story",
+      "label": "Tentang Kami"
+    },
+    {
+      "url": "/articles",
+      "label": "Artikel"
+    }
+  ]
+}

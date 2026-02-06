@@ -1,0 +1,138 @@
+{
+  "title": {
+    "en": "Articles",
+    "id": "Artikel"
+  },
+  "featured": {
+    "category": { "en": "Thought leadership", "id": "Thought leadership" },
+    "title": {
+      "en": "Here's How to Operate a Laser Cutting Machine",
+      "id": "Begini Cara Mengoperasikan Mesin Laser Cutting"
+    },
+    "description": {
+      "en": "Laser cutting machines have become increasingly popular in various industries today. Their ability to cut a wide range of materials with high precision and efficiency makes them highly valuable.",
+      "id": "Mesin laser cutting bisa dikatakan menjadi idola di berbagai bidang industri pada saat ini. Kemampuannya menghasilkan potongan material dengan presisi tinggi sambil meningkatkan efisiensi produksi menjadi daya tarik utama."
+    },
+    "image": "/articles/begini-cara-mengoperasikan-mesin-laser-cutting.jpeg",
+    "slug": "how-to-operate-a-laser-cutting-machine"
+  },
+  "articles": [
+    {
+      "category": { "en": "Thought leadership", "id": "Thought leadership" },
+      "title": {
+        "en": "Here's Why Laser Cutting Machines are a Popular Choice in Various Industries",
+        "id": "Inilah Alasan Mesin Laser Cutting Jadi Pilihan Populer di Berbagai Industri"
+      },
+      "description": {
+        "en": "Have you ever wondered how everyday objects are made with such precision? The answer lies in laser cutting machines, which have become the top choice across many industrial sectors.",
+        "id": "Pernahkah Anda merasa ingin tahu bagaimana benda-benda yang bisa ditemukan sehari-hari dibuat dengan begitu presisi? Jika iya, maka mesin laser cutting lah jawabannya."
+      },
+      "image": "/articles/inilah-alasan-mesin-laser-cutting-jadi-pilihan-populer-di-berbagai-industri.jpeg",
+      "slug": "why-laser-cutting-machines-are-popular-in-various-industries"
+    },
+    {
+      "category": { "en": "Thought leadership", "id": "Thought leadership" },
+      "title": {
+        "en": "Thinking of Buying a Laser Cutting Machine? Consider These Factors First!",
+        "id": "Ingin Membeli Mesin Laser Cutting? Perhatikan Dulu Hal-hal Berikut Ini!"
+      },
+      "description": {
+        "en": "The precision and accuracy of laser cutting machines make them highly popular in industries, from small to large scale. Their ability to cut various materials and intricate patterns makes them highly sought after.",
+        "id": "Kemampuan mesin laser cutting dalam menghasilkan potongan yang rapi dan presisi, membuat alat ini banyak digunakan pada industri, baik di skala kecil hingga besar."
+      },
+      "image": "/articles/ingin-membeli-mesin-laser-cutting-perhatikan-dulu-hal-hal-berikut-ini.jpeg",
+      "slug": "buying-a-laser-cutting-machine-factors-to-consider"
+    },
+    {
+      "category": { "en": "Thought leadership", "id": "Thought leadership" },
+      "title": {
+        "en": "Technology Used in Laser Cutting Machines",
+        "id": "Teknologi yang Digunakan di Mesin Laser Pemotong Logam"
+      },
+      "description": {
+        "en": "Laser cutting machines represent one of the standout innovations in today's technological era. These machines can cut through various types of materials using laser beams with clean and precise results.",
+        "id": "Mesin laser cutting merupakan salah satu inovasi yang bisa dibilang cukup menonjol di era teknologi saat ini. Mesin ini mampu memotong berbagai jenis material menggunakan sinar laser dengan hasil yang bersih dan presisi."
+      },
+      "image": "/articles/teknologi-yang-digunakan-di-mesin-laser-pemotong-logam.jpeg",
+      "slug": "technology-used-in-laser-cutting-machines"
+    },
+    {
+      "category": { "en": "Thought leadership", "id": "Thought leadership" },
+      "title": {
+        "en": "Advantages of Using a Laser Cutting Machine",
+        "id": "Deretan Keuntungan Menggunakan Mesin Laser Pemotong Logam"
+      },
+      "description": {
+        "en": "Laser cutting machines are modern tools widely used across various industries today. One of the main advantages is the neat and precise results, but there are many other benefits.",
+        "id": "Mesin laser cutting adalah salah satu alat modern yang banyak digunakan di berbagai industri pada saat ini. Salah satu keunggulan utama adalah hasil yang sangat rapi dan presisi."
+      },
+      "image": "/articles/deretan-keuntungan-menggunakan-mesin-laser-pemotong-logam.jpeg",
+      "slug": "advantages-of-using-a-laser-cutting-machine"
+    },
+    {
+      "category": { "en": "Thought leadership", "id": "Thought leadership" },
+      "title": {
+        "en": "Laser Cutting Machine Maintenance Tips You Must Know",
+        "id": "Tips Perawatan Mesin Laser Cutting yang Wajib Diketahui"
+      },
+      "description": {
+        "en": "The ability of laser cutting machines to cut various materials perfectly makes these tools essential in today's industrial settings. Learn the daily and periodic maintenance strategies.",
+        "id": "Kemampuan mesin laser cutting dalam memotong beragam material dengan sempurna menjadikan alat ini sangat penting dalam industri saat ini. Pelajari strategi perawatan harian dan berkala."
+      },
+      "image": "/articles/tips-perawatan-mesin-laser-cutting-yang-wajib-diketahui.jpeg",
+      "slug": "laser-cutting-machine-maintenance-tips"
+    },
+    {
+      "category": { "en": "Thought leadership", "id": "Thought leadership" },
+      "title": {
+        "en": "How Does a Laser Cutting Machine Work? Here's the Explanation",
+        "id": "Seperti Apa Cara Kerja Mesin Laser Cutting? Simak Penjelasannya Berikut Ini"
+      },
+      "description": {
+        "en": "A laser cutting machine is an advanced tool that plays a significant role in various industries today. It uses laser beam technology to precisely cut numerous materials, especially metals and steel.",
+        "id": "Mesin laser cutting adalah sebuah alat canggih yang memegang peran cukup penting di berbagai industri saat ini. Alat ini menggunakan teknologi sinar laser yang mampu memotong berbagai macam material."
+      },
+      "image": "/articles/seperti-apa-cara-kerja-mesin-laser-cutting-simak-penjelasannya-berikut-ini.jpg",
+      "slug": "how-does-a-laser-cutting-machine-work"
+    },
+    {
+      "category": { "en": "Thought leadership", "id": "Thought leadership" },
+      "title": {
+        "en": "Understanding What a Metal Laser Cutting Machine Is",
+        "id": "Mengenal Apa Itu Mesin Laser Pemotong Logam"
+      },
+      "description": {
+        "en": "Metal cutting in various modern industries has become a crucial process. Due to the high demand for precision and accuracy, many industries use metal laser cutting machines.",
+        "id": "Pemotongan logam di beragam industri modern seperti sekarang ini jadi salah satu proses yang sangat penting. Banyak industri menggunakan mesin laser pemotong logam untuk proses ini."
+      },
+      "image": "/articles/mengenal-apa-itu-mesin-laser-pemotong-logam.jpg",
+      "slug": "what-is-a-metal-laser-cutting-machine"
+    },
+    {
+      "category": { "en": "Thought leadership", "id": "Thought leadership" },
+      "title": {
+        "en": "Understanding the Technical Specifications of Fiber Laser Cutting Machines",
+        "id": "Memahami Spesifikasi Teknis Mesin Pemotong Laser Serat: Spesifikasi Utama dan Definisinya"
+      },
+      "description": {
+        "en": "Fiber laser cutting machines are revolutionizing the manufacturing industry, providing precision and efficiency that traditional cutting methods can't match. This guide breaks down the key specs.",
+        "id": "Mesin pemotong laser serat membawa perubahan di industri manufaktur dengan menyediakan presisi dan efisiensi yang tidak bisa dicapai dengan metode pemotongan tradisional."
+      },
+      "image": "/articles/understanding-the-technical-specifications-of-fiber-laser-cutting-machines.webp",
+      "slug": "understanding-the-technical-specifications-of-fiber-laser-cutting-machines-key-specs-and-what-they-mean"
+    },
+    {
+      "category": { "en": "Thought leadership", "id": "Thought leadership" },
+      "title": {
+        "en": "Maintenance Tips for Fiber Laser Cutting Machines",
+        "id": "Tips Perawatan Mesin Pemotong Serat: Praktik Terbaik untuk Menjaga Mesin Anda dalam Kondisi Prima"
+      },
+      "description": {
+        "en": "Maintaining your fiber laser cutting machine is crucial to ensure it operates efficiently and has a long lifespan. Regular maintenance helps avoid unexpected breakdowns.",
+        "id": "Merawat mesin pemotong laser serat Anda sangat penting untuk memastikan mesin beroperasi secara efisien dan memiliki masa pakai yang panjang."
+      },
+      "image": "/articles/maintenance-tips-for-fiber-laser-cutting-machines.png",
+      "slug": "maintenance-tips-for-fiber-laser-cutting-machines-best-practices-for-keeping-your-machine-in-top-condition"
+    }
+  ]
+}

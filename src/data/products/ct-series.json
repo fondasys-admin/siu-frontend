@@ -1,0 +1,214 @@
+{
+  "title": "CT Series",
+  "catergory": "65f4363047076d5926af757b",
+  "slug": "ct-series",
+  "_status": "published",
+  "createdAt": {
+    "$date": "2024-04-11T08:16:24.318Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-12T08:40:09.361Z"
+  },
+  "__v": 0,
+  "_id": {
+    "$oid": "66179c5894330f1cf709c1fe"
+  },
+  "subCatergory": "6624d51b8a7b829b8552f8ef",
+  "publishedAt": {
+    "$date": "2024-04-11T08:16:24.244Z"
+  },
+  "media": {
+    "type": "image",
+    "url": "/products/ct-series.webp"
+  },
+  "description": {
+    "en": "Base fiber laser sheet & tube metal cutting machine with full protection",
+    "id": "Laser cutting mesin serat plat dan pipa logam dasar dengan perlindungan penuh"
+  },
+  "banSubtitle": {
+    "en": "Combo Sheet & Tube Laser Cutting Machine with the Protective Cover",
+    "id": "Laser cutting mesin serat plat dan pipa logam dasar dengan perlindungan penuh"
+  },
+  "banDescription": {
+    "en": "The Bodor CT series can process both sheet metal and tubes, meeting a variety of processing needs. Its high efficiency and cost-effectiveness make it a powerful tool in the field of metal cutting.",
+    "id": "Seri Bodor CT dapat memotong plat dan pipa logam untuk memenuhi berbagai kebutuhan fabrikasi. Seri ini hAndal di bidang pemotongan logam dengan menawarkan efisiensi tinggi dan efektivitas biaya ."
+  },
+  "populatedAuthors": [],
+  "highlights": [
+    {
+      "title": {
+        "en": "Dual cutting capability",
+        "id": "Dua Kemampuan Pemotongan"
+      },
+      "content": {
+        "en": "Seamlessly switch between sheet and tube cutting, offering unmatched flexibility in metal processing.",
+        "id": "Berganti dari memotong lembaran logam ke pipa logam dengan  mulus. Mesin kami menawarkan fleksibilitas tak tertandingi dalam hal pemotongan logam"
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Cost-effective",
+        "id": "Hemat Biaya"
+      },
+      "content": {
+        "en": "CT Series offers a great balance of price and performance, maximizing return on investment.",
+        "id": "Produk Seri CT menawarkan keseimbangan antara harga dan performa, sehingga memaksimalkan laba investasi Anda."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Cutting with precision",
+        "id": "Memotong Dengan Presisi"
+      },
+      "content": {
+        "en": "Advanced technology ensures accurate and high-quality cuts.",
+        "id": "Teknologi canggih kami menjamin hasil potong selalu presisi dan berkualitas tinggi."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "User-friendly operation",
+        "id": "Mudah Dioperasikan"
+      },
+      "content": {
+        "en": "Features like one-click processing and smart remnant layout make it easy to operate, reducing labor intensity.",
+        "id": "Fitur-fitur seperti pengoperasian dengan satu kali klik and tata letak sisa yang cerdas membuat mesin kami mudah dioperasikan sehingga Anda dapat menghemat jumlah tenaga kerja."
+      },
+      "icon": ""
+    }
+  ],
+  "body": [
+    {
+      "title": {
+        "en": "Active obstacle avoidance system",
+        "id": "Sistem Pencegah Halangan Aktif"
+      },
+      "content": {
+        "en": "BodorGenius, Bodor’s intelligent laser head, uses sensors and algorithms to detect potential obstacles like tilting parts and automatically avoids a potential collision. It largely ensures the stability as well as operating efficiency in the cutting process.",
+        "id": "BodorGenius, kepala laser cerdas dari Bodor, menggunakan sensor dan algoritma untuk mendeteksi kemungkinan terjadinya tabrakan seperti bagian yang miring, lalu secara otomatis mencegah terjadinya benturan. Sistem ini menjamin stabilitas dan efisiensi operasional saat memotong. "
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/pseries-3.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "One-click processing",
+        "id": "One-click Processing"
+      },
+      "content": {
+        "en": "Set up your tasks ahead of time and let CT series do the rest. Once the operation begins, CT series will automatically complete edge searching, range checking, and cutting one after another. With CT series, you can finish batch production easily without any repetitive procedures.",
+        "id": "Atur proses produksimu lebih awal dan biarkan seri CT menyelesaikan sisanya. Begitu mesin mulai beroperasi, Seri CT akan mencari tepi, memeriksa jangkauan, dan mulai memotong satu demi satu secara otomatis. Dengan Seri CT,  produksi partaian dapat diselesaikan dengan mudah, tanpa harus melakukan prosedur yang sama berulang-ulang."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/dream-2.jpeg"
+      }
+    },
+    {
+      "title": {
+        "en": "Anti-burning mineral casting",
+        "id": "Mineral Casting Tanpa Risiko Terbakar"
+      },
+      "content": {
+        "en": "Bodor's newly developed anti-burning casting material provides numerous advantages in slag removal, operations, and modular design. When in use, material residue automatically separates from the anti-burning plate, largely lowering maintenance costs and offering better durability. Its lightweight structure as well makes it easy to replace.",
+        "id": "Bahan casting yang baru dikembangkan oleh Bodor resisten terhadap api, sehingga unggul dalam hal menghilangkan terak, operasional, dan desain modular. Saat digunakan, sisa material secara otomatis akan dipisahkan dari Lembaran anti terbakar, sehingga mengurangi biaya perawatan dan punya daya tahan yang lebih baik. Strukturnya yang ringan juga membuat komponennya mudah untuk diganti. "
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/dream-4.jpeg"
+      }
+    },
+    {
+      "title": {
+        "en": "Lightning piercing",
+        "id": "Pelubangan Kilat"
+      },
+      "content": {
+        "en": "The technology offers rapid, precise piercing with reduced time. It features monitored processes for efficiency, focus adjustment for seamless piercing, and integration with BodorGenius.",
+        "id": "Teknologi ini membuat proses pelubangan yang cepat, presisi, dan lebih singkat. Terdapat fitur monitoring untuk efisiensi, penyesuaian fokus otomatis untuk pelubangan tanpa henti, dan integrasi dengan Bodor Genius. Ini memungkinkan proses pelubangan dilakukan bersamaan dengan pergerakan kepala pemotong. Proses produksi dengan Lembaran medium-tebal menjadi optimal, tanpa perlu waktu atau gerakan tambahan."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/hseries-2.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Self-centering pneumatic chuck",
+        "id": "Chuck Pneumatik Otomatis "
+      },
+      "content": {
+        "en": "This chuck offers rapid clamping capabilities to complete the process in a mere 2 seconds, while it gear transmission structure provides stable operation and an extended service life. Its stable and strong load-bearing design makes CT series capable of precise control of speed and clamping force, ensuring no deformation and accuracy deviation for thin-walled tubes.",
+        "id": "Chuck ini mampu menjepit dengan cepat hanya dalam 2 detik. Pada saat yang bersaman, struktur transmisi geriginya menjamin kestabilan operasional dan memperpanjang masa pakai perangkat. Desain penahan beban yang stabil dan kuat membuat produk Seri CT mampu menghasilkan kontrol kecepatan dan kekuatan penjepit yang presisi sehingga tidak terjadi deformasi atau salah potong pada pipa berdinding tipis."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/tube-cutting-10.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Intelligent remnant layout",
+        "id": "Tata Letak Sisa Bahan Yang Cerdas"
+      },
+      "content": {
+        "en": "To achieve maximum material utilization, all you need to do is uploading pictures of the remnant to the control system with your mobile phone. CT series is able to automatically finish positioning as well as nesting. The higher the percentage of utilization, the more economical the process. Enjoy the benefits of significantly increased cost savings.",
+        "id": "Untuk mengoptimalkan penggunaan bahan, Anda hanya perlu mengunggah foto sisa bahan ke sistem kontrol lewat ponsel Anda. Produk-produk Seri CT mampu mengatur posisi dan proses nesting secara otomatis. Semakin tinggi persentase penggunaan bahan, semakin murah pula proses produksinya. Anda akan menghemat begitu banyak uang. "
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/pseries-6.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Nesting software compatible with Tekla",
+        "id": "Perangkat Lunak Nesting Yang Kompatibel Dengan Tekla"
+      },
+      "content": {
+        "en": "`The nesting software for the Bodor CT series has strong compatibility with Tekla, streamlining your workflow by effortlessly reading material specifications from Tekla files. It simplifies the cutting process with smart material utilization, ensuring maximum efficiency and less waste.",
+        "id": "Perangkat lunak nesting yang digunakan di Bodor Seri CT sangat kompatibel dengan Tekla. Alur kerja produksi akan semakin cepat karena mesin ini bisa membaca spesifikasi bahan dari file Tekla dengan mudah. Proses pemotongan menjadi lebih sederhana dengan penggunaan bahan yang cerdas, sehingga tercapai efisiensi maksimum dan limbah yang lebih sedikit."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/pseries-7.webp"
+      }
+    }
+  ],
+  "specs": [
+    {
+      "title": "C3T",
+      "data": [
+        {
+          "dTitle": "Working area\t",
+          "dValue": "3048mm*1524mm\n"
+        },
+        {
+          "dTitle": "Laser output power\t",
+          "dValue": "6000W / 3000W / 1500W"
+        },
+        {
+          "dTitle": "Positioning accuracy\t",
+          "dValue": "±0.05mm/m"
+        },
+        {
+          "dTitle": "Repositioning accuracy",
+          "dValue": "±0.03mm"
+        },
+        {
+          "dTitle": "Max. linkage speed\t",
+          "dValue": "100m/min"
+        },
+        {
+          "dTitle": "Max. acceleration\t",
+          "dValue": "1G"
+        }
+      ]
+    }
+  ]
+}

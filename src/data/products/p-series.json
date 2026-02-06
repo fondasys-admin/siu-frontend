@@ -1,0 +1,212 @@
+{
+  "title": "P Series",
+  "brand": "Bodor",
+  "catergory": [
+    "Laser Cutting Machine",
+    "Professional"
+  ],
+  "media": {
+    "type": "image",
+    "url": "/products/p-series.webp"
+  },
+  "description": {
+    "en": "Professional All-Around Sheet Metal Fiber Laser Cutting Machine",
+    "id": "Mesin Laser Cutting Fiber Plat Logam Profesional Serba Guna"
+  },
+  "populatedAuthors": [],
+  "banSubtitle": {
+    "en": "Professional All-Around Sheet Metal Fiber Laser Cutting Machine",
+    "id": "Mesin Laser Cutting Fiber Plat Logam Profesional Serba Guna"
+  },
+  "banDescription": {
+    "en": "The Bodor P Series is a fully protective, all-around sheet metal fiber laser cutting machine engineered for professional applications. With 4G acceleration, 200m/min positioning speed, and advanced smart features, the P Series delivers supercharged productivity, safety, and cutting quality for demanding production environments.",
+    "id": "Bodor Seri P adalah mesin laser cutting fiber plat logam yang protektif dan serba guna, dirancang untuk aplikasi profesional. Dengan akselerasi 4G, kecepatan posisi 200m/menit, dan fitur pintar canggih, Seri P memberikan produktivitas, keamanan, dan kualitas pemotongan yang luar biasa untuk lingkungan produksi yang menuntut."
+  },
+  "highlights": [
+    {
+      "title": {
+        "en": "Supercharged Productivity",
+        "id": "Produktivitas Maksimal"
+      },
+      "content": {
+        "en": "4G acceleration and 200m/min instant positioning achieve the shortest 1-meter idle movement in only 480ms, enabling rapid positioning and immediate cutting commencement for maximum throughput.",
+        "id": "Akselerasi 4G dan posisi instan 200m/menit mencapai perpindahan 1 meter tercepat hanya dalam 480ms, memungkinkan posisi cepat dan pemotongan langsung untuk hasil produksi maksimal."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Safety First",
+        "id": "Keamanan Utama"
+      },
+      "content": {
+        "en": "Visual collision detection and active collision avoidance protect the cutting head and workpiece. Automatic cleaning and intelligent air pressure control extend equipment lifespan and reduce maintenance costs.",
+        "id": "Deteksi tabrakan visual dan pencegahan tabrakan aktif melindungi kepala pemotong dan benda kerja. Pembersihan otomatis dan kontrol tekanan udara cerdas memperpanjang umur mesin dan mengurangi biaya perawatan."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "User-Friendly Operation",
+        "id": "Pengoperasian Mudah"
+      },
+      "content": {
+        "en": "One-second edge finding eliminates manual position hassles. An intuitive touchscreen interface requires minimal training for seamless operation, making it accessible for operators of all skill levels.",
+        "id": "Pencarian tepi satu detik menghilangkan kesulitan posisi manual. Antarmuka layar sentuh intuitif memerlukan pelatihan minimal untuk pengoperasian yang mulus, mudah diakses oleh operator di semua tingkat kemampuan."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Resource Efficiency",
+        "id": "Efisiensi Sumber Daya"
+      },
+      "content": {
+        "en": "Automatic seam compensation reduces manual adjustment needs. Automatic nozzle changer minimizes human intervention. Resource-efficient design targets savings in material, gas, and electricity consumption.",
+        "id": "Kompensasi sambungan otomatis mengurangi kebutuhan penyesuaian manual. Pengubah nozzle otomatis meminimalkan intervensi manusia. Desain hemat sumber daya menargetkan penghematan material, gas, dan konsumsi listrik."
+      },
+      "icon": ""
+    }
+  ],
+  "body": [
+    {
+      "title": {
+        "en": "Top-Notch Cutting Quality",
+        "id": "Kualitas Pemotongan Terbaik"
+      },
+      "content": {
+        "en": "The P Series delivers exceptional cutting quality every time, with high-speed cutting processes that ensure clean, precise edges on carbon steel, stainless steel, aluminum, and other materials. Advanced process optimization ensures consistent results across varying material thicknesses.",
+        "id": "Seri P menghasilkan kualitas pemotongan yang luar biasa setiap saat, dengan proses pemotongan berkecepatan tinggi yang memastikan tepi yang bersih dan presisi pada baja karbon, baja tahan karat, aluminium, dan material lainnya. Optimasi proses canggih memastikan hasil yang konsisten pada berbagai ketebalan material."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/pseries-1.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Smart Experience",
+        "id": "Pengalaman Pintar"
+      },
+      "content": {
+        "en": "Automatic seam compensation reduces manual adjustment needs, while the automatic nozzle changer minimizes human intervention during operation. These smart features work together to create a seamless, efficient cutting workflow that maximizes uptime and reduces operator fatigue.",
+        "id": "Kompensasi sambungan otomatis mengurangi kebutuhan penyesuaian manual, sementara pengubah nozzle otomatis meminimalkan intervensi manusia selama operasi. Fitur-fitur pintar ini bekerja sama untuk menciptakan alur kerja pemotongan yang mulus dan efisien, memaksimalkan waktu operasional dan mengurangi kelelahan operator."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/pseries-2.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Remnants Layout",
+        "id": "Tata Letak Sisa Bahan"
+      },
+      "content": {
+        "en": "The intelligent remnants layout feature enables secondary layout of waste material, extracting additional production value from leftover sheets. Simply upload remnant photos to the control system via mobile phone, and the P Series automatically handles positioning and nesting for maximum material utilization.",
+        "id": "Fitur tata letak sisa bahan cerdas memungkinkan tata letak sekunder dari material sisa, mengekstrak nilai produksi tambahan dari lembaran sisa. Cukup unggah foto sisa bahan ke sistem kontrol melalui ponsel, dan Seri P secara otomatis menangani posisi dan nesting untuk pemanfaatan material maksimal."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/pseries-6.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Active Collision Avoidance",
+        "id": "Pencegahan Tabrakan Aktif"
+      },
+      "content": {
+        "en": "The BodorGenius intelligent laser head uses visual sensors and advanced algorithms to detect potential obstacles such as tilting parts, and automatically avoids collisions. This ensures stability and operating efficiency throughout the cutting process, protecting both the machine and your investment.",
+        "id": "Kepala laser cerdas BodorGenius menggunakan sensor visual dan algoritma canggih untuk mendeteksi kemungkinan halangan seperti bagian yang miring, dan secara otomatis menghindari tabrakan. Ini memastikan stabilitas dan efisiensi operasional selama proses pemotongan, melindungi mesin dan investasi Anda."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/pseries-3.webp"
+      }
+    },
+    {
+      "hero": {
+        "type": "leftContentBgImg",
+        "title": {
+          "en": "Request a free quote",
+          "id": "Mendapatkan Penawaran Gratis"
+        },
+        "subtitle": {
+          "en": "Ready to incorporate the machine to your business?",
+          "id": "Siap untuk mengintegrasikan mesin ke bisnis Anda?"
+        },
+        "stretched": "false",
+        "links": [
+          {
+            "link": {
+              "type": "custom",
+              "url": "/inquiry",
+              "label": {
+                "en": "Request a quote",
+                "id": "Meminta Penawaran"
+              },
+              "appearance": "default"
+            },
+            "id": "p-series-cta-link"
+          }
+        ],
+        "media": ""
+      },
+      "id": "p-series-cta",
+      "blockType": "cta"
+    }
+  ],
+  "specs": [
+    {
+      "title": "P3",
+      "data": [
+        { "dTitle": "Working area", "dValue": "3048mm*1524mm" },
+        { "dTitle": "Laser output power", "dValue": "60000W / 30000W / 24000W / 12000W / 6000W / 3000W" },
+        { "dTitle": "Positioning accuracy", "dValue": "±0.03mm/m" },
+        { "dTitle": "Repositioning accuracy", "dValue": "±0.02mm" },
+        { "dTitle": "Max. linkage speed", "dValue": "200m/min" },
+        { "dTitle": "Max. acceleration", "dValue": "4.0G" }
+      ]
+    },
+    {
+      "title": "P4",
+      "data": [
+        { "dTitle": "Working area", "dValue": "4000mm*2000mm" },
+        { "dTitle": "Laser output power", "dValue": "60000W / 30000W / 24000W / 12000W / 6000W / 3000W" },
+        { "dTitle": "Positioning accuracy", "dValue": "±0.03mm/m" },
+        { "dTitle": "Repositioning accuracy", "dValue": "±0.03mm" },
+        { "dTitle": "Max. linkage speed", "dValue": "200m/min" },
+        { "dTitle": "Max. acceleration", "dValue": "4.0G" }
+      ]
+    },
+    {
+      "title": "P6",
+      "data": [
+        { "dTitle": "Working area", "dValue": "6500mm*2500mm" },
+        { "dTitle": "Laser output power", "dValue": "60000W / 30000W / 24000W / 12000W / 6000W" },
+        { "dTitle": "Positioning accuracy", "dValue": "±0.03mm/m" },
+        { "dTitle": "Repositioning accuracy", "dValue": "±0.02mm" },
+        { "dTitle": "Max. linkage speed", "dValue": "200m/min" },
+        { "dTitle": "Max. acceleration", "dValue": "2.8G" }
+      ]
+    },
+    {
+      "title": "P12",
+      "data": [
+        { "dTitle": "Working area", "dValue": "12500mm*2600mm" },
+        { "dTitle": "Laser output power", "dValue": "60000W / 30000W / 24000W / 12000W" },
+        { "dTitle": "Positioning accuracy", "dValue": "±0.03mm/m" },
+        { "dTitle": "Repositioning accuracy", "dValue": "±0.02mm" },
+        { "dTitle": "Max. linkage speed", "dValue": "200m/min" },
+        { "dTitle": "Max. acceleration", "dValue": "2.8G" }
+      ]
+    }
+  ],
+  "testimonials": [],
+  "slug": "p-series",
+  "_status": "published",
+  "createdAt": "2025-01-15T00:00:00.000Z",
+  "updatedAt": "2025-01-15T00:00:00.000Z",
+  "publishedAt": "2025-01-15T00:00:00.000Z"
+}

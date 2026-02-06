@@ -1,0 +1,335 @@
+{
+  "title": "K Series",
+  "catergory": "65f4361b47076d5926af7577",
+  "slug": "k-series",
+  "_status": "published",
+  "createdAt": {
+    "$date": "2024-04-11T08:05:14.660Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-15T15:01:26.524Z"
+  },
+  "__v": 0,
+  "_id": {
+    "$oid": "661799bac67d8300e8ac568c"
+  },
+  "subCatergory": "6624d5378a7b829b8552f8f3",
+  "publishedAt": {
+    "$date": "2024-04-11T08:05:14.614Z"
+  },
+  "media": {
+    "type": "image",
+    "url": "/products/k-series.webp"
+  },
+  "description": {
+    "en": "Entry-level fiber laser metal tube cutting machine",
+    "id": "Laser cutting mesin serat logam pipa tingkat awal"
+  },
+  "banSubtitle": {
+    "en": "Entry-Level Tube Laser Cutting Machine",
+    "id": "Laser cutting mesin serat logam pipa tingkat awal"
+  },
+  "banDescription": {
+    "en": "The economical choice for precise tube processing. Experience excellent performance with huge savings.",
+    "id": "Pilihan terjangkau untuk memotong serat logam pipa dengan presisi tinggi. Rasakan kinerja luar biasa dengan penghematan besar."
+  },
+  "populatedAuthors": [],
+  "highlights": [
+    {
+      "title": {
+        "en": "Fast cutting",
+        "id": "Pemotongan Cepat"
+      },
+      "content": {
+        "en": "No compromises on speed. K series achieves a maximum feeding speed of 100m/min and a chuck rotating speed of 130r/min.",
+        "id": "Tak ada kompromi soal kecepatan. Produk-produk Seri K mampu mencapai kecepatan pemotongan maksimal 100 meter per menit dan kecepatan putar chuck 130 putaran per menit."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "High level of safety",
+        "id": "Tingkat Keselamatan Yang Tinggi."
+      },
+      "content": {
+        "en": "Enjoy the ease of operation. K series enhances operating safety for all production runs through providing great accessibility to all working areas.",
+        "id": "Nikmati kemudahan pengoperasian. Produk-produk Seri K memiliki tingkat keselamatan pengoperasian yang lebih aman untuk semua jenis produksi. "
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Automation",
+        "id": "Otomatisasi"
+      },
+      "content": {
+        "en": "Automation makes operations easier. K series exhibits high productivity thanks to Bodor's automation devices like K-Loader and K-Trans. Automation optimizes material flow and boosts output of the production line.",
+        "id": "Otomatisasi membuat proses operasional lebih mudah. Produk-produk Seri K memiliki tingkat produktivitas yang tinggi berkat alat otomatisasi Bodor seperti K-Loader dan K-Trans. Otomatisasi memaksimalkan aliran bahan dan meningkatkan keluaran dari garis produksi."
+      },
+      "icon": ""
+    }
+  ],
+  "body": [
+    {
+      "title": {
+        "en": "Intelligent chuck",
+        "id": "Chuck yang cerdas"
+      },
+      "content": {
+        "en": "K series’ pneumatic chucks are well-suited for stable performance in dynamic applications. Each of the two chucks is able to complete clamping in just 2 seconds with a strong chucking force. It also reduces scrap to only 45 mm, limiting waste and facilitating regular on-site maintenance.",
+        "id": "Chuck pneumatik seri K sangat cocok untuk kinerja stabil dalam aplikasi dinamis. Masing-masing dari kedua chuck mampu menyelesaikan penjepitan hanya dalam 2 detik dengan gaya chucking yang kuat. Hal ini juga mengurangi sisa menjadi hanya 45 mm, membatasi limbah dan memfasilitasi pemeliharaan rutin di lokasi."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/tube-cutting-10.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Cutting of different tubes and profiles",
+        "id": "Pemotongan tabung dan profil yang berbeda"
+      },
+      "content": {
+        "en": "K series machines allow users to manufacture standard and customized-shaped steel tubes for their project needs. They have the capability to cut tubing in square, rectangular, flat oval, elliptical and many other custom shapes in a variety of metals.",
+        "id": "Mesin seri K memungkinkan pengguna memproduksi tabung baja berbentuk standar dan khusus untuk kebutuhan proyek Anda. Mereka memiliki kemampuan untuk memotong pipa dalam bentuk persegi, persegi panjang, oval datar, elips, dan banyak bentuk khusus lainnya dalam berbagai logam."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/tube-cutting-6.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "BodorNest Tube",
+        "id": "Pipa BodorNest"
+      },
+      "content": {
+        "en": "BodorNest Tube is system designed for intelligent tube processing. It works with a diverse range of tube materials. Users can customize tube cutting layouts to fulfill different fabrication needs. This software increases material utilization rate by 15% and layout speed by 25%, facilitating the process of tube nesting. It also seamlessly integrates with other business software such as Tekla and Tribon.",
+        "id": "BodorNest Tube adalah sistem yang dirancang untuk pemrosesan tabung cerdas. Alat ini bekerja dengan beragam bahan tabung. Pengguna dapat menyesuaikan tata letak pemotongan tabung untuk memenuhi kebutuhan fabrikasi yang berbeda. Perangkat lunak ini meningkatkan tingkat pemanfaatan material sebesar 15% dan kecepatan tata letak sebesar 25%, sehingga memfasilitasi proses nesting pipa. Ini juga terintegrasi secara mulus dengan perangkat lunak bisnis lainnya seperti Tekla dan Tribon."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/tube-cutting-11.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Edge collision prevention",
+        "id": "Pencegahan benturan tepi"
+      },
+      "content": {
+        "en": "When cutting rectangular or square tubes, the K series system calculates the tube’s corner rotation radius through the function, effectively preventing collisions between the laser head and the tube, and thus avoiding any damage to the laser head.",
+        "id": "Saat memotong tabung persegi panjang atau persegi, sistem seri K menghitung radius rotasi sudut tabung melalui fungsi tersebut, yang secara efektif mencegah benturan antara kepala laser dan tabung, sehingga menghindari kerusakan pada kepala laser."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/tube-cutting-12.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Slag cleaning module (optional)",
+        "id": "Modul Pembersihan Terak (Opsional)"
+      },
+      "content": {
+        "en": "The slag cleaning module is the latest addition to Bodor’s K1 and K2 series of tube lasers. This feature aims to keep the tube interior free of slag, debris and dust. Through suction inside the tube, it eliminates the need for post-processing cleanup and enables a more efficient production process, resulting in a clean internal surface.",
+        "id": "Modul untuk membersihkan terak adalah fitur terbaru Seri K1 dan K2 laser tabung dari Bodor. Fitur ini menjaga interior pipa bersih dari terak, serpihan, dan debu. Dengan proses penghisapan di dalam tabung, fitur ini tak lagi memerlukan pembersihan setelah proses produksi selesai. Proses produksi menjadi lebih efisien dan permukaan internalnya menjadi bersih dan rapi."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/tube-cutting-13.webp"
+      }
+    },
+    {
+      "hero": {
+        "type": "leftContentBgImg",
+        "title": {
+          "en": "Request a free quote",
+          "id": "Mendapatkan Penawaran Gratis"
+        },
+        "subtitle": {
+          "en": "Ready to incorporate the machine to your business?",
+          "id": "Siap untuk mengintegrasikan mesin ke bisnis Anda?"
+        },
+        "stretched": "false",
+        "links": [
+          {
+            "link": {
+              "type": "custom",
+              "url": "/inquiry",
+              "label": {
+                "en": "Request a quote",
+                "id": "Meminta Penawaran"
+              },
+              "appearance": "dark"
+            },
+            "id": "667457d69bf590209609f6ad"
+          }
+        ],
+        "media": "660cdd5f047c30d8f74f667d"
+      }
+    }
+  ],
+  "specs": [
+    {
+      "title": "K1",
+      "data": [
+        {
+          "dTitle": "Laser Output Power\t",
+          "dValue": "6000W / 3000W / 1500W"
+        },
+        {
+          "dTitle": "Effective Round Tube Cutting Diameter\t",
+          "dValue": "φ6-φ120mm"
+        },
+        {
+          "dTitle": "Effective Square Tube Cutting Diameter\t",
+          "dValue": "□6-□110mm"
+        },
+        {
+          "dTitle": "Rectangular tube Edge Length\t",
+          "dValue": "6-110mm"
+        },
+        {
+          "dTitle": "X/Y-axis positioning accuracy\t",
+          "dValue": "0.05mm/m"
+        },
+        {
+          "dTitle": "X/Y-axis repositioning accuracy\t",
+          "dValue": "0.03mm"
+        },
+        {
+          "dTitle": "X axis maximum speed\t",
+          "dValue": "100m/min"
+        },
+        {
+          "dTitle": "Y axis maximum speed",
+          "dValue": "60m/min"
+        }
+      ]
+    },
+    {
+      "title": "K2",
+      "data": [
+        {
+          "dTitle": "Laser Output Power\t",
+          "dValue": "6000W / 3000W / 1500W"
+        },
+        {
+          "dTitle": "Effective Round Tube Cutting Diameter\t",
+          "dValue": "φ8-φ230mm"
+        },
+        {
+          "dTitle": "Effective Square Tube Cutting Diameter\t",
+          "dValue": "□8-□230mm"
+        },
+        {
+          "dTitle": "Rectangular tube Edge Length\t",
+          "dValue": "8-230mm"
+        },
+        {
+          "dTitle": "X/Y-axis positioning accuracy\t",
+          "dValue": "0.05mm/m"
+        },
+        {
+          "dTitle": "X/Y-axis repositioning accuracy\t",
+          "dValue": "0.03mm"
+        },
+        {
+          "dTitle": "X axis maximum speed\t",
+          "dValue": "90m/min"
+        },
+        {
+          "dTitle": "Y axis maximum speed",
+          "dValue": "60m/min"
+        }
+      ]
+    },
+    {
+      "title": "K3",
+      "data": [
+        {
+          "dTitle": "Laser Output Power\t",
+          "dValue": "6000W / 3000W"
+        },
+        {
+          "dTitle": "Effective Round Tube Cutting Diameter\t",
+          "dValue": "φ25-φ356mm"
+        },
+        {
+          "dTitle": "Effective Square Tube Cutting Diameter\t",
+          "dValue": "□25-□356mm"
+        },
+        {
+          "dTitle": "Rectangular tube Edge Length\t",
+          "dValue": "25-356mm"
+        },
+        {
+          "dTitle": "X/Y-axis positioning accuracy\t",
+          "dValue": "0.05mm/m"
+        },
+        {
+          "dTitle": "X/Y-axis repositioning accuracy\t",
+          "dValue": "0.03mm"
+        },
+        {
+          "dTitle": "X axis maximum speed\t",
+          "dValue": "90m/min"
+        },
+        {
+          "dTitle": "Y axis maximum speed",
+          "dValue": "60m/min"
+        }
+      ]
+    },
+    {
+      "title": "K5",
+      "data": [
+        {
+          "dTitle": "Laser Output Power\t",
+          "dValue": "12000W / 6000W"
+        },
+        {
+          "dTitle": "Effective Round Tube Cutting Diameter\t",
+          "dValue": "φ150-φ500mm"
+        },
+        {
+          "dTitle": "Effective Square Tube Cutting Diameter\t",
+          "dValue": "□150-□500mm"
+        },
+        {
+          "dTitle": "Rectangular tube Edge Length\t",
+          "dValue": "150-500mm"
+        },
+        {
+          "dTitle": "X/Y-axis positioning accuracy\t",
+          "dValue": "±0.05mm/m"
+        },
+        {
+          "dTitle": "X/Y-axis repositioning accuracy\t",
+          "dValue": "±0.03mm"
+        },
+        {
+          "dTitle": "X axis maximum speed\t",
+          "dValue": "35m/min"
+        },
+        {
+          "dTitle": "Y axis maximum speed",
+          "dValue": "30m/min"
+        }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "content": {
+        "en": "\"Bodor's A3 - 3kW and P3 - 6kW sheet laser cutting machines, along with the K350 - 6kW tube laser cutter, have been game-changers for us. They’re incredibly affordable and offer fantastic value for money. The reliability of these machines has been outstanding, minimizing downtime and boosting our productivity. Plus, the Bodor team provides top-notch service, always ready to help whenever we need it. We couldn’t be happier with our choice!\"",
+        "id": "Mesin pemotong laser lembaran Bodor A3 - 3kW dan P3 - 6Kw dan mesin pemotong laser pipa K350 - 6kW sangatlah revolusioner. Harganya terjangkau dan ‘value for money’-nya luar biasa. Mesin-mesin ini sangat handal. Waktu downtime kami berkurang dan produktivitas kami jauh meningkat. Layanan yang diberikan oleh tim Bodor juga bintang lima! Mereka selalu siap membantu kapanpun kami butuhkan. Kami sangat puas dengan pilihan kami."
+      },
+      "subtitle": {
+        "en": "Furniture Manufacturer, Semarang/Demak/Jepara ",
+        "id": "Pabrik Furnitur, Semarang/Demak/Jepara"
+      }
+    }
+  ]
+}

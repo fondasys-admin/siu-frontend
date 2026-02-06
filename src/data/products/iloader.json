@@ -1,0 +1,93 @@
+{
+  "title": "iLoader",
+  "brand": "Bodor",
+  "catergory": [
+    "Laser Cutting Machine",
+    "Sheet Cutting Automation Devices"
+  ],
+  "media": {
+    "type": "image",
+    "url": "/products/iloader.webp"
+  },
+  "description": {
+    "en": "Automatic Sheet Loading Device",
+    "id": "Perangkat Loading Plat Otomatis"
+  },
+  "populatedAuthors": [],
+  "banSubtitle": {
+    "en": "Automatic Sheet Loading Device",
+    "id": "Perangkat Loading Plat Otomatis"
+  },
+  "banDescription": {
+    "en": "The iLoader is an automatic loading device compatible with the P/B/C Series. It achieves fully automatic loading of metal sheets without manual intervention, reducing workforce input and lowering operational risks for flexible production.",
+    "id": "iLoader adalah perangkat loading otomatis yang kompatibel dengan Seri P/B/C. Perangkat ini mampu melakukan loading plat logam secara otomatis penuh tanpa intervensi manual, mengurangi kebutuhan tenaga kerja dan menurunkan risiko operasional untuk produksi yang fleksibel."
+  },
+  "highlights": [
+    {
+      "title": {
+        "en": "Automatic Loading",
+        "id": "Loading Otomatis"
+      },
+      "content": {
+        "en": "Fully automatic sheet loading without manual intervention, enabling continuous production and reducing labor costs significantly.",
+        "id": "Loading plat otomatis penuh tanpa intervensi manual, memungkinkan produksi berkelanjutan dan mengurangi biaya tenaga kerja secara signifikan."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Flexible Production",
+        "id": "Produksi Fleksibel"
+      },
+      "content": {
+        "en": "Adaptable to various sheet sizes and materials, the iLoader seamlessly integrates into your production workflow for maximum versatility.",
+        "id": "Dapat disesuaikan dengan berbagai ukuran dan bahan plat, iLoader terintegrasi dengan mudah ke dalam alur kerja produksi Anda untuk fleksibilitas maksimum."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Lower Operational Risk",
+        "id": "Risiko Operasional Lebih Rendah"
+      },
+      "content": {
+        "en": "By eliminating manual sheet handling, the iLoader significantly reduces workplace injuries and operational risks associated with heavy material loading.",
+        "id": "Dengan menghilangkan penanganan plat manual, iLoader secara signifikan mengurangi cedera di tempat kerja dan risiko operasional terkait loading material berat."
+      },
+      "icon": ""
+    }
+  ],
+  "body": [
+    {
+      "title": {
+        "en": "Compatible with P/B/C Series",
+        "id": "Kompatibel dengan Seri P/B/C"
+      },
+      "content": {
+        "en": "The iLoader is designed to work seamlessly with Bodor's P, B, and C Series laser cutting machines. The integration is straightforward, allowing you to upgrade your existing setup with automated loading capabilities without significant modifications.",
+        "id": "iLoader dirancang untuk bekerja secara mulus dengan mesin laser cutting Bodor Seri P, B, dan C. Integrasinya mudah, memungkinkan Anda meningkatkan setup yang ada dengan kemampuan loading otomatis tanpa modifikasi yang signifikan."
+      },
+      "media": {
+        "type": "",
+        "url": ""
+      }
+    },
+    {
+      "title": {
+        "en": "Reduced Workforce Requirements",
+        "id": "Kebutuhan Tenaga Kerja Lebih Sedikit"
+      },
+      "content": {
+        "en": "With fully automated loading, the iLoader frees up your workforce to focus on other value-added tasks. The device handles the repetitive and physically demanding loading process, improving overall production efficiency and employee safety.",
+        "id": "Dengan loading otomatis penuh, iLoader membebaskan tenaga kerja Anda untuk fokus pada tugas bernilai tambah lainnya. Perangkat ini menangani proses loading yang repetitif dan menuntut secara fisik, meningkatkan efisiensi produksi dan keselamatan karyawan secara keseluruhan."
+      },
+      "media": {
+        "type": "",
+        "url": ""
+      }
+    }
+  ],
+  "specs": [],
+  "slug": "iloader",
+  "_status": "published"
+}

@@ -1,0 +1,327 @@
+{
+  "title": "T Series",
+  "catergory": "65f4361b47076d5926af7577",
+  "slug": "t-series",
+  "_status": "published",
+  "createdAt": {
+    "$date": "2024-04-10T02:29:01.588Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-04T03:44:28.880Z"
+  },
+  "__v": 0,
+  "_id": {
+    "$oid": "6615f96de03bfa09148791dc"
+  },
+  "subCatergory": "6624d5328a7b829b8552f8f2",
+  "publishedAt": {
+    "$date": "2024-04-10T02:29:01.531Z"
+  },
+  "media": {
+    "type": "image",
+    "url": "/products/t-series.webp"
+  },
+  "description": {
+    "en": "All-around fiber laser metal tube cutting machine",
+    "id": "Laser cutting mesin logam Pipa multifungsi"
+  },
+  "banSubtitle": {
+    "en": "Performance Tube Laser Cutting Machine",
+    "id": "Laser cutting mesin logam Pipa multifungsi"
+  },
+  "banDescription": {
+    "en": "Discover a performance model with multiple intelligent functions. Let T series take care of your metal fabrication projects with intuitive operation.",
+    "id": "Kami menciptakan Seri T dengan sistem pengoperasian intutif untuk Anda yang membutuhkah mesin laser multifungsi yang optimal di setiap proses fabrikasi logam."
+  },
+  "populatedAuthors": [],
+  "highlights": [
+    {
+      "title": {
+        "en": "Efficiency master",
+        "id": "Pakarnya Efisiensi"
+      },
+      "content": {
+        "en": "High productivity is always essential. The processing efficiency on a single pipe is generically 20% faster than other cutting techniques. Leading you ahead of the game, T series brings in master-level processing experience.",
+        "id": "Produktivitas yang tinggi sangatlah penting. Efisiensi pemrosesan dengan pipa tunggal secara umum 20% lebih cepat daripada teknik pemotongan yang lain. Produk-produk Seri T memberikan Anda keunggulan atas para kompetitor."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "High-speed cutting",
+        "id": "Pemotongan Dengan Kecepatan Tinggi"
+      },
+      "content": {
+        "en": "Fast cutting with no interruptions. With a power of up to 12 kilowatts, you can finish your projects in record time.",
+        "id": "Pemotongan cepat tanpa jeda. Dengan daya hingga 12 kilowatt, proyek-proyek Anda bisa diselesaikan lebih cepat dari biasanya."
+      },
+      "icon": ""
+    },
+    {
+       "title": {
+        "en": "Power & precision",
+        "id": "Tenaga & Presisi"
+      },
+      "content": {
+        "en": "Enhance precision in materials with different thicknesses. Bodor’s laser heads achieve highest level of quality, producing precise cuts effortlessly.",
+        "id": "Tingkatkan presisi pemotongan pada bahan dengan ketebalan yang berbeda-beda. Kepala laser Bodor punya kualitas terbaik yang mampu menghasilkan potongan-potongan presisi dengan sangat mudah."
+      },
+      "icon": ""
+    },
+    {
+      "title": {
+        "en": "Versatile applications",
+        "id": "Penerapan Multiguna"
+      },
+      "content": {
+        "en": "T series is applicable to cutting for various shapes of tubes. Whether it’s round, rectangular, or irregular profiles, T series has got you covered.",
+        "id": "Produk-produk Seri T mampu memotong berbagai jenis bentuk pipa, baik itu yang berbentuk bulat, kotak, atau tak beraturan. Produk Seri T mampu menangani semuanya."
+      },
+      "icon": ""
+    }
+  ],
+  "body": [
+    {
+      "title": {
+        "en": "Centering completed in 1 second. No waiting time.",
+        "id": "Proses Centering dalam 1 detik. Tanpa Waktu Tunggu."
+      },
+      "content": {
+        "en": "Unlike traditional capacitor centering, T series finishes centering in just 0.26 seconds, doubling its cutting precision. There’s no downtime as the process can start right away. This technique is not affected by external situations like environments, temperatures, light, or tube conditions, stabilizing operations with high adaptability.",
+        "id": "Tak seperti centering kapasitor pada umumnya, Seri T menyelesaikan proses centering hanya dalam 0.26 detik dan melipatgandakan presisi pemotongannya. Tak ada downtime karena proses produksi dapat langsung dimulai. Teknik ini tidak terpengaruh oleh kondisi eksternal seperti lingkungan, suhu, cahaya, atau kondisi pipa sehingga proses produksi stabil dan punya kemampuan adaptasi yang tinggi."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/tube-cutting-1.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Speed up to 160",
+        "id": "Kecepatan Hingga 160"
+      },
+      "content": {
+        "en": "With a feeding speed up to 160m/min and a rotating speed up to 160r/min, T series improves processing efficiency by 20% in comparison to that of the industry standard.",
+        "id": "Dengan kecepatan feeding hingga 160 m per menit dan kecepatan rotasi hingga 160 putaran per menit, Seri T meningkatkan efisensi produksi sekitar 20% dibandingkan dengan standar industri saat ini."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/tube-cutting-2.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Intelligent adaptive processing",
+        "id": "Pemrosesan Adaptif Yang Cerdas"
+      },
+      "content": {
+        "en": "With Bodor’s cutting process database, T series’ control system is able to intelligently select and match the best cutting parameters (e.g. feeding speed, chuck rotating speed, and clamping force) based on the types of the tubes, ensuring the best operating performance at all times. It as well substantially cuts down labor costs since it requires zero manual intervention.",
+        "id": "Dengan database pemrosesan pemotongan dari Bodor, sistem kontrol cerdas Seri T mampu memilih dan mencocokkan parameter pemotongan terbaik (misal: kecepatan feeding, kecepatan perputaran chuck, daya penjepitan) berdasarkan jenis pipa, sehingga Anda selalu mendapatkan performa operasional terbaik. Mesin ini mampu menekan biaya tenaga kerja secara signifikan karena ia tidak memerlukan intervensi manual."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/tube-cutting-3.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Combined roller support",
+        "id": "Dukungan Roller Gabungan"
+      },
+      "content": {
+        "en": "The full coverage support of the U-shaped combined roller ensures tube stability even during high-speed rotating (up to 160r/min) and greatly improves cutting precision.",
+        "id": "Dukungan penuh dari roller gabungan berbentuk U menjaga  pipa tetap stabil bahkan selama putaran kecepatan tinggi (hingga 160 putaran per menit) sehingga meningkatkan akurasi pemotongan."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/tube-cutting-4.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Servo-flipping unloading plate",
+        "id": "Lembaran Bongkar Muat Pembalik Dengan Servo Motor"
+      },
+      "content": {
+        "en": "The servomechanism of T series guarantees all machinery procedures work synchronously. The new servo-flipping plate has adaptive motions to facilitate the unloading process. While preventing redundant shaking or moving of the work piece, the plate is able to automatically categorize work pieces and remnant into different piles, thus lowering labor costs.",
+        "id": "Mekanisme servo pada Seri T menjamin semua prosedur mesin bekerja secara bersamaan. Lembaran bongkar muat pembalik dengan servo memiliki gerakan adaptif untuk mempermudah proses bongkar muat. Pada saat mencegah getaran atau gerakan bagian yang sedang diolah, pelat ini mampu secara otomatis memisah-misahkan bagian yang sedang dikerjakan ke tumpukan yang berbeda-beda."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/tube-cutting-5.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Cutting of different tubes and profiles",
+        "id": "Pemotongan tabung dan profil yang berbeda"
+      },
+      "content": {
+        "en": "T series machines allow users to manufacture standard and customized-shaped steel tubes for their application needs. They have the capability to cut tubing in square, rectangular, flat sided oval, elliptical and many other custom shapes in a variety of metals.",
+        "id": "Mesin seri T memungkinkan pengguna memproduksi tabung baja berbentuk standar dan khusus untuk kebutuhan proyek Anda. Mereka memiliki kemampuan untuk memotong pipa dalam bentuk persegi, persegi panjang, oval datar, elips, dan banyak bentuk khusus lainnya dalam berbagai logam."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/tube-cutting-6.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Automatic loading (optional)",
+        "id": "Pemuatan Otomatis (opsional)"
+      },
+      "content": {
+        "en": "T-Series can be paired with the automatic loading system T-Trans and/or the auxiliary loading device T-Loader. You can choose either one of them based on your production needs.",
+        "id": "Produk-produk Seri T dapat dipasangkan dengan sistem pemuatan otomatis T-Trans dan/atau alat pemuat tambahan T-Loader. Anda dapat memilih salah satu dari kedua opsi ini sesuai kebutuhan produksi Anda."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/tube-cutting-7.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Excellent bevel cuts (optional)",
+        "id": "Pemotongan Bevel Dengan Sempurna (Opsional)"
+      },
+      "content": {
+        "en": "The bevel cutting option of T series enables the production of high-precision bevel cuts in +/- 45 degrees, optimizing subsequent assembly procedures and welding performance while lowering production costs.",
+        "id": "Opsi pemotongan bevel di Seri T memungkinkan potongan bevel yang sangat presisi dengan sudut +/- 45 derajat. Proses perakitan dan pengelasan selanjutnya pun menjadi lebih optimal sehingga biaya produksi menjadi lebih rendah. (Model-model potongan yang tersedia adalah potongan bevel model  A, V, Y, X, dan K) "
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/tube-cutting-8.webp"
+      }
+    },
+    {
+      "title": {
+        "en": "Weld seam identification (optional)",
+        "id": "Identifikasi Sambungan Las (opsional)"
+      },
+      "content": {
+        "en": "With a simple camera set-up, T series can quickly detect weld seams located on the inside. This option is applicable to a variety shapes of tubes. It is particularly helpful to manufacturers who would like to avoid weld seams during laser cutting.",
+        "id": "Dengan sebuah kamera sederhana, produk Seri T dapat dengan cepat mendeteksi sambungan las yang ada di dalam pipa. Opsi ini dapat digunakan untuk berbagai jenis pipa. Fitur ini sangat bermanfaat untuk pabrikan yang ingin menghindari sambungan las saat memotong dengan laser."
+      },
+      "media": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/pt-synergis-utama.appspot.com/tube-cutting-9.webp"
+      }
+    }
+  ],
+  "specs": [
+    {
+      "title": "T2",
+      "data": [
+        {
+          "dTitle": "Requirements for Tubes",
+          "dValue": "Diameter＜Φ50mm, Thickness≥1.2mm\nDiameter≥Φ50mm, Ratio of tube thickness and diameter≥2.5%"
+        },
+        {
+          "dTitle": "Tube Size Range",
+          "dValue": "Φ8-230mm\n□8*8-□230*230mm"
+        },
+        {
+          "dTitle": "Maximum Tube Length",
+          "dValue": "6500mm/9200mm"
+        },
+        {
+          "dTitle": "Maximum Tube Weight",
+          "dValue": "300kg"
+        },
+        {
+          "dTitle": "Max. Chuck Rotating Speed",
+          "dValue": "160r/min"
+        },
+        {
+          "dTitle": "Max. Chuck Feeding Speed",
+          "dValue": "160m/min"
+        },
+        {
+          "dTitle": "Shortest Remnant",
+          "dValue": "90mm"
+        },
+        {
+          "dTitle": "Max. Unloading Length",
+          "dValue": "4500mm"
+        },
+        {
+          "dTitle": "1-second centering",
+          "dValue": "✓"
+        },
+        {
+          "dTitle": "Automatic Adjustment of Clamping force",
+          "dValue": "✓"
+        },
+        {
+          "dTitle": "Following servo unloading plate",
+          "dValue": "✓"
+        },
+        {
+          "dTitle": "Intelligent Adaptive Processing",
+          "dValue": "✓"
+        },
+        {
+          "dTitle": "Combined Roller",
+          "dValue": "✓"
+        }
+      ]
+    },
+    {
+      "title": "T3",
+      "data": [
+        {
+          "dTitle": "Requirements for Tubes",
+          "dValue": "Diameter＜Φ50mm, Thickness≥1.2mm\nDiameter≥Φ50mm, Ratio of tube thickness and diameter≥2.5%"
+        },
+        {
+          "dTitle": "Tube Size Range",
+          "dValue": "Φ25-356mm\n□25*25-□356*356mm"
+        },
+        {
+          "dTitle": "Maximum Tube Length",
+          "dValue": "6500mm/9200mm"
+        },
+        {
+          "dTitle": "Maximum Tube Weight",
+          "dValue": "600kg"
+        },
+        {
+          "dTitle": "Max. Chuck Rotating Speed",
+          "dValue": "80r/min"
+        },
+        {
+          "dTitle": "Max. Chuck Feeding Speed",
+          "dValue": "100m/min"
+        },
+        {
+          "dTitle": "Shortest Remnant",
+          "dValue": "110mm"
+        },
+        {
+          "dTitle": "Max. Unloading Length",
+          "dValue": "4500mm"
+        },
+        {
+          "dTitle": "1-second centering",
+          "dValue": "✓"
+        },
+        {
+          "dTitle": "Automatic Adjustment of Clamping force",
+          "dValue": "✓"
+        },
+        {
+          "dTitle": "Following servo unloading plate",
+          "dValue": "✓"
+        },
+        {
+          "dTitle": "Intelligent Adaptive Processing",
+          "dValue": "✓"
+        },
+        {
+          "dTitle": "Combined Roller",
+          "dValue": "✓"
+        }
+      ]
+    }
+  ]
+}
