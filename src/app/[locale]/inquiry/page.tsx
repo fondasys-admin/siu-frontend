@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import { InquiryForm, type InquiryFormLabels } from "@/components/inquiry-form"
 import { ScrollFadeUp } from "@/components/ui/scroll-fade-up"
-import { FaFacebookSquare, FaInstagram, FaLinkedin } from "react-icons/fa"
+import { FaFacebookSquare, FaInstagram, FaLinkedin, FaTiktok } from "react-icons/fa"
 import {
   Accordion,
   AccordionContent,
@@ -117,7 +117,7 @@ export default async function InquiryPage({ params }: PageProps) {
                     <span>(62) 811-7710-691</span>
                     <span>(62) 778 - 457154</span>
                     <a
-                      href="tel:+62811771069"
+                      href="tel:+6285121305368"
                       className="underline hover:text-[#ff5b00]"
                     >
                       (62) 811-7710-691
@@ -149,25 +149,40 @@ export default async function InquiryPage({ params }: PageProps) {
                   </h3>
                   <div className="flex gap-3 items-center">
                     <a
-                      href="#"
-                      aria-label="Facebook"
-                      className="text-[#3c4043] hover:text-[#ff5b00]"
-                    >
-                      <FaFacebookSquare className="size-5" />
-                    </a>
-                    <a
-                      href="#"
+                      href="https://www.instagram.com/synergisiu/"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       aria-label="Instagram"
                       className="text-[#3c4043] hover:text-[#ff5b00]"
                     >
                       <FaInstagram className="size-5" />
                     </a>
                     <a
-                      href="#"
+                      href="https://www.facebook.com/profile.php?id=61571196097631"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Facebook"
+                      className="text-[#3c4043] hover:text-[#ff5b00]"
+                    >
+                      <FaFacebookSquare className="size-5" />
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/company/sinergis-industrial-utama/"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       aria-label="LinkedIn"
                       className="text-[#3c4043] hover:text-[#ff5b00]"
                     >
                       <FaLinkedin className="size-5" />
+                    </a>
+                    <a
+                      href="https://www.tiktok.com/@synergisiu"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="TikTok"
+                      className="text-[#3c4043] hover:text-[#ff5b00]"
+                    >
+                      <FaTiktok className="size-5" />
                     </a>
                   </div>
                 </div>

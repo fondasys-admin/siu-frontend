@@ -45,7 +45,7 @@ export function BrandCTA({ locale = defaultLocale }: { locale?: Locale }) {
             className="bg-[#25D366] hover:bg-[#1da851] text-white w-full sm:w-auto"
             onClick={() => posthog.capture('brand_cta_whatsapp_clicked', { locale })}
           >
-            <Link href="https://wa.me/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://wa.me/6285121305368" target="_blank" rel="noopener noreferrer">
               <FaWhatsapp className="size-5" />
               {t.whatsapp}
             </Link>

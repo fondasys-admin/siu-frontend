@@ -5,7 +5,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { Menu, X, ChevronLeft, ChevronRight } from "lucide-react"
-import { FaTwitter, FaInstagram, FaFacebookSquare, FaYoutube, FaLinkedin } from "react-icons/fa"
+import { FaInstagram, FaFacebookSquare, FaLinkedin, FaTiktok } from "react-icons/fa"
 import { Button } from "@/components/ui/button"
 import {
   Drawer,
@@ -167,16 +167,7 @@ export default function Mobile({
 
               <div className="flex items-center gap-4">
                 <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Twitter"
-                  onClick={() => posthog.capture('social_link_clicked', { platform: 'twitter', location: 'mobile_nav' })}
-                >
-                  <FaTwitter className="size-4 text-[#3c4043]" />
-                </a>
-                <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/synergisiu/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram"
@@ -185,7 +176,7 @@ export default function Mobile({
                   <FaInstagram className="size-4 text-[#3c4043]" />
                 </a>
                 <a
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/profile.php?id=61571196097631"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Facebook"
@@ -194,22 +185,22 @@ export default function Mobile({
                   <FaFacebookSquare className="size-4 text-[#3c4043]" />
                 </a>
                 <a
-                  href="https://youtube.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="YouTube"
-                  onClick={() => posthog.capture('social_link_clicked', { platform: 'youtube', location: 'mobile_nav' })}
-                >
-                  <FaYoutube className="size-4 text-[#3c4043]" />
-                </a>
-                <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/company/sinergis-industrial-utama/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
                   onClick={() => posthog.capture('social_link_clicked', { platform: 'linkedin', location: 'mobile_nav' })}
                 >
                   <FaLinkedin className="size-4 text-[#3c4043]" />
+                </a>
+                <a
+                  href="https://www.tiktok.com/@synergisiu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="TikTok"
+                  onClick={() => posthog.capture('social_link_clicked', { platform: 'tiktok', location: 'mobile_nav' })}
+                >
+                  <FaTiktok className="size-4 text-[#3c4043]" />
                 </a>
               </div>
 

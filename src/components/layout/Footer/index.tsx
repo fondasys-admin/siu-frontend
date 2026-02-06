@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Mail, Phone, Headset } from "lucide-react";
-import { FaWhatsapp, FaInstagram, FaFacebookSquare, FaYoutube, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaFacebookSquare, FaLinkedin, FaTiktok } from "react-icons/fa";
 import { type Locale, localePath, defaultLocale, t } from "@/lib/i18n";
 import { categoryRegistry } from "@/data/product-registry";
 
@@ -89,20 +89,17 @@ const Footer = async ({ locale = defaultLocale }: { locale?: Locale }) => {
       <div className="mx-auto max-w-[1400px] mt-20 border-t border-[#f2f2f2] flex max-lg:flex-col max-lg:gap-4 items-center justify-between h-14 px-6">
         {/* Social icons */}
         <div className="flex gap-4 items-center max-lg:pt-4">
-          <a href="#" aria-label="Twitter" className="text-dark hover:opacity-70">
-            <FaWhatsapp className="size-5" />
-          </a>
-          <a href="#" aria-label="Instagram" className="text-dark hover:opacity-70">
+          <a href="https://www.instagram.com/synergisiu/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-dark hover:opacity-70">
             <FaInstagram className="size-5" />
           </a>
-          <a href="#" aria-label="Facebook" className="text-dark hover:opacity-70">
+          <a href="https://www.facebook.com/profile.php?id=61571196097631" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-dark hover:opacity-70">
             <FaFacebookSquare className="size-5" />
           </a>
-          <a href="#" aria-label="YouTube" className="text-dark hover:opacity-70">
-            <FaYoutube className="size-5" />
-          </a>
-          <a href="#" aria-label="LinkedIn" className="text-dark hover:opacity-70">
+          <a href="https://www.linkedin.com/company/sinergis-industrial-utama/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-dark hover:opacity-70">
             <FaLinkedin className="size-5" />
+          </a>
+          <a href="https://www.tiktok.com/@synergisiu" target="_blank" rel="noopener noreferrer" aria-label="TikTok" className="text-dark hover:opacity-70">
+            <FaTiktok className="size-5" />
           </a>
         </div>
 
