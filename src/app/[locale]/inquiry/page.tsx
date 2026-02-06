@@ -8,17 +8,52 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
-import { t, isLocale, type Locale } from "@/lib/i18n"
+import { t, isLocale, localePath, type Locale } from "@/lib/i18n"
 import data from "@/data/pages/inquiry.json"
 
-export const metadata: Metadata = {
-  title: "Contact Us - PT Synergis Utama Indonesia",
-  description:
-    "Connect with our welding and cutting experts today. Get customized solutions and professional service support for laser cutting and welding machines in Indonesia.",
-}
+const SITE_URL = "https://siu-indo.com"
 
 interface PageProps {
   params: Promise<{ locale: string }>
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale: rawLocale } = await params
+  const locale: Locale = isLocale(rawLocale) ? rawLocale : "en"
+
+  const title = locale === "id"
+    ? "Hubungi Kami - PT Synergis Utama Indonesia"
+    : "Contact Us - PT Synergis Utama Indonesia"
+  const description = locale === "id"
+    ? "Hubungi ahli pengelasan dan pemotongan kami hari ini. Dapatkan solusi khusus dan dukungan layanan profesional untuk mesin laser cutting dan mesin las di Indonesia."
+    : "Connect with our welding and cutting experts today. Get customized solutions and professional service support for laser cutting and welding machines in Indonesia."
+  const canonicalUrl = `${SITE_URL}/inquiry`
+  const currentUrl = `${SITE_URL}${localePath("/inquiry", locale)}`
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        en: `${SITE_URL}/inquiry`,
+        id: `${SITE_URL}/id/inquiry`,
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      url: currentUrl,
+      siteName: "PT Synergis Utama Indonesia",
+      type: "website",
+      locale: locale === "id" ? "id_ID" : "en_US",
+    },
+    twitter: {
+      card: "summary",
+      title,
+      description,
+    },
+  }
 }
 
 export default async function InquiryPage({ params }: PageProps) {

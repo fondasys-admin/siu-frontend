@@ -16,6 +16,8 @@ import { productHref } from "@/data/product-registry"
 import { t, isLocale, localePath, type Locale } from "@/lib/i18n"
 import brandsData from "@/data/pages/brands.json"
 
+const SITE_URL = "https://siu-indo.com"
+
 interface PageProps {
   params: Promise<{ locale: string; slug: string }>
 }
@@ -23,14 +25,40 @@ interface PageProps {
 type BrandKey = keyof typeof brandsData.brands
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { slug } = await params
+  const { locale: rawLocale, slug } = await params
+  const locale: Locale = isLocale(rawLocale) ? rawLocale : "en"
   const brand = brandsData.brands[slug as BrandKey]
 
   if (!brand) return { title: "Brand Not Found" }
 
+  const title = `${brand.name} Products - Synergis Industrial Utama`
+  const description = t(brand.description, locale)
+  const canonicalUrl = `${SITE_URL}/brands/${slug}`
+  const currentUrl = `${SITE_URL}${localePath(`/brands/${slug}`, locale)}`
+
   return {
-    title: `${brand.name} Products - Synergis Industrial Utama`,
-    description: t(brand.description, "en"),
+    title,
+    description,
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        en: `${SITE_URL}/brands/${slug}`,
+        id: `${SITE_URL}/id/brands/${slug}`,
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      url: currentUrl,
+      siteName: "PT Synergis Utama Indonesia",
+      type: "website",
+      locale: locale === "id" ? "id_ID" : "en_US",
+    },
+    twitter: {
+      card: "summary",
+      title,
+      description,
+    },
   }
 }
 

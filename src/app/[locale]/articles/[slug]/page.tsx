@@ -29,9 +29,35 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const locale: Locale = isLocale(rawLocale) ? rawLocale : "en"
   const article = getArticle(slug, locale)
   if (!article) return {}
+
+  const title = `${article.title} - Synergis Industrial Utama`
+  const description = article.description
+  const canonicalUrl = `${SITE_URL}/articles/${slug}`
+  const currentUrl = `${SITE_URL}${localePath(`/articles/${slug}`, locale)}`
+
   return {
-    title: `${article.title} - Synergis Industrial Utama`,
-    description: article.description,
+    title,
+    description,
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        en: `${SITE_URL}/articles/${slug}`,
+        id: `${SITE_URL}/id/articles/${slug}`,
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      url: currentUrl,
+      siteName: "PT Synergis Utama Indonesia",
+      type: "article",
+      locale: locale === "id" ? "id_ID" : "en_US",
+    },
+    twitter: {
+      card: "summary",
+      title,
+      description,
+    },
   }
 }
 

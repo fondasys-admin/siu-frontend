@@ -21,7 +21,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const description = locale === "id"
     ? "Jelajahi rangkaian mesin laser cutting, mesin las, dan aksesoris industri kami."
     : "Browse our range of laser cutting machines, welding machines, and industrial accessories."
-  const canonicalUrl = `${SITE_URL}${localePath("/products", locale)}`
+  const canonicalUrl = `${SITE_URL}/products`
+  const currentUrl = `${SITE_URL}${localePath("/products", locale)}`
 
   return {
     title,
@@ -36,7 +37,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     openGraph: {
       title,
       description,
-      url: canonicalUrl,
+      url: currentUrl,
       siteName: "PT Synergis Utama Indonesia",
       type: "website",
       locale: locale === "id" ? "id_ID" : "en_US",

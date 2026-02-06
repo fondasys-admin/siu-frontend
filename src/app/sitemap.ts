@@ -2,13 +2,13 @@ import type { MetadataRoute } from "next"
 import { locales } from "@/lib/i18n"
 import { productRegistry, productPath, categoryRegistry } from "@/data/product-registry"
 
-const BASE_URL = "https://www.siu.co.id"
+const BASE_URL = "https://www.siu-indo.com"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = []
 
   // Static pages per locale
-  const staticPages = ["/", "/products", "/story", "/brands", "/articles"]
+  const staticPages = ["/", "/products", "/story", "/brands", "/articles", "/inquiry"]
 
   for (const locale of locales) {
     for (const page of staticPages) {

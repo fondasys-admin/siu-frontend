@@ -7,6 +7,8 @@ import { Separator } from "@/components/ui/separator"
 import { isLocale, localePath, t, type Locale } from "@/lib/i18n"
 import data from "@/data/pages/articles.json"
 
+const SITE_URL = "https://siu-indo.com"
+
 interface PageProps {
   params: Promise<{ locale: string }>
 }
@@ -15,11 +17,35 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { locale: rawLocale } = await params
   const locale: Locale = isLocale(rawLocale) ? rawLocale : "en"
   const title = t(data.title, locale)
+  const description = locale === "id"
+    ? "Baca artikel, studi kasus, dan wawasan dari Synergis Industrial Utama."
+    : "Read articles, case studies, testimonials and insights from Synergis Industrial Utama."
+  const canonicalUrl = `${SITE_URL}/articles`
+  const currentUrl = `${SITE_URL}${localePath("/articles", locale)}`
+
   return {
     title: `${title} - Synergis Industrial Utama`,
-    description: locale === "id"
-      ? "Baca artikel, studi kasus, dan wawasan dari Synergis Industrial Utama."
-      : "Read articles, case studies, testimonials and insights from Synergis Industrial Utama.",
+    description,
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        en: `${SITE_URL}/articles`,
+        id: `${SITE_URL}/id/articles`,
+      },
+    },
+    openGraph: {
+      title: `${title} - Synergis Industrial Utama`,
+      description,
+      url: currentUrl,
+      siteName: "PT Synergis Utama Indonesia",
+      type: "website",
+      locale: locale === "id" ? "id_ID" : "en_US",
+    },
+    twitter: {
+      card: "summary",
+      title: `${title} - Synergis Industrial Utama`,
+      description,
+    },
   }
 }
 

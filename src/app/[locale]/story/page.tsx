@@ -2,16 +2,50 @@ import type { Metadata } from "next"
 import Image from "next/image"
 import { Separator } from "@/components/ui/separator"
 import { ScrollFadeUp } from "@/components/ui/scroll-fade-up"
-import { t, isLocale, type Locale } from "@/lib/i18n"
+import { t, isLocale, localePath, type Locale } from "@/lib/i18n"
 import data from "@/data/pages/story.json"
 
-export const metadata: Metadata = {
-  title: "About Us - PT Synergis Utama Indonesia",
-  description: t(data.subtitle, "en"),
-}
+const SITE_URL = "https://siu-indo.com"
 
 interface PageProps {
   params: Promise<{ locale: string }>
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale: rawLocale } = await params
+  const locale: Locale = isLocale(rawLocale) ? rawLocale : "en"
+
+  const title = locale === "id"
+    ? "Tentang Kami - PT Synergis Utama Indonesia"
+    : "About Us - PT Synergis Utama Indonesia"
+  const description = t(data.subtitle, locale)
+  const canonicalUrl = `${SITE_URL}/story`
+  const currentUrl = `${SITE_URL}${localePath("/story", locale)}`
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        en: `${SITE_URL}/story`,
+        id: `${SITE_URL}/id/story`,
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      url: currentUrl,
+      siteName: "PT Synergis Utama Indonesia",
+      type: "website",
+      locale: locale === "id" ? "id_ID" : "en_US",
+    },
+    twitter: {
+      card: "summary",
+      title,
+      description,
+    },
+  }
 }
 
 export default async function StoryPage({ params }: PageProps) {

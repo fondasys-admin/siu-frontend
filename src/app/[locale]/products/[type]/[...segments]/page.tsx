@@ -122,7 +122,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       ? t(subMatch.subCategory.description, locale)
       : `Browse our range of ${t(subMatch.subCategory.label, "en").toLowerCase()}.`
     const subPath = `/products/${type}/${segments.join("/")}`
-    const canonicalUrl = `${SITE_URL}${localePath(subPath, locale)}`
+    const canonicalUrl = `${SITE_URL}${subPath}`
+    const currentUrl = `${SITE_URL}${localePath(subPath, locale)}`
 
     return {
       title,
@@ -137,7 +138,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       openGraph: {
         title,
         description,
-        url: canonicalUrl,
+        url: currentUrl,
         siteName: "PT Synergis Utama Indonesia",
         type: "website",
         locale: locale === "id" ? "id_ID" : "en_US",
@@ -159,8 +160,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const title = `${data.title} - PT Synergis Utama Indonesia`
   const description = t(data.description, locale)
-  const canonicalPath = localePath(productPath(entry), locale)
-  const canonicalUrl = `${SITE_URL}${canonicalPath}`
+  const canonicalUrl = `${SITE_URL}${productPath(entry)}`
+  const currentUrl = `${SITE_URL}${localePath(productPath(entry), locale)}`
   const imageUrl = data.media?.url
     ? data.media.url.startsWith("http")
       ? data.media.url
@@ -180,7 +181,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     openGraph: {
       title,
       description,
-      url: canonicalUrl,
+      url: currentUrl,
       siteName: "PT Synergis Utama Indonesia",
       type: "website",
       locale: locale === "id" ? "id_ID" : "en_US",

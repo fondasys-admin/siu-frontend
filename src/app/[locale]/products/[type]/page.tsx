@@ -20,7 +20,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const description = category.description
     ? t(category.description, locale)
     : `Browse our range of ${t(category.label, "en").toLowerCase()}.`
-  const canonicalUrl = `${SITE_URL}${localePath(`/products/${type}`, locale)}`
+  const canonicalUrl = `${SITE_URL}/products/${type}`
+  const currentUrl = `${SITE_URL}${localePath(`/products/${type}`, locale)}`
 
   return {
     title,
@@ -35,7 +36,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     openGraph: {
       title,
       description,
-      url: canonicalUrl,
+      url: currentUrl,
       siteName: "PT Synergis Utama Indonesia",
       type: "website",
       locale: locale === "id" ? "id_ID" : "en_US",

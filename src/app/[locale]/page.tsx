@@ -22,7 +22,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const description = locale === "id"
     ? "Penyedia mesin laser cutting dan mesin las industri terkemuka di Indonesia. Agen resmi Bodor dan Megmeet."
     : "Indonesia's leading supplier of industrial laser cutting machines and welding machines. Authorized agent for Bodor and Megmeet."
-  const canonicalUrl = `${SITE_URL}${localePath("/", locale)}`
+  const canonicalUrl = SITE_URL
+  const currentUrl = `${SITE_URL}${localePath("/", locale)}`
 
   return {
     title,
@@ -37,7 +38,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     openGraph: {
       title,
       description,
-      url: canonicalUrl,
+      url: currentUrl,
       siteName: "PT Synergis Utama Indonesia",
       type: "website",
       locale: locale === "id" ? "id_ID" : "en_US",
