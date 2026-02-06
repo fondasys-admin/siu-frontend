@@ -27,7 +27,8 @@
         "en": "Industrial welding machines for Indonesia—MIG, TIG, MMA/Stick, SAW, and laser welding for heavy fabrication and oil & gas.",
         "id": "Mesin las industri untuk Indonesia—MIG, TIG, MMA/Stick, SAW, dan laser welding untuk fabrikasi berat dan oil & gas."
       },
-      "slug": "welding-machines"
+      "slug": "welding-machines",
+      "backgroundImage": "/welding-bg.jpg"
     }
   ],
   "bestSelling": [
