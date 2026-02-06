@@ -57,30 +57,30 @@ export default async function ArticlesPage({ params }: PageProps) {
   return (
     <main className="flex flex-col items-center">
       {/* Title */}
-      <section className="max-w-[1600px] w-full px-6 pt-20">
-        <h1 className="text-4xl font-bold text-[#3c4043] tracking-tight leading-[41px] capitalize">
+      <section className="max-w-[1600px] w-full px-4 sm:px-6 pt-10 sm:pt-20">
+        <h1 className="text-3xl sm:text-4xl font-bold text-[#3c4043] tracking-tight leading-[36px] sm:leading-[41px] capitalize">
           {t(data.title, locale)}
         </h1>
       </section>
 
       {/* Featured Article */}
-      <section className="max-w-[1600px] w-full px-6 pt-20">
-        <Link href={localePath(`/articles/${featured.slug}`, locale)} className="bg-[#faf7f5] flex items-center justify-between p-4 group">
-          <div className="flex flex-col gap-4 justify-center max-w-[551px]">
-            <p className="text-sm text-[#3c4043] leading-[26px]">
+      <section className="max-w-[1600px] w-full px-4 sm:px-6 pt-10 sm:pt-20">
+        <Link href={localePath(`/articles/${featured.slug}`, locale)} className="bg-[#faf7f5] flex flex-col sm:flex-row sm:items-center sm:justify-between p-4 group">
+          <div className="flex flex-col gap-3 sm:gap-4 justify-center sm:max-w-[551px] order-2 sm:order-1">
+            <p className="text-sm text-[#3c4043] leading-[22px] sm:leading-[26px]">
               {t(featured.category, locale)}
             </p>
-            <h2 className="text-2xl font-bold text-[#3c4043] leading-[27px] capitalize">
+            <h2 className="text-xl sm:text-2xl font-bold text-[#3c4043] leading-[24px] sm:leading-[27px] capitalize">
               {t(featured.title, locale)}
             </h2>
-            <p className="text-base text-[#3c4043] leading-[26px]">
+            <p className="text-sm sm:text-base text-[#3c4043] leading-[22px] sm:leading-[26px]">
               {t(featured.description, locale)}
             </p>
-            <span className="text-[#ff5b00] text-base font-medium leading-[26px] inline-flex items-center">
-              {locale === "id" ? "Baca Selengkapnya" : "Read More"} <ChevronRight className="size-5" />
+            <span className="text-[#ff5b00] text-sm sm:text-base font-medium leading-[22px] sm:leading-[26px] inline-flex items-center">
+              {locale === "id" ? "Baca Selengkapnya" : "Read More"} <ChevronRight className="size-4 sm:size-5" />
             </span>
           </div>
-          <div className="relative w-[551px] h-[288px] shrink-0">
+          <div className="relative w-full sm:w-[551px] h-[200px] sm:h-[288px] shrink-0 order-1 sm:order-2 mb-4 sm:mb-0">
             <Image
               src={featured.image}
               alt={t(featured.title, locale)}
@@ -92,20 +92,16 @@ export default async function ArticlesPage({ params }: PageProps) {
       </section>
 
       {/* Article Grid */}
-      <section className="max-w-[1600px] w-full px-6 pt-5 pb-20">
-        <div className="flex flex-col gap-5">
-          {chunk(articles, 3).map((row, rowIdx) => (
-            <div key={rowIdx} className="grid grid-cols-3 gap-5">
-              {row.map((article) => (
-                <ArticleCard key={article.slug} article={article} locale={locale} />
-              ))}
-            </div>
+      <section className="max-w-[1600px] w-full px-4 sm:px-6 pt-5 pb-10 sm:pb-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
+          {articles.map((article) => (
+            <ArticleCard key={article.slug} article={article} locale={locale} />
           ))}
         </div>
 
         {/* View More */}
-        <div className="flex justify-center pt-20">
-          <Button variant="secondary" className="bg-[#3c4043] text-white hover:bg-[#3c4043]/90">
+        <div className="flex justify-center pt-10 sm:pt-20">
+          <Button variant="secondary" className="bg-[#3c4043] text-white hover:bg-[#3c4043]/90 w-full sm:w-auto">
             {locale === "id" ? "Lihat Artikel Lainnya" : "View More Articles"}
           </Button>
         </div>
@@ -127,7 +123,7 @@ interface Article {
 function ArticleCard({ article, locale }: { article: Article; locale: Locale }) {
   return (
     <Link href={localePath(`/articles/${article.slug}`, locale)} className="bg-[#faf7f5] flex flex-col pt-4 px-4 pb-6 group">
-      <div className="relative w-full h-[224px] mb-6">
+      <div className="relative w-full h-[180px] sm:h-[224px] mb-4 sm:mb-6">
         <Image
           src={article.image}
           alt={t(article.title, locale)}
@@ -135,28 +131,20 @@ function ArticleCard({ article, locale }: { article: Article; locale: Locale }) 
           className="object-cover"
         />
       </div>
-      <div className="flex flex-col gap-4">
-        <p className="text-sm text-[#3c4043] leading-[26px]">
+      <div className="flex flex-col gap-3 sm:gap-4">
+        <p className="text-sm text-[#3c4043] leading-[22px] sm:leading-[26px]">
           {t(article.category, locale)}
         </p>
-        <h3 className="text-2xl font-bold text-[#3c4043] leading-[27px] capitalize">
+        <h3 className="text-lg sm:text-2xl font-bold text-[#3c4043] leading-[22px] sm:leading-[27px] capitalize">
           {t(article.title, locale)}
         </h3>
-        <p className="text-base text-[#3c4043] leading-[26px]">
+        <p className="text-sm sm:text-base text-[#3c4043] leading-[22px] sm:leading-[26px]">
           {t(article.description, locale)}
         </p>
-        <span className="text-[#ff5b00] text-base font-medium leading-[26px] inline-flex items-center">
-          {locale === "id" ? "Baca Selengkapnya" : "Read More"} <ChevronRight className="size-5" />
+        <span className="text-[#ff5b00] text-sm sm:text-base font-medium leading-[22px] sm:leading-[26px] inline-flex items-center">
+          {locale === "id" ? "Baca Selengkapnya" : "Read More"} <ChevronRight className="size-4 sm:size-5" />
         </span>
       </div>
     </Link>
   )
-}
-
-function chunk<T>(arr: T[], size: number): T[][] {
-  const result: T[][] = []
-  for (let i = 0; i < arr.length; i += size) {
-    result.push(arr.slice(i, i + size))
-  }
-  return result
 }
