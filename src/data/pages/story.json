@@ -153,14 +153,6 @@
       {
         "label": { "en": "Cutting Machines Sold", "id": "Cutting Mesin Terjual" },
         "value": "20+"
-      },
-      {
-        "label": { "en": "Statistic 02", "id": "Statistik 02" },
-        "value": "00"
-      },
-      {
-        "label": { "en": "Statistic 03", "id": "Statistik 03" },
-        "value": "00"
       }
     ]
   },
