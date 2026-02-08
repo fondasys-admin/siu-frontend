@@ -5,9 +5,8 @@ import { ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
 import { isLocale, localePath, t, type Locale } from "@/lib/i18n"
+import { SITE_URL } from "@/lib/site"
 import data from "@/data/pages/articles.json"
-
-const SITE_URL = "https://siu-indo.com"
 
 interface PageProps {
   params: Promise<{ locale: string }>

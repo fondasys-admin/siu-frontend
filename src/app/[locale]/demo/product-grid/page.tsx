@@ -1,5 +1,10 @@
+import type { Metadata } from "next"
 import ProductGrid from '@/components/layout/product-grid'
 import { productGridData } from '@/data/product-grid-demo'
+
+export const metadata: Metadata = {
+  robots: { index: false, follow: false },
+}
 
 export default function ProductGridDemo() {
   return (

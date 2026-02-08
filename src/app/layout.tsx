@@ -16,6 +16,7 @@ const robotoMono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.siu-indo.com"),
   title: "PT Synergis Utama Indonesia",
   description:
     "Unparalleled technical expertise, exceptional customer service.",

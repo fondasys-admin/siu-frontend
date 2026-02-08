@@ -1,5 +1,10 @@
+import type { Metadata } from "next"
 import NewsCarousel from '@/components/layout/news-carousel'
 import { newsItems } from '@/data/news-carousel-demo'
+
+export const metadata: Metadata = {
+  robots: { index: false, follow: false },
+}
 
 export default function NewsCarouselDemo() {
   return (

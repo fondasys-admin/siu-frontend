@@ -17,6 +17,7 @@ export function t(field: { en: string; id?: string } | string, locale: Locale): 
 
 /**
  * Prefix a path with the locale segment (only for non-default locales).
+ * Used for internal navigation links.
  * e.g. localePath('/products', 'en') => '/products'
  *      localePath('/products', 'id') => '/id/products'
  */
@@ -24,3 +25,4 @@ export function localePath(path: string, locale: Locale): string {
   if (locale === defaultLocale) return path
   return `/${locale}${path}`
 }
+

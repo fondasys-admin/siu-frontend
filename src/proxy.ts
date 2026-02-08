@@ -23,11 +23,22 @@ export function proxy(request: NextRequest) {
     return NextResponse.rewrite(url)
   }
 
-  // Check if pathname already has a locale prefix
-  const hasLocale = locales.some(
-    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
-  )
+  // Redirect /en/... → /... so the canonical (bare) URL is used
+  if (
+    pathname === `/${defaultLocale}` ||
+    pathname.startsWith(`/${defaultLocale}/`)
+  ) {
+    const url = request.nextUrl.clone()
+    url.pathname = pathname.slice(`/${defaultLocale}`.length) || "/"
+    return NextResponse.redirect(url, 301)
+  }
 
+  // Non-default locales (e.g. /id/...) pass through
+  const hasLocale = locales.some(
+    (locale) =>
+      locale !== defaultLocale &&
+      (pathname === `/${locale}` || pathname.startsWith(`/${locale}/`))
+  )
   if (hasLocale) return NextResponse.next()
 
   // Rewrite to default locale internally (no redirect, URL stays clean)

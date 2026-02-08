@@ -5,11 +5,10 @@ import { ProductCard } from "@/components/ui/product-card"
 import { ScrollFadeUp } from "@/components/ui/scroll-fade-up"
 import { productHref } from "@/data/product-registry"
 import { t, isLocale, localePath, type Locale } from "@/lib/i18n"
+import { SITE_URL } from "@/lib/site"
 import data from "@/data/pages/products-overview.json"
 import { getProductInfo } from "@/data/product-info"
 import { BrandCTA } from "@/components/brand-cta"
-
-const SITE_URL = "https://siu-indo.com"
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale: rawLocale } = await params

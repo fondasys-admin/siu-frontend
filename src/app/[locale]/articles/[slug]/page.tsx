@@ -3,6 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { isLocale, localePath, type Locale } from "@/lib/i18n"
+import { SITE_URL } from "@/lib/site"
 import { getArticle, getAllArticleSlugs } from "@/data/article-registry"
 import { parseMarkdown, renderInline, type Block } from "@/lib/parse-markdown"
 import {
@@ -13,8 +14,6 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb"
-
-const SITE_URL = "https://siu-indo.com"
 
 interface PageProps {
   params: Promise<{ locale: string; slug: string }>

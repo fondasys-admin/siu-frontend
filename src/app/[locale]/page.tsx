@@ -7,8 +7,7 @@ import { newsItems } from "@/data/news-carousel-demo";
 import { productGridData } from "@/data/product-grid-demo";
 import { productHref } from "@/data/product-registry";
 import { isLocale, localePath, type Locale } from "@/lib/i18n";
-
-const SITE_URL = "https://siu-indo.com";
+import { SITE_URL } from "@/lib/site";
 
 interface PageProps {
   params: Promise<{ locale: string }>

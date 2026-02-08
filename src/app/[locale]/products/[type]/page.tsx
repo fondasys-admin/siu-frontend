@@ -3,8 +3,7 @@ import { notFound } from "next/navigation"
 import { CategoryPage } from "@/components/category-page"
 import { findCategory } from "@/data/product-registry"
 import { t, isLocale, localePath, type Locale } from "@/lib/i18n"
-
-const SITE_URL = "https://siu-indo.com"
+import { SITE_URL } from "@/lib/site"
 
 interface PageProps {
   params: Promise<{ locale: string; type: string }>

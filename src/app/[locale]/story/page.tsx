@@ -3,9 +3,8 @@ import Image from "next/image"
 import { Separator } from "@/components/ui/separator"
 import { ScrollFadeUp } from "@/components/ui/scroll-fade-up"
 import { t, isLocale, localePath, type Locale } from "@/lib/i18n"
+import { SITE_URL } from "@/lib/site"
 import data from "@/data/pages/story.json"
-
-const SITE_URL = "https://siu-indo.com"
 
 interface PageProps {
   params: Promise<{ locale: string }>

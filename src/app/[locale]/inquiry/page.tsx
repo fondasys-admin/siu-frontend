@@ -9,9 +9,8 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 import { t, isLocale, localePath, type Locale } from "@/lib/i18n"
+import { SITE_URL } from "@/lib/site"
 import data from "@/data/pages/inquiry.json"
-
-const SITE_URL = "https://siu-indo.com"
 
 interface PageProps {
   params: Promise<{ locale: string }>

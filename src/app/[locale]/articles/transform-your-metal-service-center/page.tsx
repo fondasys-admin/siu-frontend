@@ -8,6 +8,13 @@ export const metadata = {
   title: "Transform Your Metal Service Center | Synergis Industrial Utama",
   description:
     "Discover how Bodor laser technology can transform your metal service center with precision cutting, efficiency, and cost savings.",
+  alternates: {
+    canonical: "https://www.siu-indo.com/articles/transform-your-metal-service-center",
+    languages: {
+      en: "https://www.siu-indo.com/articles/transform-your-metal-service-center",
+      id: "https://www.siu-indo.com/id/articles/transform-your-metal-service-center",
+    },
+  },
 };
 
 const supplyChainSteps = [

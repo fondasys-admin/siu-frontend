@@ -21,8 +21,7 @@ import { SubCategoryPage } from "@/components/sub-category-page"
 import { findProduct, findSubCategory, productPath, productHref, type ProductEntry } from "@/data/product-registry"
 import { getProductInfo } from "@/data/product-info"
 import { t, localePath, type Locale } from "@/lib/i18n"
-
-const SITE_URL = "https://siu-indo.com"
+import { SITE_URL } from "@/lib/site"
 
 import pSeries from "@/data/products/p-series.json"
 import aSeries from "@/data/products/a-series.json"

@@ -14,9 +14,8 @@ import { ProductCard } from "@/components/ui/product-card"
 import { BrandCTA } from "@/components/brand-cta"
 import { productHref } from "@/data/product-registry"
 import { t, isLocale, localePath, type Locale } from "@/lib/i18n"
+import { SITE_URL } from "@/lib/site"
 import brandsData from "@/data/pages/brands.json"
-
-const SITE_URL = "https://siu-indo.com"
 
 interface PageProps {
   params: Promise<{ locale: string; slug: string }>
