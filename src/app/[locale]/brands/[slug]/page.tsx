@@ -85,6 +85,9 @@ export default async function BrandPage({ params }: PageProps) {
         </BreadcrumbList>
       </Breadcrumb>
 
+      {/* Brand Name */}
+      <h1 className="sr-only">{brand.name} - {locale === "id" ? "Produk & Solusi" : "Products & Solutions"}</h1>
+
       {/* Brand Info */}
       <section className="flex gap-10 items-center pb-10">
         <div className="flex-1 flex items-center justify-center">

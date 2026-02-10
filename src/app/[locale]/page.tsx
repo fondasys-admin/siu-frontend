@@ -148,18 +148,18 @@ export default async function Home({ params }: PageProps) {
           <div className="rounded-md flex flex-col-reverse md:flex-row justify-center bg-[#FAF7F5] min-h-[550px] h-full lg:!h-[65vh]">
             <div className=" md:min-w-[50%] py-10 md:py-0">
               <div className=" max-w-[700px] h-full w-full ml-auto px-6 flex flex-col justify-center text-center md:text-left">
-                <h6
+                <p
                   id="hero-subtitle"
                   className="text-black text-base md:text-lg font-semibold mb-6"
                 >
                   About Synergis Utama Industrial
-                </h6>
-                <h2
+                </p>
+                <h1
                   id="hero-title"
                   className="text-black text-4xl lg:text-5xl xl:text-6xl font-semibold mb-6 capitalize"
                 >
                   Where quality meets innovation
-                </h2>
+                </h1>
                 <p
                   id="hero-info"
                   className="text-black w-[100%] max-w-[550px] text-clip mb-6"
