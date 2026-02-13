@@ -55,26 +55,26 @@
           "title": { "en": "MIG Welding Machine", "id": "Mesin Las MIG" },
           "products": [
             { "name": "Dex2 M Series", "description": { "en": "Full Digital IGBT Inverter Multi-functional MIG Welding Machine", "id": "Mesin Las MIG Multi-fungsi Inverter IGBT Digital Penuh" }, "image": "/products/dex2-m-series.png", "slug": "dex2-m-series" },
-            { "name": "Ehave2 CM Series", "description": { "en": "Full-Digital IGBT Inverter Multifunction Welding Machine", "id": "Mesin Las Multi-fungsi Inverter IGBT Digital Penuh" }, "image": "/products/ehave2-cm-series.webp", "slug": "ehave2-cm-series" }
+            { "name": "Ehave2 CM Series", "description": { "en": "Full-Digital IGBT Inverter Multifunction Welding Machine", "id": "Mesin Las Multi-fungsi Inverter IGBT Digital Penuh" }, "image": "/products/ehave2-cm-series.png", "slug": "ehave2-cm-series" }
           ]
         },
         {
           "title": { "en": "TIG Welding Machine", "id": "Mesin Las TIG" },
           "products": [
-            { "name": "MetaTIG ACDC Series", "description": { "en": "Full-Digital IGBT Inverter Multifunctional AC/DC TIG Welding Machine", "id": "Mesin Las TIG AC/DC Multi-fungsi Inverter IGBT Digital Penuh" }, "image": "/products/metatig-series.webp", "slug": "metatig-acdc-series" },
-            { "name": "MetaTIG DC Series", "description": { "en": "Full-Digital IGBT Inverter Multifunctional DC TIG Welding Machine", "id": "Mesin Las TIG DC Multi-fungsi Inverter IGBT Digital Penuh" }, "image": "/products/metatig-series.webp", "slug": "metatig-dc-series" }
+            { "name": "MetaTIG ACDC Series", "description": { "en": "Full-Digital IGBT Inverter Multifunctional AC/DC TIG Welding Machine", "id": "Mesin Las TIG AC/DC Multi-fungsi Inverter IGBT Digital Penuh" }, "image": "/products/metatig-series.png", "slug": "metatig-acdc-series" },
+            { "name": "MetaTIG DC Series", "description": { "en": "Full-Digital IGBT Inverter Multifunctional DC TIG Welding Machine", "id": "Mesin Las TIG DC Multi-fungsi Inverter IGBT Digital Penuh" }, "image": "/products/metatig-series.png", "slug": "metatig-dc-series" }
           ]
         },
         {
           "title": { "en": "MMA Welding Machine", "id": "Mesin Las MMA" },
           "products": [
-            { "name": "ST Series", "description": { "en": "Full-Digital IGBT Inverter MMA Welding Machine", "id": "Mesin Las MMA Inverter IGBT Digital Penuh" }, "image": "/products/st-series.webp", "slug": "st-series" }
+            { "name": "ST Series", "description": { "en": "Full-Digital IGBT Inverter MMA Welding Machine", "id": "Mesin Las MMA Inverter IGBT Digital Penuh" }, "image": "/products/st-series.png", "slug": "st-series" }
           ]
         },
         {
           "title": { "en": "Submerged Arc Welding Machine", "id": "Mesin Las Busur Terendam" },
           "products": [
-            { "name": "SA Series", "description": { "en": "Full-Digital Submerged Arc Welding Machine", "id": "Mesin Las Busur Terendam Digital Penuh" }, "image": "/products/sa-series.webp", "slug": "sa-series" }
+            { "name": "SA Series", "description": { "en": "Full-Digital Submerged Arc Welding Machine", "id": "Mesin Las Busur Terendam Digital Penuh" }, "image": "/products/sa-series.png", "slug": "sa-series" }
           ]
         },
         {

@@ -59,7 +59,7 @@ export const productGridData = {
         id: 'ehave2-cm-series',
         name: 'eHave2 CM Series',
         description: 'Full-Digital Multi-function Pulse MIG Welding Machine',
-        image: '/products/ehave2-cm-series.webp',
+        image: '/products/ehave2-cm-series.png',
         slug: 'ehave2-cm-series',
         brand: 'megmeet'
       },
@@ -67,7 +67,7 @@ export const productGridData = {
         id: 'metatig-acdc-series',
         name: 'MetaTIG ACDC Series',
         description: 'Full-Digital AC/DC TIG Welding Machine',
-        image: '/products/metatig-series.webp',
+        image: '/products/metatig-series.png',
         slug: 'metatig-acdc-series',
         brand: 'megmeet'
       },
