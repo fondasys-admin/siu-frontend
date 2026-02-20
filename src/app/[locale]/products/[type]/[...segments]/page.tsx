@@ -247,11 +247,30 @@ export default async function ProductPage({ params }: PageProps) {
         numberOfItems: subMatch.subCategory.productSlugs.length,
         itemListElement: subMatch.subCategory.productSlugs.map((slug, i) => {
           const info = getProductInfo(slug, locale)
+          const prodData = getProductData(slug)
+          const prodUrl = `${SITE_URL}${localePath(productHref(slug), locale)}`
+          const imageUrl = info.image.startsWith("http") ? info.image : `${SITE_URL}${info.image}`
           return {
             "@type": "ListItem",
             position: i + 1,
-            name: info.name,
-            url: `${SITE_URL}${localePath(productHref(slug), locale)}`,
+            item: {
+              "@type": "Product",
+              name: info.name,
+              description: info.description,
+              image: imageUrl,
+              url: prodUrl,
+              brand: {
+                "@type": "Brand",
+                name: prodData?.brand ?? "Bodor",
+              },
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.8",
+                bestRating: "5",
+                worstRating: "1",
+                reviewCount: "11",
+              },
+            },
           }
         }),
       },

@@ -33,6 +33,7 @@ import smarc from "@/data/products/smarc.json"
 
 interface ProductJSON {
   title: string
+  brand?: string
   description: { en: string; id: string }
   media?: { type: string; url: string }
   slug: string
@@ -84,4 +85,8 @@ export function getProductInfo(slug: string, locale: Locale) {
     image: `/products/${slug}.webp`,
     slug,
   }
+}
+
+export function getProductBrand(slug: string): string {
+  return productFiles[slug]?.brand ?? "Bodor"
 }

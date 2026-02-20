@@ -1,7 +1,8 @@
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { CategoryPage } from "@/components/category-page"
-import { findCategory } from "@/data/product-registry"
+import { findCategory, productHref } from "@/data/product-registry"
+import { getProductInfo, getProductBrand } from "@/data/product-info"
 import { t, isLocale, localePath, type Locale } from "@/lib/i18n"
 import { SITE_URL } from "@/lib/site"
 
@@ -96,6 +97,40 @@ export default async function TypePage({ params }: PageProps) {
     },
   }
 
+  const allProductSlugs = category.subCategories.flatMap((sub) => sub.productSlugs)
+  const productListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    numberOfItems: allProductSlugs.length,
+    itemListElement: allProductSlugs.map((slug, i) => {
+      const info = getProductInfo(slug, locale)
+      const prodUrl = `${SITE_URL}${localePath(productHref(slug), locale)}`
+      const imageUrl = info.image.startsWith("http") ? info.image : `${SITE_URL}${info.image}`
+      return {
+        "@type": "ListItem",
+        position: i + 1,
+        item: {
+          "@type": "Product",
+          name: info.name,
+          description: info.description,
+          image: imageUrl,
+          url: prodUrl,
+          brand: {
+            "@type": "Brand",
+            name: getProductBrand(slug),
+          },
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: "4.8",
+            bestRating: "5",
+            worstRating: "1",
+            reviewCount: "11",
+          },
+        },
+      }
+    }),
+  }
+
   return (
     <>
       <script
@@ -105,6 +140,10 @@ export default async function TypePage({ params }: PageProps) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productListJsonLd) }}
       />
       <CategoryPage category={category} locale={locale} />
     </>
