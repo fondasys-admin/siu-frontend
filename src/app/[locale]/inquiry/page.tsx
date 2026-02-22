@@ -24,8 +24,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     ? "Hubungi Kami - PT Synergis Utama Indonesia"
     : "Contact Us - PT Synergis Utama Indonesia"
   const description = locale === "id"
-    ? "Hubungi ahli pengelasan dan pemotongan kami hari ini. Dapatkan solusi khusus dan dukungan layanan profesional untuk mesin laser cutting dan mesin las di Indonesia."
-    : "Connect with our welding and cutting experts today. Get customized solutions and professional service support for laser cutting and welding machines in Indonesia."
+    ? "Hubungi PT Synergis Utama Indonesia untuk pertanyaan mesin laser cutting dan mesin las. Dapatkan penawaran gratis, demo produk, dan konsultasi ahli untuk kebutuhan manufaktur dan fabrikasi Anda di Indonesia."
+    : "Contact PT Synergis Utama Indonesia for laser cutting machine and welding machine inquiries. Get a free quotation, product demo, and expert consultation for your manufacturing and fabrication needs in Indonesia."
   const canonicalUrl = `${SITE_URL}/inquiry`
   const currentUrl = `${SITE_URL}${localePath("/inquiry", locale)}`
 

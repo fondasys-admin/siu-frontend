@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.siu-indo.com"),
   title: "PT Synergis Utama Indonesia",
   description:
-    "Unparalleled technical expertise, exceptional customer service.",
+    "PT Synergis Utama Indonesia — authorized distributor of Bodor laser cutting machines and Megmeet welding machines. Fiber laser, tube laser, MIG, TIG, and SAW solutions for manufacturing and fabrication across Indonesia.",
   appleWebApp: {
     capable: true,
   },
