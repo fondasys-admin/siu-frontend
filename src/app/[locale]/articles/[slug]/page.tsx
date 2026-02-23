@@ -31,14 +31,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const title = `${article.title} - Synergis Industrial Utama`
   const description = article.description
-  const canonicalUrl = `${SITE_URL}/articles/${slug}`
   const currentUrl = `${SITE_URL}${localePath(`/articles/${slug}`, locale)}`
 
   return {
     title,
     description,
     alternates: {
-      canonical: canonicalUrl,
+      canonical: currentUrl,
       languages: {
         en: `${SITE_URL}/articles/${slug}`,
         id: `${SITE_URL}/id/articles/${slug}`,

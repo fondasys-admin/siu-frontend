@@ -20,14 +20,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const description = category.description
     ? t(category.description, locale)
     : `Browse our range of ${t(category.label, "en").toLowerCase()}.`
-  const canonicalUrl = `${SITE_URL}/products/${type}`
   const currentUrl = `${SITE_URL}${localePath(`/products/${type}`, locale)}`
 
   return {
     title,
     description,
     alternates: {
-      canonical: canonicalUrl,
+      canonical: currentUrl,
       languages: {
         en: `${SITE_URL}/products/${type}`,
         id: `${SITE_URL}/id/products/${type}`,

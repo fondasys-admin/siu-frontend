@@ -121,14 +121,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       ? t(subMatch.subCategory.description, locale)
       : `Browse our range of ${t(subMatch.subCategory.label, "en").toLowerCase()}.`
     const subPath = `/products/${type}/${segments.join("/")}`
-    const canonicalUrl = `${SITE_URL}${subPath}`
     const currentUrl = `${SITE_URL}${localePath(subPath, locale)}`
 
     return {
       title,
       description,
       alternates: {
-        canonical: canonicalUrl,
+        canonical: currentUrl,
         languages: {
           en: `${SITE_URL}${subPath}`,
           id: `${SITE_URL}/id${subPath}`,
@@ -159,7 +158,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const title = `${data.title} - PT Synergis Utama Indonesia`
   const description = t(data.description, locale)
-  const canonicalUrl = `${SITE_URL}${productPath(entry)}`
   const currentUrl = `${SITE_URL}${localePath(productPath(entry), locale)}`
   const imageUrl = data.media?.url
     ? data.media.url.startsWith("http")
@@ -171,7 +169,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title,
     description,
     alternates: {
-      canonical: canonicalUrl,
+      canonical: currentUrl,
       languages: {
         en: `${SITE_URL}${productPath(entry)}`,
         id: `${SITE_URL}/id${productPath(entry)}`,

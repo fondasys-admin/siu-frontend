@@ -20,14 +20,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const description = locale === "id"
     ? "Tentang PT Synergis Utama Indonesia — agen resmi Bodor dan Megmeet di Indonesia. Kami menyediakan mesin laser cutting industri, peralatan las, instalasi, training operator, dan dukungan purna jual."
     : "Learn about PT Synergis Utama Indonesia — authorized agent for Bodor and Megmeet in Indonesia. We provide industrial laser cutting machines, welding equipment, installation, operator training, and after-sales support."
-  const canonicalUrl = `${SITE_URL}/story`
   const currentUrl = `${SITE_URL}${localePath("/story", locale)}`
 
   return {
     title,
     description,
     alternates: {
-      canonical: canonicalUrl,
+      canonical: currentUrl,
       languages: {
         en: `${SITE_URL}/story`,
         id: `${SITE_URL}/id/story`,

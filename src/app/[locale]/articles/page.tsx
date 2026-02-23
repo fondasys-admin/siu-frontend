@@ -19,14 +19,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const description = locale === "id"
     ? "Baca artikel, studi kasus, dan wawasan dari Synergis Industrial Utama."
     : "Read articles, case studies, testimonials and insights from Synergis Industrial Utama."
-  const canonicalUrl = `${SITE_URL}/articles`
   const currentUrl = `${SITE_URL}${localePath("/articles", locale)}`
 
   return {
     title: `${title} - Synergis Industrial Utama`,
     description,
     alternates: {
-      canonical: canonicalUrl,
+      canonical: currentUrl,
       languages: {
         en: `${SITE_URL}/articles`,
         id: `${SITE_URL}/id/articles`,
