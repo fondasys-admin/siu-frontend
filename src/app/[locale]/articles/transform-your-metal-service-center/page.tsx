@@ -13,6 +13,7 @@ export const metadata = {
     languages: {
       en: "https://www.siu-indo.com/articles/transform-your-metal-service-center",
       id: "https://www.siu-indo.com/id/articles/transform-your-metal-service-center",
+      "x-default": "https://www.siu-indo.com/articles/transform-your-metal-service-center",
     },
   },
 };

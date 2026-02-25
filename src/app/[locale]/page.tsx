@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const description = locale === "id"
     ? "PT Synergis Utama Indonesia adalah distributor resmi mesin laser cutting Bodor dan mesin las Megmeet di Indonesia. Jual mesin laser cutting fiber, tube laser, mesin las MIG, TIG, SAW, dan sistem otomasi untuk manufaktur dan fabrikasi logam."
     : "PT Synergis Utama Indonesia is the authorized distributor of Bodor laser cutting machines and Megmeet welding machines in Indonesia. Shop fiber laser cutters, tube laser cutters, MIG welders, TIG welders, and automation systems for manufacturing and metal fabrication."
-  const currentUrl = `${SITE_URL}${localePath("/", locale)}`
+  const currentUrl = locale === "en" ? SITE_URL : `${SITE_URL}/${locale}`
 
   return {
     title,
@@ -31,6 +31,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       languages: {
         en: SITE_URL,
         id: `${SITE_URL}/id`,
+        "x-default": SITE_URL,
       },
     },
     openGraph: {

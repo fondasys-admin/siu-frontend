@@ -131,6 +131,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         languages: {
           en: `${SITE_URL}${subPath}`,
           id: `${SITE_URL}/id${subPath}`,
+          "x-default": `${SITE_URL}${subPath}`,
         },
       },
       openGraph: {
@@ -173,6 +174,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       languages: {
         en: `${SITE_URL}${productPath(entry)}`,
         id: `${SITE_URL}/id${productPath(entry)}`,
+        "x-default": `${SITE_URL}${productPath(entry)}`,
       },
     },
     openGraph: {
