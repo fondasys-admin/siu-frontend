@@ -5,7 +5,12 @@ import { notFound } from "next/navigation"
 import { isLocale, localePath, type Locale } from "@/lib/i18n"
 import { SITE_URL } from "@/lib/site"
 import { getArticle, getAllArticleSlugs } from "@/data/article-registry"
-import { parseMarkdown, renderInline, type Block } from "@/lib/parse-markdown"
+import { parseMarkdown, collectFaq, renderInline, type Block } from "@/lib/parse-markdown"
+import { ArticleTable } from "@/components/article-table"
+import { ArticleChecklist } from "@/components/article-checklist"
+import { ArticleFaq } from "@/components/article-faq"
+import { ArticleProductShowcase } from "@/components/article-product-showcase"
+import { ArticleCta } from "@/components/article-cta"
 import {
   Breadcrumb,
   BreadcrumbList,
@@ -67,7 +72,7 @@ export default async function ArticleDetailPage({ params }: PageProps) {
 
   if (!article) notFound()
 
-  const blocks = parseMarkdown(article.content)
+  const blocks = collectFaq(parseMarkdown(article.content))
 
   // Split: first paragraph becomes intro, rest are content blocks
   const introBlock = blocks.find((b) => b.type === "paragraph")
@@ -198,15 +203,45 @@ export default async function ArticleDetailPage({ params }: PageProps) {
       {/* Content blocks */}
       <div className="max-w-[800px] w-full flex flex-col gap-4 px-6 mt-6">
         {contentBlocks.map((block, i) => (
-          <BlockRenderer key={i} block={block} />
+          <BlockRenderer
+            key={i}
+            block={block}
+            productShowcase={article.productShowcase}
+            locale={locale}
+          />
         ))}
       </div>
+
+      {article.cta && (
+        <div className="w-full px-6">
+          <ArticleCta
+            heading={article.cta.heading}
+            whatsappLabel={article.cta.whatsappLabel}
+            whatsappUrl={article.cta.whatsappUrl}
+            contactLabel={article.cta.contactLabel}
+            contactHref={localePath(article.cta.contactHref, locale)}
+          />
+        </div>
+      )}
     </main>
     </>
   )
 }
 
-function BlockRenderer({ block }: { block: Block }) {
+interface BlockRendererProps {
+  block: Block
+  productShowcase?: {
+    image: string
+    title: string
+    subtitle: string
+    points: string[]
+    buttonLabel: string
+    href: string
+  }
+  locale: Locale
+}
+
+function BlockRenderer({ block, productShowcase, locale }: BlockRendererProps) {
   switch (block.type) {
     case "paragraph":
       return (
@@ -234,6 +269,24 @@ function BlockRenderer({ block }: { block: Block }) {
             <li key={i}>{renderInline(item)}</li>
           ))}
         </ul>
+      )
+    case "checklist":
+      return <ArticleChecklist items={block.items} />
+    case "table":
+      return <ArticleTable headers={block.headers} rows={block.rows} />
+    case "faq":
+      return <ArticleFaq items={block.items} />
+    case "product-showcase":
+      if (!productShowcase) return null
+      return (
+        <ArticleProductShowcase
+          image={productShowcase.image}
+          title={productShowcase.title}
+          subtitle={productShowcase.subtitle}
+          points={productShowcase.points}
+          buttonLabel={productShowcase.buttonLabel}
+          href={localePath(productShowcase.href, locale)}
+        />
       )
   }
 }

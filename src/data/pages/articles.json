@@ -133,6 +133,32 @@
       },
       "image": "/articles/maintenance-tips-for-fiber-laser-cutting-machines.png",
       "slug": "maintenance-tips-for-fiber-laser-cutting-machines-best-practices-for-keeping-your-machine-in-top-condition"
+    },
+    {
+      "category": { "en": "Thought leadership", "id": "Thought leadership" },
+      "title": {
+        "en": "Here's How to Operate a Laser Cutting Machine",
+        "id": "Begini Cara Mengoperasikan Mesin Laser Cutting"
+      },
+      "description": {
+        "en": "Laser cutting machines have become increasingly popular in various industries today. Their ability to cut a wide range of materials with high precision and efficiency makes them highly valuable.",
+        "id": "Mesin laser cutting bisa dikatakan menjadi idola di berbagai bidang industri pada saat ini. Kemampuannya menghasilkan potongan material dengan presisi tinggi sambil meningkatkan efisiensi produksi menjadi daya tarik utama."
+      },
+      "image": "/articles/begini-cara-mengoperasikan-mesin-laser-cutting.jpeg",
+      "slug": "how-to-operate-a-laser-cutting-machine"
+    },
+    {
+      "category": { "en": "Thought leadership", "id": "Thought leadership" },
+      "title": {
+        "en": "3kW vs 6kW Fiber Laser Cutting Machine: A Practical Buyer Guide",
+        "id": "3kW vs 6kW: Panduan Memilih Mesin Laser Cutting Fiber untuk Bengkel"
+      },
+      "description": {
+        "en": "Choosing between a 3kW and 6kW fiber laser cutting machine? This practical guide compares throughput, cost, and ideal use cases to help workshop owners pick the right wattage for their job profile.",
+        "id": "Mesin laser cutting fiber adalah mesin pemotong logam yang memakai laser serat untuk memotong sheet metal dan tube metal dengan presisi tinggi. Pilihan 3kW vs 6kW paling sering ditentukan oleh ketebalan dominan, jam potong per hari, target lead time, dan biaya operasi."
+      },
+      "image": "/articles/3kw-vs-6kw-fiber-laser-cutting-machine-guide.jpg",
+      "slug": "3kw-vs-6kw-fiber-laser-cutting-machine-guide"
     }
   ]
 }

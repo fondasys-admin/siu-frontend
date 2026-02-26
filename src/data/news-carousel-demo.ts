@@ -34,5 +34,14 @@ export const newsItems = [
     image: '/layout/carousel-3.png',
     description: 'Why are so many industries turning to Megmeet? Click to find out more.',
     link: 'https://www.instagram.com/p/DTfRd9iDwao/?img_index=1'
+  },
+  {
+    id: '5',
+    category: 'Thought Leadership',
+    title: '3kW vs 6kW Which One to Buy',
+    tag: 'Thought Leadership',
+    image: '/articles/3kw-vs-6kw-fiber-laser-cutting-machine-guide.jpg',
+    description: 'Choosing between a 3kW and 6kW fiber laser cutting machine? This practical guide compares throughput, cost, and ideal use cases to help workshop owners pick the right wattage for their job profile.',
+    link: '/articles/3kw-vs-6kw-fiber-laser-cutting-machine-guide'
   }
 ]

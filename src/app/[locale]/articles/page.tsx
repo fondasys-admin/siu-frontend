@@ -2,10 +2,10 @@ import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { ChevronRight } from "lucide-react"
-import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
 import { isLocale, localePath, t, type Locale } from "@/lib/i18n"
 import { SITE_URL } from "@/lib/site"
+import { ArticleGrid } from "@/components/article-grid"
 import data from "@/data/pages/articles.json"
 
 interface PageProps {
@@ -51,7 +51,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function ArticlesPage({ params }: PageProps) {
   const { locale: rawLocale } = await params
   const locale: Locale = isLocale(rawLocale) ? rawLocale : "en"
-  const { featured, articles } = data
+  const allArticles = [...data.articles].reverse()
+  const featured = allArticles[0]
+  const articles = allArticles.slice(1)
 
   return (
     <main className="flex flex-col items-center">
@@ -92,18 +94,18 @@ export default async function ArticlesPage({ params }: PageProps) {
 
       {/* Article Grid */}
       <section className="max-w-[1600px] w-full px-4 sm:px-6 pt-5 pb-10 sm:pb-20">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
-          {articles.map((article) => (
-            <ArticleCard key={article.slug} article={article} locale={locale} />
-          ))}
-        </div>
-
-        {/* View More */}
-        <div className="flex justify-center pt-10 sm:pt-20">
-          <Button variant="secondary" className="bg-[#3c4043] text-white hover:bg-[#3c4043]/90 w-full sm:w-auto">
-            {locale === "id" ? "Lihat Artikel Lainnya" : "View More Articles"}
-          </Button>
-        </div>
+        <ArticleGrid
+          articles={articles.map((article) => ({
+            category: t(article.category, locale),
+            title: t(article.title, locale),
+            description: t(article.description, locale),
+            image: article.image,
+            slug: article.slug,
+            href: localePath(`/articles/${article.slug}`, locale),
+          }))}
+          readMoreLabel={locale === "id" ? "Baca Selengkapnya" : "Read More"}
+          viewMoreLabel={locale === "id" ? "Lihat Artikel Lainnya" : "View More Articles"}
+        />
       </section>
 
       <Separator className="max-w-[1400px] w-full" />
@@ -111,39 +113,3 @@ export default async function ArticlesPage({ params }: PageProps) {
   )
 }
 
-interface Article {
-  category: { en: string; id: string }
-  title: { en: string; id: string }
-  description: { en: string; id: string }
-  image: string
-  slug: string
-}
-
-function ArticleCard({ article, locale }: { article: Article; locale: Locale }) {
-  return (
-    <Link href={localePath(`/articles/${article.slug}`, locale)} className="bg-[#faf7f5] flex flex-col pt-4 px-4 pb-6 group">
-      <div className="relative w-full h-[180px] sm:h-[224px] mb-4 sm:mb-6">
-        <Image
-          src={article.image}
-          alt={t(article.title, locale)}
-          fill
-          className="object-cover"
-        />
-      </div>
-      <div className="flex flex-col gap-3 sm:gap-4">
-        <p className="text-sm text-[#3c4043] leading-[22px] sm:leading-[26px]">
-          {t(article.category, locale)}
-        </p>
-        <h3 className="text-lg sm:text-2xl font-bold text-[#3c4043] leading-[22px] sm:leading-[27px] capitalize">
-          {t(article.title, locale)}
-        </h3>
-        <p className="text-sm sm:text-base text-[#3c4043] leading-[22px] sm:leading-[26px]">
-          {t(article.description, locale)}
-        </p>
-        <span className="text-[#ff5b00] text-sm sm:text-base font-medium leading-[22px] sm:leading-[26px] inline-flex items-center">
-          {locale === "id" ? "Baca Selengkapnya" : "Read More"} <ChevronRight className="size-4 sm:size-5" />
-        </span>
-      </div>
-    </Link>
-  )
-}

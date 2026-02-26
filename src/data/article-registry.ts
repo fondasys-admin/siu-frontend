@@ -15,14 +15,36 @@ import sepertiApa from "@/data/articles/seperti-apa-cara-kerja-mesin-laser-cutti
 import mengenal from "@/data/articles/mengenal-apa-itu-mesin-laser-pemotong-logam.json"
 import understanding from "@/data/articles/understanding-the-technical-specifications-of-fiber-laser-cutting-machines-key-specs-and-what-they-mean.json"
 import maintenance from "@/data/articles/maintenance-tips-for-fiber-laser-cutting-machines-best-practices-for-keeping-your-machine-in-top-condition.json"
+import threeKwVsSixKw from "@/data/articles/3kw-vs-6kw-panduan-memilih-mesin-laser-cutting-fiber.json"
+
+interface LocalizedString { en: string; id: string }
+
+interface ArticleProductShowcase {
+  image: string
+  title: LocalizedString
+  subtitle: LocalizedString
+  points: LocalizedString[]
+  buttonLabel: LocalizedString
+  href: string
+}
+
+interface ArticleCta {
+  heading: LocalizedString
+  whatsappLabel: LocalizedString
+  whatsappUrl: string
+  contactLabel: LocalizedString
+  contactHref: string
+}
 
 interface ArticleJSON {
   slug: string
-  title: { en: string; id: string }
-  description: { en: string; id: string }
+  title: LocalizedString
+  description: LocalizedString
   category: string
   image: string
-  content: { en: string; id: string }
+  content: LocalizedString
+  productShowcase?: ArticleProductShowcase
+  cta?: ArticleCta
 }
 
 const articleFiles: Record<string, ArticleJSON> = {
@@ -36,6 +58,7 @@ const articleFiles: Record<string, ArticleJSON> = {
   "what-is-a-metal-laser-cutting-machine": mengenal as unknown as ArticleJSON,
   "understanding-the-technical-specifications-of-fiber-laser-cutting-machines-key-specs-and-what-they-mean": understanding as unknown as ArticleJSON,
   "maintenance-tips-for-fiber-laser-cutting-machines-best-practices-for-keeping-your-machine-in-top-condition": maintenance as unknown as ArticleJSON,
+  "3kw-vs-6kw-fiber-laser-cutting-machine-guide": threeKwVsSixKw as unknown as ArticleJSON,
 }
 
 export function getArticle(slug: string, locale: Locale) {
@@ -48,6 +71,25 @@ export function getArticle(slug: string, locale: Locale) {
     category: data.category,
     image: data.image,
     content: t(data.content, locale),
+    productShowcase: data.productShowcase
+      ? {
+          image: data.productShowcase.image,
+          title: t(data.productShowcase.title, locale),
+          subtitle: t(data.productShowcase.subtitle, locale),
+          points: data.productShowcase.points.map((p) => t(p, locale)),
+          buttonLabel: t(data.productShowcase.buttonLabel, locale),
+          href: data.productShowcase.href,
+        }
+      : undefined,
+    cta: data.cta
+      ? {
+          heading: t(data.cta.heading, locale),
+          whatsappLabel: t(data.cta.whatsappLabel, locale),
+          whatsappUrl: data.cta.whatsappUrl,
+          contactLabel: t(data.cta.contactLabel, locale),
+          contactHref: data.cta.contactHref,
+        }
+      : undefined,
   }
 }
 

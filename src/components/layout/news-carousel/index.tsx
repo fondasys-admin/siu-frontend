@@ -111,7 +111,7 @@ export default function NewsCarousel({ items }: NewsCarouselProps) {
               <div className="animate-fade-up text-[#FF5B00] text-sm sm:text-base font-bold leading-6" style={{ animationDelay: '0ms' }}>
                 {activeItem.tag}
               </div>
-              <h2 className="animate-fade-up text-white text-2xl sm:text-4xl md:text-5xl font-bold leading-tight sm:leading-[56px] md:leading-[68px] tracking-[-0.5px] capitalize" style={{ animationDelay: '80ms' }}>
+              <h2 className="animate-fade-up text-white text-2xl sm:text-4xl md:text-5xl font-bold leading-tight  tracking-[-0.5px] capitalize" style={{ animationDelay: '80ms' }}>
                 {activeItem.title}
               </h2>
             </div>
