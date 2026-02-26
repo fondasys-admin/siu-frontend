@@ -13,6 +13,49 @@ interface PageProps {
   params: Promise<{ locale: string }>
 }
 
+const aboutContent = {
+  subtitle: { en: "About Synergis Utama Industrial", id: "Tentang Synergis Utama Industrial" },
+  title: { en: "Where quality meets innovation", id: "Di mana kualitas bertemu inovasi" },
+  description: {
+    en: "At Synergis Industrial Utama, we take pride in being the leading purveyor of top-notch laser cutting machines, coupled with unparalleled technical expertise and exceptional customer service. Synergis Industrial Utama serves as the exclusive agent, supplier, and distributor of Bodor Machine products in Indonesia.",
+    id: "Di Synergis Industrial Utama, kami bangga menjadi penyedia terdepan mesin laser cutting berkualitas tinggi, didukung oleh keahlian teknis yang tak tertandingi dan layanan pelanggan yang luar biasa. Synergis Industrial Utama adalah agen, pemasok, dan distributor eksklusif produk Bodor Machine di Indonesia."
+  },
+  button: { en: "Learn More", id: "Pelajari Lebih Lanjut" },
+}
+
+const contactFormContent = {
+  en: {
+    title: "Get in Touch",
+    description: "Fill out the form below and our team will get back to you with customized solutions and professional service support.",
+  },
+  id: {
+    title: "Hubungi Kami",
+    description: "Isi formulir di bawah ini dan tim kami akan menghubungi Anda dengan solusi yang disesuaikan dan dukungan layanan profesional.",
+    labels: {
+      name: "Nama",
+      companyName: "Nama Perusahaan",
+      country: "Negara",
+      selectCountry: "Pilih Negara...",
+      searchCountry: "Cari Negara...",
+      noCountry: "Negara tidak ditemukan.",
+      contactNumber: "Nomor Kontak",
+      email: "Email",
+      message: "Pesan",
+      termsAgreement: "Anda menyetujui Syarat Layanan dan Kebijakan Privasi kami.",
+      recaptchaNotice: "Situs ini dilindungi oleh reCAPTCHA dan Google.",
+      privacyPolicy: "Kebijakan Privasi",
+      termsOfService: "Syarat Layanan",
+      submit: "Kirim",
+      sending: "Mengirim",
+      successTitle: "Pesan Anda berhasil terkirim!",
+      successDescription: "Perwakilan kami akan segera menghubungi Anda",
+      errorTitle: "Terjadi kesalahan.",
+      errorDescription: "Ada masalah dengan permintaan Anda.",
+      recaptchaFailed: "Verifikasi reCAPTCHA gagal. Silakan coba lagi.",
+    },
+  },
+}
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale: rawLocale } = await params
   const locale: Locale = isLocale(rawLocale) ? rawLocale : "en"
@@ -117,6 +160,8 @@ export default async function Home({ params }: PageProps) {
     },
   ]
 
+  const cfContent = contactFormContent[locale] ?? contactFormContent.en
+
   return (
     <div className="flex min-h-screen items-center w-full justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex min-h-screen w-full flex-col items-center justify-between pb-8 bg-white dark:bg-black sm:items-start">
@@ -136,7 +181,7 @@ export default async function Home({ params }: PageProps) {
           />
         ))}
         <section id="news-carousel" className="w-full  max-w-[1600px] mx-auto px-6">
-          <NewsCarousel items={newsItems} />
+          <NewsCarousel items={newsItems} locale={locale} />
         </section>
         <section
           id="product-grid"
@@ -152,25 +197,19 @@ export default async function Home({ params }: PageProps) {
                   id="hero-subtitle"
                   className="text-black text-base md:text-lg font-semibold mb-6"
                 >
-                  About Synergis Utama Industrial
+                  {aboutContent.subtitle[locale]}
                 </p>
                 <h1
                   id="hero-title"
                   className="text-black text-4xl lg:text-5xl xl:text-6xl font-semibold mb-6 capitalize"
                 >
-                  Where quality meets innovation
+                  {aboutContent.title[locale]}
                 </h1>
                 <p
                   id="hero-info"
                   className="text-black w-[100%] max-w-[550px] text-clip mb-6"
                 >
-                  {" "}
-                  At Synergis Industrial Utama, we take pride in being the
-                  leading purveyor of top-notch laser cutting machines, coupled
-                  with unparalleled technical expertise and exceptional customer
-                  service. Synergis Industrial Utama serves as the exclusive
-                  agent, supplier, and distributor of Bodor Machine products in
-                  Indonesia.
+                  {aboutContent.description[locale]}
                 </p>
                 <TrackedLink
                   href={localePath("/story", locale)}
@@ -178,7 +217,7 @@ export default async function Home({ params }: PageProps) {
                   eventProperties={{ locale, section: 'about' }}
                   className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-black text-white hover:bg-primary hover:text-white h-11 px-6 py-2 self-center md:self-start"
                 >
-                  Learn More
+                  {aboutContent.button[locale]}
                 </TrackedLink>
               </div>
             </div>
@@ -192,7 +231,11 @@ export default async function Home({ params }: PageProps) {
           </div>
         </section>
         <section id="contact-form" className="w-full px-6 mb-20 max-w-[1200px] mx-auto">
-          <ContactForm />
+          <ContactForm
+            title={cfContent.title}
+            description={cfContent.description}
+            labels={"labels" in cfContent ? cfContent.labels : undefined}
+          />
         </section>
       </main>
     </div>

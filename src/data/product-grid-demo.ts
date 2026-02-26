@@ -1,7 +1,30 @@
-export const productGridData = {
+interface LocalizedString { en: string; id: string }
+
+export interface ProductCardData {
+  id: string
+  name: string
+  description: LocalizedString
+  image: string
+  slug: string
+  brand: string
+}
+
+export interface CategoryData {
+  title: LocalizedString
+  description: LocalizedString
+  learnMoreLink: string
+  backgroundImage: string
+  brandLogo: string
+  products: ProductCardData[]
+}
+
+export const productGridData: Record<string, CategoryData> = {
   'laser-cutting': {
-    title: 'Fiber Laser Cutting Machines',
-    description: 'Industrial fiber laser cutters for Indonesia—fast, precise sheet & tube cutting for manufacturing, fabrication, and shipyards.',
+    title: { en: 'Fiber Laser Cutting Machines', id: 'Mesin Laser Cutting Fiber' },
+    description: {
+      en: 'Industrial fiber laser cutters for Indonesia—fast, precise sheet & tube cutting for manufacturing, fabrication, and shipyards.',
+      id: 'Mesin laser cutting fiber industri untuk Indonesia—pemotongan plat & pipa yang cepat dan presisi untuk manufaktur, fabrikasi, dan galangan kapal.'
+    },
     learnMoreLink: '/products/laser-cutting-machines',
     backgroundImage: '/layout/product-grid-0.jpg',
     brandLogo: '/bodor.png',
@@ -9,7 +32,7 @@ export const productGridData = {
       {
         id: 'a-series',
         name: 'A Series',
-        description: 'Entry-level Sheet Laser Cutting Machine',
+        description: { en: 'Entry-level Sheet Laser Cutting Machine', id: 'Mesin Laser Cutting Plat Tingkat Awal' },
         image: '/products/a-series.webp',
         slug: 'a-series',
         brand: 'bodor'
@@ -17,7 +40,7 @@ export const productGridData = {
       {
         id: 'k-series',
         name: 'K Series',
-        description: 'Entry-level Tube Laser Cutting Machine',
+        description: { en: 'Entry-level Tube Laser Cutting Machine', id: 'Mesin Laser Cutting Pipa Tingkat Awal' },
         image: '/products/k-series.webp',
         slug: 'k-series',
         brand: 'bodor'
@@ -25,7 +48,7 @@ export const productGridData = {
       {
         id: 'c-series',
         name: 'C Series',
-        description: 'Sheet Laser Cutting Machine',
+        description: { en: 'Sheet Laser Cutting Machine', id: 'Mesin Laser Cutting Plat' },
         image: '/products/c-series.webp',
         slug: 'c-series',
         brand: 'bodor'
@@ -33,7 +56,7 @@ export const productGridData = {
       {
         id: 't-series',
         name: 'T Series',
-        description: 'Performance Tube Laser Cutting Machine',
+        description: { en: 'Performance Tube Laser Cutting Machine', id: 'Mesin Laser Cutting Pipa Performa Tinggi' },
         image: '/products/t-series.webp',
         slug: 't-series',
         brand: 'bodor'
@@ -41,8 +64,11 @@ export const productGridData = {
     ]
   },
   'welding': {
-    title: 'Welding Machines',
-    description: 'Industrial welding machines for Indonesia—MIG, TIG, MMA/Stick, SAW, and laser welding for heavy fabrication and oil & gas.',
+    title: { en: 'Welding Machines', id: 'Mesin Las' },
+    description: {
+      en: 'Industrial welding machines for Indonesia—MIG, TIG, MMA/Stick, SAW, and laser welding for heavy fabrication and oil & gas.',
+      id: 'Mesin las industri untuk Indonesia—MIG, TIG, MMA/Stick, SAW, dan las laser untuk fabrikasi berat dan minyak & gas.'
+    },
     learnMoreLink: '/products/welding-machines',
     backgroundImage: '/layout/product-grid-1.jpg',
     brandLogo: '/megmeet.png',
@@ -50,7 +76,7 @@ export const productGridData = {
       {
         id: 'dex2-m-series',
         name: 'DEX2 M Series',
-        description: 'Full-Digital Intelligent MIG/MAG Welding Machine',
+        description: { en: 'Full-Digital Intelligent MIG/MAG Welding Machine', id: 'Mesin Las MIG/MAG Intelligent Full-Digital' },
         image: '/products/dex2-m-series.png',
         slug: 'dex2-m-series',
         brand: 'megmeet'
@@ -58,7 +84,7 @@ export const productGridData = {
       {
         id: 'ehave2-cm-series',
         name: 'eHave2 CM Series',
-        description: 'Full-Digital Multi-function Pulse MIG Welding Machine',
+        description: { en: 'Full-Digital Multi-function Pulse MIG Welding Machine', id: 'Mesin Las MIG Pulse Multi-fungsi Full-Digital' },
         image: '/products/ehave2-cm-series.png',
         slug: 'ehave2-cm-series',
         brand: 'megmeet'
@@ -66,7 +92,7 @@ export const productGridData = {
       {
         id: 'metatig-acdc-series',
         name: 'MetaTIG ACDC Series',
-        description: 'Full-Digital AC/DC TIG Welding Machine',
+        description: { en: 'Full-Digital AC/DC TIG Welding Machine', id: 'Mesin Las TIG AC/DC Full-Digital' },
         image: '/products/metatig-series.png',
         slug: 'metatig-acdc-series',
         brand: 'megmeet'
@@ -74,7 +100,7 @@ export const productGridData = {
       {
         id: 'lux-series',
         name: 'LUX Series',
-        description: 'Handheld Laser Welding & Cleaning Machine',
+        description: { en: 'Handheld Laser Welding & Cleaning Machine', id: 'Mesin Las & Pembersih Laser Genggam' },
         image: '/products/lux-series.png',
         slug: 'lux-series',
         brand: 'megmeet'

@@ -3,22 +3,15 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import Image from 'next/image'
 import posthog from 'posthog-js'
-
-interface NewsItem {
-  id: string
-  category: string
-  title: string
-  tag: string
-  image: string
-  description: string
-  link: string
-}
+import { t, type Locale, defaultLocale } from '@/lib/i18n'
+import type { NewsItem } from '@/data/news-carousel-demo'
 
 interface NewsCarouselProps {
   items: NewsItem[]
+  locale?: Locale
 }
 
-export default function NewsCarousel({ items }: NewsCarouselProps) {
+export default function NewsCarousel({ items, locale = defaultLocale }: NewsCarouselProps) {
   const [activeIndex, setActiveIndex] = useState(0)
   const [animKey, setAnimKey] = useState(0)
   const [resetKey, setResetKey] = useState(0)
@@ -51,8 +44,8 @@ export default function NewsCarousel({ items }: NewsCarouselProps) {
     const item = items[index]
     posthog.capture('news_carousel_item_clicked', {
       news_id: item.id,
-      news_title: item.title,
-      news_category: item.category,
+      news_title: t(item.title, locale),
+      news_category: t(item.category, locale),
       slide_index: index,
     })
     setActiveIndex(index)
@@ -86,6 +79,8 @@ export default function NewsCarousel({ items }: NewsCarouselProps) {
   }
 
   const activeItem = items[activeIndex]
+  const learnMoreLabel = locale === 'id' ? 'Selengkapnya' : 'Learn More'
+  const latestNewsLabel = locale === 'id' ? 'Berita Terbaru' : 'Latest News'
 
   return (
     <div className="flex flex-col lg:flex-row gap-7 w-full mx-auto overflow-hidden">
@@ -98,7 +93,7 @@ export default function NewsCarousel({ items }: NewsCarouselProps) {
       >
         <Image
           src={activeItem.image}
-          alt={activeItem.title}
+          alt={t(activeItem.title, locale)}
           fill
           className="object-cover"
         />
@@ -109,14 +104,14 @@ export default function NewsCarousel({ items }: NewsCarouselProps) {
           <div className="flex flex-col gap-2 sm:gap-4">
             <div>
               <div className="animate-fade-up text-[#FF5B00] text-sm sm:text-base font-bold leading-6" style={{ animationDelay: '0ms' }}>
-                {activeItem.tag}
+                {t(activeItem.tag, locale)}
               </div>
               <h2 className="animate-fade-up text-white text-2xl sm:text-4xl md:text-5xl font-bold leading-tight  tracking-[-0.5px] capitalize" style={{ animationDelay: '80ms' }}>
-                {activeItem.title}
+                {t(activeItem.title, locale)}
               </h2>
             </div>
             <p className="animate-fade-up text-white text-sm sm:text-base leading-6" style={{ animationDelay: '160ms' }}>
-              {activeItem.description}
+              {t(activeItem.description, locale)}
             </p>
           </div>
           <a
@@ -125,11 +120,11 @@ export default function NewsCarousel({ items }: NewsCarouselProps) {
             style={{ animationDelay: '240ms' }}
             onClick={() => posthog.capture('news_carousel_cta_clicked', {
               news_id: activeItem.id,
-              news_title: activeItem.title,
+              news_title: t(activeItem.title, locale),
               news_link: activeItem.link,
             })}
           >
-            Learn More
+            {learnMoreLabel}
           </a>
         </div>
 
@@ -145,7 +140,7 @@ export default function NewsCarousel({ items }: NewsCarouselProps) {
       {/* Latest News List - hidden below sm, horizontal below md, vertical on md+ */}
       <div className="max-sm:hidden lg:w-[271px] flex flex-col gap-4 shrink-0">
         <h3 className="text-[#3C4043] text-2xl font-bold capitalize leading-[27.36px] max-lg:hidden">
-          Latest News
+          {latestNewsLabel}
         </h3>
 
         <div className="flex lg:gap-4">
@@ -173,10 +168,10 @@ export default function NewsCarousel({ items }: NewsCarouselProps) {
               >
                 <div>
                   <div className="text-sm capitalize leading-[14px]">
-                    {item.category}
+                    {t(item.category, locale)}
                   </div>
                   <div className="text-base font-bold leading-[1.14rem]">
-                    {item.title}
+                    {t(item.title, locale)}
                   </div>
                 </div>
               </button>
