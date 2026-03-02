@@ -116,7 +116,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   // Subcategory page
   const subMatch = findSubCategory(type, segments)
   if (subMatch) {
-    const title = `${t(subMatch.subCategory.label, locale)} - PT Synergis Utama Indonesia`
+    const title = `${t(subMatch.subCategory.label, locale)} - PT Synergis Industrial Utama`
     const description = subMatch.subCategory.description
       ? t(subMatch.subCategory.description, locale)
       : `Browse our range of ${t(subMatch.subCategory.label, "en").toLowerCase()}.`
@@ -138,7 +138,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title,
         description,
         url: currentUrl,
-        siteName: "PT Synergis Utama Indonesia",
+        siteName: "PT Synergis Industrial Utama",
         type: "website",
         locale: locale === "id" ? "id_ID" : "en_US",
       },
@@ -157,7 +157,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const data = getProductData(entry.slug)
   if (!data) return { title: "Product Not Found" }
 
-  const title = `${data.title} - PT Synergis Utama Indonesia`
+  const title = `${data.title} - PT Synergis Industrial Utama`
   const description = t(data.description, locale)
   const currentUrl = `${SITE_URL}${localePath(productPath(entry), locale)}`
   const imageUrl = data.media?.url
@@ -181,7 +181,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title,
       description,
       url: currentUrl,
-      siteName: "PT Synergis Utama Indonesia",
+      siteName: "PT Synergis Industrial Utama",
       type: "website",
       locale: locale === "id" ? "id_ID" : "en_US",
       ...(imageUrl && {
@@ -239,7 +239,7 @@ export default async function ProductPage({ params }: PageProps) {
       url: subCanonicalUrl,
       isPartOf: {
         "@type": "WebSite",
-        name: "PT Synergis Utama Indonesia",
+        name: "PT Synergis Industrial Utama",
         url: SITE_URL,
       },
       mainEntity: {
@@ -321,7 +321,7 @@ export default async function ProductPage({ params }: PageProps) {
     },
     manufacturer: {
       "@type": "Organization",
-      name: "PT Synergis Utama Indonesia",
+      name: "PT Synergis Industrial Utama",
       url: SITE_URL,
     },
     ...(specs.length > 0 && {

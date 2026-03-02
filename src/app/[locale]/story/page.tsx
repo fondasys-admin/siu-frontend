@@ -15,11 +15,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const locale: Locale = isLocale(rawLocale) ? rawLocale : "en"
 
   const title = locale === "id"
-    ? "Tentang Kami - PT Synergis Utama Indonesia"
-    : "About Us - PT Synergis Utama Indonesia"
+    ? "Tentang Kami - PT Synergis Industrial Utama"
+    : "About Us - PT Synergis Industrial Utama"
   const description = locale === "id"
-    ? "Tentang PT Synergis Utama Indonesia — agen resmi Bodor dan Megmeet di Indonesia. Kami menyediakan mesin laser cutting industri, peralatan las, instalasi, training operator, dan dukungan purna jual."
-    : "Learn about PT Synergis Utama Indonesia — authorized agent for Bodor and Megmeet in Indonesia. We provide industrial laser cutting machines, welding equipment, installation, operator training, and after-sales support."
+    ? "Tentang PT Synergis Industrial Utama — agen resmi Bodor dan Megmeet di Indonesia. Kami menyediakan mesin laser cutting industri, peralatan las, instalasi, training operator, dan dukungan purna jual."
+    : "Learn about PT Synergis Industrial Utama — authorized agent for Bodor and Megmeet in Indonesia. We provide industrial laser cutting machines, welding equipment, installation, operator training, and after-sales support."
   const currentUrl = `${SITE_URL}${localePath("/story", locale)}`
 
   return {
@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title,
       description,
       url: currentUrl,
-      siteName: "PT Synergis Utama Indonesia",
+      siteName: "PT Synergis Industrial Utama",
       type: "website",
       locale: locale === "id" ? "id_ID" : "en_US",
     },

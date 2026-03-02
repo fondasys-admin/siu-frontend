@@ -17,9 +17,9 @@ const robotoMono = Roboto_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.siu-indo.com"),
-  title: "PT Synergis Utama Indonesia",
+  title: "PT Synergis Industrial Utama",
   description:
-    "PT Synergis Utama Indonesia — authorized distributor of Bodor laser cutting machines and Megmeet welding machines. Fiber laser, tube laser, MIG, TIG, and SAW solutions for manufacturing and fabrication across Indonesia.",
+    "PT Synergis Industrial Utama — authorized distributor of Bodor laser cutting machines and Megmeet welding machines. Fiber laser, tube laser, MIG, TIG, and SAW solutions for manufacturing and fabrication across Indonesia.",
   appleWebApp: {
     capable: true,
   },

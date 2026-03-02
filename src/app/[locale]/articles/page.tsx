@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title: `${title} - Synergis Industrial Utama`,
       description,
       url: currentUrl,
-      siteName: "PT Synergis Utama Indonesia",
+      siteName: "PT Synergis Industrial Utama",
       type: "website",
       locale: locale === "id" ? "id_ID" : "en_US",
     },

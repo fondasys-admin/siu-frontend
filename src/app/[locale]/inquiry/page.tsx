@@ -21,11 +21,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const locale: Locale = isLocale(rawLocale) ? rawLocale : "en"
 
   const title = locale === "id"
-    ? "Hubungi Kami - PT Synergis Utama Indonesia"
-    : "Contact Us - PT Synergis Utama Indonesia"
+    ? "Hubungi Kami - PT Synergis Industrial Utama"
+    : "Contact Us - PT Synergis Industrial Utama"
   const description = locale === "id"
-    ? "Hubungi PT Synergis Utama Indonesia untuk pertanyaan mesin laser cutting dan mesin las. Dapatkan penawaran gratis, demo produk, dan konsultasi ahli untuk kebutuhan manufaktur dan fabrikasi Anda di Indonesia."
-    : "Contact PT Synergis Utama Indonesia for laser cutting machine and welding machine inquiries. Get a free quotation, product demo, and expert consultation for your manufacturing and fabrication needs in Indonesia."
+    ? "Hubungi PT Synergis Industrial Utama untuk pertanyaan mesin laser cutting dan mesin las. Dapatkan penawaran gratis, demo produk, dan konsultasi ahli untuk kebutuhan manufaktur dan fabrikasi Anda di Indonesia."
+    : "Contact PT Synergis Industrial Utama for laser cutting machine and welding machine inquiries. Get a free quotation, product demo, and expert consultation for your manufacturing and fabrication needs in Indonesia."
   const currentUrl = `${SITE_URL}${localePath("/inquiry", locale)}`
 
   return {
@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title,
       description,
       url: currentUrl,
-      siteName: "PT Synergis Utama Indonesia",
+      siteName: "PT Synergis Industrial Utama",
       type: "website",
       locale: locale === "id" ? "id_ID" : "en_US",
     },
@@ -215,7 +215,7 @@ export default async function InquiryPage({ params }: PageProps) {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="PT Synergis Utama Indonesia location"
+              title="PT Synergis Industrial Utama location"
             />
           </div>
         </ScrollFadeUp>

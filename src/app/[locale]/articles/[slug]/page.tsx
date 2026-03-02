@@ -53,7 +53,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title,
       description,
       url: currentUrl,
-      siteName: "PT Synergis Utama Indonesia",
+      siteName: "PT Synergis Industrial Utama",
       type: "article",
       locale: locale === "id" ? "id_ID" : "en_US",
     },
@@ -95,12 +95,12 @@ export default async function ArticleDetailPage({ params }: PageProps) {
     url: articleUrl,
     author: {
       "@type": "Organization",
-      name: "PT Synergis Utama Indonesia",
+      name: "PT Synergis Industrial Utama",
       url: SITE_URL,
     },
     publisher: {
       "@type": "Organization",
-      name: "PT Synergis Utama Indonesia",
+      name: "PT Synergis Industrial Utama",
       url: SITE_URL,
       logo: {
         "@type": "ImageObject",
