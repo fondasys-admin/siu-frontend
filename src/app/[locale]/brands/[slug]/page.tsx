@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!brand) return { title: "Brand Not Found" }
 
-  const title = `${brand.name} Products - PT Synergis Utama Indonesia`
+  const title = `${brand.name} Products`
   const description = t(brand.description, locale)
   const currentUrl = `${SITE_URL}${localePath(`/brands/${slug}`, locale)}`
 

@@ -116,7 +116,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   // Subcategory page
   const subMatch = findSubCategory(type, segments)
   if (subMatch) {
-    const title = `${t(subMatch.subCategory.label, locale)} - PT Synergis Utama Indonesia`
+    const title = t(subMatch.subCategory.label, locale)
     const description = subMatch.subCategory.description
       ? t(subMatch.subCategory.description, locale)
       : `Browse our range of ${t(subMatch.subCategory.label, "en").toLowerCase()}.`
@@ -156,7 +156,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const data = getProductData(entry.slug)
   if (!data) return { title: "Product Not Found" }
 
-  const title = `${data.title} - PT Synergis Utama Indonesia`
+  const title = data.title
   const description = t(data.description, locale)
   const currentUrl = `${SITE_URL}${localePath(productPath(entry), locale)}`
   const imageUrl = data.media?.url

@@ -17,12 +17,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const locale: Locale = isLocale(rawLocale) ? rawLocale : "en"
   const title = t(data.title, locale)
   const description = locale === "id"
-    ? "Baca artikel, studi kasus, dan wawasan dari Synergis Industrial Utama."
-    : "Read articles, case studies, testimonials and insights from Synergis Industrial Utama."
+    ? "Baca artikel, studi kasus, dan wawasan dari PT Synergis Utama Indonesia."
+    : "Read articles, case studies, testimonials and insights from PT Synergis Utama Indonesia."
   const currentUrl = `${SITE_URL}${localePath("/articles", locale)}`
 
   return {
-    title: `${title} - Synergis Industrial Utama`,
+    title,
     description,
     alternates: {
       canonical: currentUrl,
@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
     },
     openGraph: {
-      title: `${title} - Synergis Industrial Utama`,
+      title,
       description,
       url: currentUrl,
       siteName: "PT Synergis Utama Indonesia",
@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     },
     twitter: {
       card: "summary",
-      title: `${title} - Synergis Industrial Utama`,
+      title,
       description,
     },
   }

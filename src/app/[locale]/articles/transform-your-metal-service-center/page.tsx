@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import Footer from "@/components/layout/Footer";
 
 export const metadata = {
-  title: "Transform Your Metal Service Center | Synergis Industrial Utama",
+  title: "Transform Your Metal Service Center",
   description:
     "Discover how Bodor laser technology can transform your metal service center with precision cutting, efficiency, and cost savings.",
   alternates: {

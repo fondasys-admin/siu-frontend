@@ -15,8 +15,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const locale: Locale = isLocale(rawLocale) ? rawLocale : "en"
 
   const title = locale === "id"
-    ? "Produk - PT Synergis Utama Indonesia"
-    : "Products - PT Synergis Utama Indonesia"
+    ? "Produk"
+    : "Products"
   const description = locale === "id"
     ? "Jelajahi mesin laser cutting Bodor dan mesin las Megmeet tersedia di Indonesia. Mesin laser cutting plat, pipa, sheet & tube combo, mesin las MIG, TIG, MMA, SAW, las laser genggam, dan perangkat otomasi."
     : "Explore Bodor laser cutting machines and Megmeet welding machines available in Indonesia. Sheet laser cutters, tube laser cutters, sheet & tube combo, MIG, TIG, MMA, and SAW welders, handheld laser welding, and automation devices."

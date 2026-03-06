@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const category = findCategory(type)
   if (!category) return { title: "Category Not Found" }
 
-  const title = `${t(category.label, locale)} - PT Synergis Utama Indonesia`
+  const title = t(category.label, locale)
   const description = category.description
     ? t(category.description, locale)
     : `Browse our range of ${t(category.label, "en").toLowerCase()}.`

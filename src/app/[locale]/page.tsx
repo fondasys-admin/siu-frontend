@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const currentUrl = `${SITE_URL}${localePath("/", locale)}`
 
   return {
-    title,
+    title: { absolute: title },
     description,
     alternates: {
       canonical: currentUrl,
@@ -52,6 +52,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function Home({ params }: PageProps) {
   const { locale: rawLocale } = await params
   const locale: Locale = isLocale(rawLocale) ? rawLocale : "en"
+
+  const websiteJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "PT Synergis Utama Indonesia",
+    alternateName: ["SIU", "Synergis Utama Indonesia", "PT SIU"],
+    url: SITE_URL,
+  }
 
   const organizationJsonLd = {
     "@context": "https://schema.org",
@@ -119,6 +127,10 @@ export default async function Home({ params }: PageProps) {
   return (
     <div className="flex min-h-screen items-center w-full justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex min-h-screen w-full flex-col items-center justify-between pb-8 bg-white dark:bg-black sm:items-start">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}

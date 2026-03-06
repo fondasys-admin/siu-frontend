@@ -21,8 +21,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const locale: Locale = isLocale(rawLocale) ? rawLocale : "en"
 
   const title = locale === "id"
-    ? "Hubungi Kami - PT Synergis Utama Indonesia"
-    : "Contact Us - PT Synergis Utama Indonesia"
+    ? "Hubungi Kami"
+    : "Contact Us"
   const description = locale === "id"
     ? "Hubungi PT Synergis Utama Indonesia untuk pertanyaan mesin laser cutting dan mesin las. Dapatkan penawaran gratis, demo produk, dan konsultasi ahli untuk kebutuhan manufaktur dan fabrikasi Anda di Indonesia."
     : "Contact PT Synergis Utama Indonesia for laser cutting machine and welding machine inquiries. Get a free quotation, product demo, and expert consultation for your manufacturing and fabrication needs in Indonesia."

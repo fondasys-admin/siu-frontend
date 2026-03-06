@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const article = getArticle(slug, locale)
   if (!article) return {}
 
-  const title = `${article.title} - Synergis Industrial Utama`
+  const title = article.title
   const description = article.description
   const currentUrl = `${SITE_URL}${localePath(`/articles/${slug}`, locale)}`
 
