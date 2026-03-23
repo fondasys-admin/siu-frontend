@@ -3,6 +3,7 @@ import NewsCarousel from "@/components/layout/news-carousel";
 import ProductGrid from "@/components/layout/product-grid";
 import { ContactForm } from "@/components/contact-form";
 import { TrackedLink } from "@/components/ui/tracked-link";
+import { ScrollFadeUp } from "@/components/ui/scroll-fade-up";
 import { newsItems } from "@/data/news-carousel-demo";
 import { productGridData } from "@/data/product-grid-demo";
 import { productHref } from "@/data/product-registry";
@@ -183,60 +184,64 @@ export default async function Home({ params }: PageProps) {
         <section id="news-carousel" className="w-full  max-w-[1600px] mx-auto px-6">
           <NewsCarousel items={newsItems} locale={locale} />
         </section>
-        <section
-          id="product-grid"
-          className="w-full px-6 my-20  max-w-[1600px] mx-auto"
-        >
+        <ScrollFadeUp as="section" className="w-full px-6 my-20 max-w-[1600px] mx-auto" threshold={0.05}>
           <ProductGrid categories={productGridData} locale={locale} />
-        </section>
-        <section id="about-section" className="w-full px-6 my-20  max-w-[1600px] mx-auto">
-          <div className="rounded-md flex flex-col-reverse md:flex-row justify-center bg-[#FAF7F5] min-h-[550px] h-full lg:!h-[65vh]">
-            <div className=" md:min-w-[50%] py-10 md:py-0">
-              <div className=" max-w-[700px] h-full w-full ml-auto px-6 flex flex-col justify-center text-center md:text-left">
-                <p
-                  id="hero-subtitle"
-                  className="text-black text-base md:text-lg font-semibold mb-6"
-                >
-                  {aboutContent.subtitle[locale]}
-                </p>
-                <h1
-                  id="hero-title"
-                  className="text-black text-4xl lg:text-5xl xl:text-6xl font-semibold mb-6 capitalize"
-                >
-                  {aboutContent.title[locale]}
-                </h1>
-                <p
-                  id="hero-info"
-                  className="text-black w-[100%] max-w-[550px] text-clip mb-6"
-                >
-                  {aboutContent.description[locale]}
-                </p>
-                <TrackedLink
-                  href={localePath("/story", locale)}
-                  eventName="learn_more_about_clicked"
-                  eventProperties={{ locale, section: 'about' }}
-                  className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-black text-white hover:bg-primary hover:text-white h-11 px-6 py-2 self-center md:self-start"
-                >
-                  {aboutContent.button[locale]}
-                </TrackedLink>
+        </ScrollFadeUp>
+        <section id="about-section" className="w-full px-6 my-20 max-w-[1600px] mx-auto">
+          <div className="rounded-md flex flex-col-reverse md:flex-row justify-center bg-[#FAF7F5] min-h-[550px] h-full lg:!h-[65vh] overflow-hidden">
+            <div className="md:min-w-[50%] py-10 md:py-0">
+              <div className="max-w-[700px] h-full w-full ml-auto px-6 flex flex-col justify-center text-center md:text-left">
+                <ScrollFadeUp delay={0}>
+                  <p
+                    id="hero-subtitle"
+                    className="text-black text-base md:text-lg font-semibold mb-6"
+                  >
+                    {aboutContent.subtitle[locale]}
+                  </p>
+                </ScrollFadeUp>
+                <ScrollFadeUp delay={100}>
+                  <h1
+                    id="hero-title"
+                    className="text-black text-4xl lg:text-5xl xl:text-6xl font-semibold mb-6 capitalize"
+                  >
+                    {aboutContent.title[locale]}
+                  </h1>
+                </ScrollFadeUp>
+                <ScrollFadeUp delay={200}>
+                  <p
+                    id="hero-info"
+                    className="text-black w-[100%] max-w-[550px] text-clip mb-6"
+                  >
+                    {aboutContent.description[locale]}
+                  </p>
+                </ScrollFadeUp>
+                <ScrollFadeUp delay={300}>
+                  <TrackedLink
+                    href={localePath("/story", locale)}
+                    eventName="learn_more_about_clicked"
+                    eventProperties={{ locale, section: 'about' }}
+                    className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-black text-white hover:bg-primary hover:text-white h-11 px-6 py-2 self-center md:self-start"
+                  >
+                    {aboutContent.button[locale]}
+                  </TrackedLink>
+                </ScrollFadeUp>
               </div>
             </div>
-            <div
-              className="min-h-[350px] h-full md:h-auto rounded-md !bg-cover  md:w-full relative rounded-b-none md:rounded-b-md rounded-tl-md md:rounded-l-none !md:rounded-r-md"
+            <ScrollFadeUp direction="right" duration={800} className="min-h-[350px] h-full md:h-auto rounded-md !bg-cover md:w-full relative rounded-b-none md:rounded-b-md rounded-tl-md md:rounded-l-none !md:rounded-r-md"
               style={{
                 backgroundImage:
                   "url('https://storage.googleapis.com/pt-synergis-utama.appspot.com/home-hero-3.jpg')",
               }}
-            ></div>
+            />
           </div>
         </section>
-        <section id="contact-form" className="w-full px-6 mb-20 max-w-[1200px] mx-auto">
+        <ScrollFadeUp as="section" className="w-full px-6 mb-20 max-w-[1200px] mx-auto" threshold={0.05}>
           <ContactForm
             title={cfContent.title}
             description={cfContent.description}
             labels={"labels" in cfContent ? cfContent.labels : undefined}
           />
-        </section>
+        </ScrollFadeUp>
       </main>
     </div>
   );

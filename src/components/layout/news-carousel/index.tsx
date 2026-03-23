@@ -83,7 +83,7 @@ export default function NewsCarousel({ items, locale = defaultLocale }: NewsCaro
   const latestNewsLabel = locale === 'id' ? 'Berita Terbaru' : 'Latest News'
 
   return (
-    <div className="flex flex-col lg:flex-row gap-7 w-full mx-auto overflow-hidden">
+    <div className="flex flex-col lg:flex-row gap-7 w-full mx-auto overflow-hidden animate-zoom-settle">
       {/* Carousel Slide */}
       <div
         className="w-full lg:flex-1 relative h-[400px] sm:h-[500px] lg:h-[600px] rounded-sm overflow-hidden"

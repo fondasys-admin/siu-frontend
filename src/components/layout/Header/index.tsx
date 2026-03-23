@@ -17,7 +17,7 @@ const Header = async ({ locale = defaultLocale }: { locale?: Locale }) => {
   const contacts = null;
 
   return (
-    <div className="w-full sticky top-0 bg-white z-30">
+    <div className="w-full sticky top-0 bg-white z-30 animate-header-settle">
       <div className="max-w-[1600px] mx-auto px-6 flex py-4 items-center justify-between">
         <Logo locale={locale} />
         {/* NavLinks */}

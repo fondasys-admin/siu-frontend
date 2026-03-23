@@ -3,6 +3,7 @@ import { Mail, Phone, Headset } from "lucide-react";
 import { FaInstagram, FaFacebookSquare, FaLinkedin, FaTiktok } from "react-icons/fa";
 import { type Locale, localePath, defaultLocale, t } from "@/lib/i18n";
 import { categoryRegistry } from "@/data/product-registry";
+import { ScrollFadeUp } from "@/components/ui/scroll-fade-up";
 
 const Footer = async ({ locale = defaultLocale }: { locale?: Locale }) => {
   const lp = (path: string) => localePath(path, locale);
@@ -16,7 +17,7 @@ const Footer = async ({ locale = defaultLocale }: { locale?: Locale }) => {
   ];
 
   return (
-    <footer className="w-full">
+    <ScrollFadeUp as="footer" className="w-full" direction="none" duration={500}>
       {/* Divider */}
       <div className="mx-auto max-w-[1400px] border-t border-[#f2f2f2]" />
 
@@ -122,7 +123,7 @@ const Footer = async ({ locale = defaultLocale }: { locale?: Locale }) => {
           </span>
         </div>
       </div>
-    </footer>
+    </ScrollFadeUp>
   );
 };
 

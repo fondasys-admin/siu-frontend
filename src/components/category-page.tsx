@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Zap } from "lucide-react"
+import { SubCategoryIcon } from "@/components/ui/category-icons"
 import {
   Breadcrumb,
   BreadcrumbList,
@@ -53,7 +53,7 @@ export function CategoryPage({ category, locale }: { category: CategoryEntry; lo
               href={localePath(`/products/${category.slug}/${sub.slug}`, locale)}
               className="flex flex-col gap-2 items-center w-[216px] max-lg:w-[calc(50%-0.5rem)] h-16 text-center"
             >
-              <Zap className="size-7 max-lg:size-5 text-[#3c4043]" />
+              <SubCategoryIcon slug={sub.slug} className="size-7 max-lg:size-5 text-[#3c4043]" />
               <span className="text-sm text-[#3c4043] capitalize leading-[14px]">
                 {t(sub.label, locale)}
               </span>

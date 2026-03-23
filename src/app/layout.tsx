@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Roboto, Roboto_Mono } from "next/font/google";
 import Script from "next/script";
 import { Toaster } from "@/components/ui/sonner";
+import { SmoothScroll } from "@/components/smooth-scroll";
 import "./globals.css";
 
 const roboto = Roboto({
@@ -42,6 +43,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${roboto.variable} ${robotoMono.variable} antialiased`}>
+        <SmoothScroll />
         {children}
         <Toaster />
         <Script
