@@ -3,6 +3,7 @@ import { Roboto, Roboto_Mono } from "next/font/google";
 import Script from "next/script";
 import { Toaster } from "@/components/ui/sonner";
 import { SmoothScroll } from "@/components/smooth-scroll";
+import { isLocale } from "@/lib/i18n";
 import "./globals.css";
 
 const roboto = Roboto({
@@ -32,16 +33,20 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1.0,
-  userScalable: false,
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
+  params,
 }: Readonly<{
   children: React.ReactNode;
+  params: Promise<{ locale?: string }>;
 }>) {
+  const { locale: rawLocale } = await params;
+  const lang = rawLocale && isLocale(rawLocale) ? rawLocale : "en";
+
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang={lang} suppressHydrationWarning>
       <body className={`${roboto.variable} ${robotoMono.variable} antialiased`}>
         <SmoothScroll />
         {children}

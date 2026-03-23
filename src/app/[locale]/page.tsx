@@ -16,7 +16,7 @@ interface PageProps {
 
 const aboutContent = {
   subtitle: { en: "About Synergis Utama Industrial", id: "Tentang Synergis Utama Industrial" },
-  title: { en: "Where quality meets innovation", id: "Di mana kualitas bertemu inovasi" },
+  title: { en: "Industrial Laser Cutting & Welding Machines in Indonesia", id: "Mesin Laser Cutting & Las Industri di Indonesia" },
   description: {
     en: "At Synergis Industrial Utama, we take pride in being the leading purveyor of top-notch laser cutting machines, coupled with unparalleled technical expertise and exceptional customer service. Synergis Industrial Utama serves as the exclusive agent, supplier, and distributor of Bodor Machine products in Indonesia.",
     id: "Di Synergis Industrial Utama, kami bangga menjadi penyedia terdepan mesin laser cutting berkualitas tinggi, didukung oleh keahlian teknis yang tak tertandingi dan layanan pelanggan yang luar biasa. Synergis Industrial Utama adalah agen, pemasok, dan distributor eksklusif produk Bodor Machine di Indonesia."
@@ -61,7 +61,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { locale: rawLocale } = await params
   const locale: Locale = isLocale(rawLocale) ? rawLocale : "en"
 
-  const title = "PT Synergis Industrial Utama"
+  const title = locale === "id"
+    ? "Mesin Laser Cutting Bodor & Mesin Las Megmeet Indonesia | PT SIU"
+    : "Bodor Laser Cutting & Megmeet Welding Machines Indonesia | PT SIU"
   const description = locale === "id"
     ? "PT Synergis Industrial Utama adalah distributor resmi mesin laser cutting Bodor dan mesin las Megmeet di Indonesia. Jual mesin laser cutting fiber, tube laser, mesin las MIG, TIG, SAW, dan sistem otomasi untuk manufaktur dan fabrikasi logam."
     : "PT Synergis Industrial Utama is the authorized distributor of Bodor laser cutting machines and Megmeet welding machines in Indonesia. Shop fiber laser cutters, tube laser cutters, MIG welders, TIG welders, and automation systems for manufacturing and metal fabrication."
@@ -131,13 +133,6 @@ export default async function Home({ params }: PageProps) {
           "@type": "Brand",
           name: product.brand === "megmeet" ? "Megmeet" : "Bodor",
         },
-        aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.8",
-      bestRating: "5",
-      worstRating: "1",
-      reviewCount: "11",
-    },
       },
     })),
   }
