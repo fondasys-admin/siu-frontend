@@ -116,7 +116,7 @@ export default async function InquiryPage({ params }: PageProps) {
                     <span>(62) 811-7710-691</span>
                     <span>(62) 778 - 457154</span>
                     <a
-                      href="tel:+6285121305368"
+                      href="tel:+6285213238172"
                       className="underline hover:text-[#ff5b00]"
                     >
                       (62) 811-7710-691

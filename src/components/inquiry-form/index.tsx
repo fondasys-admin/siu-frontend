@@ -138,7 +138,7 @@ interface InquiryFormProps {
 
 export function InquiryForm({
 	description = "Connect with Our Welding and Cutting Experts Today!",
-	whatsappUrl = "https://wa.me/6285121305368",
+	whatsappUrl = "https://wa.me/6285213238172",
 	labels: labelsProp,
 }: InquiryFormProps) {
 	const l = { ...defaultLabels, ...labelsProp };

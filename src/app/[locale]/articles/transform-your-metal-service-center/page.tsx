@@ -302,7 +302,7 @@ export default function TransformMetalServiceCenterPage() {
               precision and efficiency.
             </p>
             <Link
-              href="https://wa.me/6285121305368"
+              href="https://wa.me/6285213238172"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -520,7 +520,7 @@ export default function TransformMetalServiceCenterPage() {
                   processes for a capable service center
                 </p>
                 <Link
-                  href="https://wa.me/6285121305368"
+                  href="https://wa.me/6285213238172"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block mt-6"

@@ -87,7 +87,7 @@ export function ProductSidebar({ productTitle, description, specs }: ProductSide
             location: 'product_sidebar',
           })}
         >
-          <Link href={`https://wa.me/6285121305368?text=${whatsappMessage}`} target="_blank" rel="noopener noreferrer">
+          <Link href={`https://wa.me/6285213238172?text=${whatsappMessage}`} target="_blank" rel="noopener noreferrer">
             Request a Free Quote on Whatsapp
           </Link>
         </Button>
@@ -112,7 +112,7 @@ export function MobileQuoteBar({ productTitle }: { productTitle: string }) {
           location: 'mobile_quote_bar',
         })}
       >
-        <Link href={`https://wa.me/6285121305368?text=${whatsappMessage}`} target="_blank" rel="noopener noreferrer">
+        <Link href={`https://wa.me/6285213238172?text=${whatsappMessage}`} target="_blank" rel="noopener noreferrer">
           Request a Free Quote
         </Link>
       </Button>
