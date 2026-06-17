@@ -113,13 +113,11 @@ export default async function InquiryPage({ params }: PageProps) {
                     {t(data.callCenter, locale)}
                   </h3>
                   <div className="flex flex-col gap-1 text-sm text-[#3c4043]">
-                    <span>(62) 811-7710-691</span>
-                    <span>(62) 778 - 457154</span>
                     <a
                       href="tel:+6285213238172"
                       className="underline hover:text-[#ff5b00]"
                     >
-                      (62) 811-7710-691
+                      (62) 852-1323-8172
                     </a>
                   </div>
                 </div>
